@@ -13,184 +13,203 @@ export function GalaxyCanvas({ isPlaying = false, volume = 0.85 }) {
     let width = (canvas.width = window.innerWidth);
     let height = (canvas.height = window.innerHeight);
 
-    // Track mouse position with smooth easing
-    const mouse = {
-      x: width / 2,
-      y: height / 2,
-      targetX: width / 2,
-      targetY: height / 2,
-      isHovering: false,
-    };
-
-    const handleMouseMove = (e) => {
-      mouse.targetX = e.clientX;
-      mouse.targetY = e.clientY;
-      mouse.isHovering = true;
-    };
-
-    const handleMouseLeave = () => {
-      mouse.targetX = width / 2;
-      mouse.targetY = height / 2;
-      mouse.isHovering = false;
-    };
 
     const handleResize = () => {
       width = canvas.width = window.innerWidth;
       height = canvas.height = window.innerHeight;
     };
 
-    window.addEventListener('mousemove', handleMouseMove, { passive: true });
-    window.addEventListener('mouseleave', handleMouseLeave);
     window.addEventListener('resize', handleResize);
 
-    // Galaxy Starfield & Nebulae Particles
-    const STAR_COUNT = Math.min(180, Math.floor((width * height) / 8000));
+    // ==========================================
+    // Authentic Spiral Galaxy Generation
+    // ==========================================
+    // Generate stars structured into spiral arms + dense galactic bulge / core
+    const STAR_COUNT = Math.min(650, Math.floor((width * height) / 2200));
+    const ARMS = 3; // 3-arm spiral galaxy (resembling pinwheel/Milky Way structure)
+    const ARM_SPREAD = 0.55; // Angle spread of each spiral arm
     const stars = [];
 
     for (let i = 0; i < STAR_COUNT; i++) {
+      const isCore = Math.random() < 0.28; // 28% concentrated in galactic nucleus/core
+
+      let dist;
+      let angle;
+
+      if (isCore) {
+        // Dense core with exponential decay from center
+        dist = Math.pow(Math.random(), 2.2) * (Math.min(width, height) * 0.18);
+        angle = Math.random() * Math.PI * 2;
+      } else {
+        // Spiral arms: logarithmic / archimedean spiral curvature
+        const armIndex = i % ARMS;
+        const armOffset = (armIndex * (Math.PI * 2)) / ARMS;
+        // Radial distance distribution along arms
+        const progress = Math.pow(Math.random(), 0.7); // Tapers toward outer rim
+        const maxDist = Math.max(width, height) * 0.58;
+        dist = progress * maxDist + 15;
+        // Spiral formula: angle increases with distance
+        const spiralAngle = dist * 0.0055 + armOffset;
+        // Add natural stellar dispersion around the arm path
+        const dispersion = (Math.random() - 0.5) * ARM_SPREAD * (1 + progress * 0.8);
+        angle = spiralAngle + dispersion;
+      }
+
+      // Orbital speed: differential galactic rotation (inner orbits faster)
+      const baseOrbitSpeed = (0.0007 / (Math.sqrt(dist + 30) * 0.08)) * 0.65;
+
+      // Natural stellar colors: core is warm golden/white, arms have soft blue/cyan/lilac clusters
+      let color;
+      if (isCore) {
+        color = i % 3 === 0 ? 'rgba(255, 240, 215,' : 'rgba(255, 248, 235,';
+      } else {
+        const randColor = Math.random();
+        if (randColor < 0.45) {
+          color = 'rgba(200, 225, 255,'; // Crisp luminous blue-white
+        } else if (randColor < 0.75) {
+          color = 'rgba(175, 205, 255,'; // Soft cosmic sapphire
+        } else if (randColor < 0.9) {
+          color = 'rgba(215, 195, 255,'; // Stellar violet / lilac
+        } else {
+          color = 'rgba(255, 235, 210,'; // Warm stellar giant
+        }
+      }
+
       stars.push({
-        x: Math.random() * width,
-        y: Math.random() * height,
-        baseRadius: Math.random() * 1.5 + 0.4,
-        radius: 1,
-        alpha: Math.random() * 0.6 + 0.2,
-        baseAlpha: Math.random() * 0.5 + 0.2,
-        twinkleSpeed: Math.random() * 0.02 + 0.008,
+        dist,
+        baseDist: dist,
+        angle,
+        orbitSpeed: baseOrbitSpeed,
+        baseRadius: isCore ? Math.random() * 1.8 + 0.5 : Math.random() * 1.4 + 0.3,
+        baseAlpha: isCore ? Math.random() * 0.6 + 0.35 : Math.random() * 0.55 + 0.2,
+        twinkleSpeed: Math.random() * 0.03 + 0.01,
         twinkleAngle: Math.random() * Math.PI * 2,
-        vx: (Math.random() - 0.5) * 0.2,
-        vy: (Math.random() - 0.5) * 0.2,
-        layer: Math.random() * 2 + 1, // Depth layer (1 = far, 3 = close)
-        // Natural star tones: crisp white, soft cosmic blue, warm starlight
-        color:
-          i % 4 === 0
-            ? 'rgba(215, 225, 255,'
-            : i % 7 === 0
-            ? 'rgba(235, 240, 255,'
-            : i % 11 === 0
-            ? 'rgba(180, 215, 255,'
-            : 'rgba(255, 255, 255,',
+        isCore,
+        color,
       });
     }
 
-    // Soft celestial nebulae dust clusters
-    const NEBULA_COUNT = 3;
-    const nebulae = [
-      {
-        relX: 0.25,
-        relY: 0.35,
-        radius: Math.max(280, width * 0.3),
-        color: 'rgba(24, 28, 42, 0.45)', // Deep space navy
-      },
-      {
-        relX: 0.75,
-        relY: 0.65,
-        radius: Math.max(340, width * 0.35),
-        color: 'rgba(16, 24, 28, 0.4)', // Deep cosmic teal
-      },
-      {
-        relX: 0.5,
-        relY: 0.5,
-        radius: Math.max(300, width * 0.32),
-        color: 'rgba(20, 18, 30, 0.35)', // Muted stellar violet
-      },
-    ];
+    // Galactic tilt & projection factors (gives depth and 3D angle to the disk)
+    const TILT_X = 1.0;
+    const TILT_Y = 0.58; // Elliptical projection for 3D inclined perspective
 
+    let globalRotation = 0;
     let pulseTime = 0;
 
     const render = () => {
-      // Smooth camera pan toward mouse
-      mouse.x += (mouse.targetX - mouse.x) * 0.04;
-      mouse.y += (mouse.targetY - mouse.y) * 0.04;
+      // Dynamic Music Simulation:
+      // When playing, calculate rhythmic music pulse (bass hits, bar swell, and harmonic shimmer)
+      pulseTime += isPlaying ? 0.045 : 0.012;
 
-      const mouseDeltaX = (mouse.x - width / 2) / (width / 2); // -1 to 1
-      const mouseDeltaY = (mouse.y - height / 2) / (height / 2); // -1 to 1
+      // Simulated multi-frequency audio beat dynamics
+      const beat = Math.sin(pulseTime * 2.2);
+      const subBass = Math.sin(pulseTime * 1.1);
+      const swell = Math.sin(pulseTime * 0.45);
 
-      // Music reactive pulse factor (simulated rhythm breathing when playing)
-      pulseTime += isPlaying ? 0.035 : 0.01;
-      const musicPulse = isPlaying
-        ? Math.sin(pulseTime) * 0.25 * volume + 1.05
-        : 1.0;
+      // Music reactive amplitude scaled by current volume
+      const musicIntensity = isPlaying ? volume : 0.0;
+      const beatPulse = isPlaying
+        ? Math.max(0, beat) * 0.35 * musicIntensity + Math.max(0, subBass) * 0.2 * musicIntensity
+        : 0.0;
+      const corePulse = 1.0 + beatPulse * 0.6;
+      const armPulse = 1.0 + Math.sin(pulseTime) * 0.06 * musicIntensity;
+
+      // Galaxy rotation accelerates slightly with music playback
+      const rotSpeed = isPlaying
+        ? 0.0006 + beatPulse * 0.0004
+        : 0.00025;
+      globalRotation += rotSpeed;
 
       ctx.clearRect(0, 0, width, height);
 
-      // 1. Draw Nebulae Clouds (Ethereal Depth)
-      for (const nebula of nebulae) {
-        const nx = nebula.relX * width + mouseDeltaX * -25;
-        const ny = nebula.relY * height + mouseDeltaY * -25;
-        const grad = ctx.createRadialGradient(
-          nx,
-          ny,
-          0,
-          nx,
-          ny,
-          nebula.radius * musicPulse
-        );
-        grad.addColorStop(0, nebula.color);
-        grad.addColorStop(0.55, 'rgba(10, 11, 15, 0.15)');
-        grad.addColorStop(1, 'transparent');
+      const centerX = width * 0.5;
+      const centerY = height * 0.5;
 
-        ctx.fillStyle = grad;
-        ctx.beginPath();
-        ctx.arc(nx, ny, nebula.radius * musicPulse, 0, Math.PI * 2);
-        ctx.fill();
-      }
+      // 1. Draw Deep Galactic Core Nucleus (Glowing ambient radiant center)
+      const coreRadius = Math.min(width, height) * 0.22 * corePulse;
+      const coreGrad = ctx.createRadialGradient(
+        centerX,
+        centerY,
+        0,
+        centerX,
+        centerY,
+        coreRadius
+      );
+      coreGrad.addColorStop(0, `rgba(255, 245, 230, ${0.45 + beatPulse * 0.25})`);
+      coreGrad.addColorStop(0.18, `rgba(210, 225, 255, ${0.22 + beatPulse * 0.15})`);
+      coreGrad.addColorStop(0.48, `rgba(130, 160, 240, ${0.08 + beatPulse * 0.06})`);
+      coreGrad.addColorStop(0.8, 'rgba(40, 55, 110, 0.025)');
+      coreGrad.addColorStop(1, 'transparent');
 
-      // 2. Draw & Update Stars
+      ctx.fillStyle = coreGrad;
+      ctx.beginPath();
+      // Elliptical core projection
+      ctx.ellipse(centerX, centerY, coreRadius * TILT_X, coreRadius * TILT_Y, globalRotation * 0.2, 0, Math.PI * 2);
+      ctx.fill();
+
+      // 2. Secondary Cosmic Dust Halo (Deep background stellar haze)
+      const haloRadius = Math.max(width, height) * 0.46 * armPulse;
+      const haloGrad = ctx.createRadialGradient(
+        centerX,
+        centerY,
+        coreRadius * 0.5,
+        centerX,
+        centerY,
+        haloRadius
+      );
+      haloGrad.addColorStop(0, `rgba(45, 60, 110, ${0.12 + beatPulse * 0.05})`);
+      haloGrad.addColorStop(0.5, 'rgba(25, 30, 60, 0.04)');
+      haloGrad.addColorStop(1, 'transparent');
+
+      ctx.fillStyle = haloGrad;
+      ctx.beginPath();
+      ctx.ellipse(centerX, centerY, haloRadius * TILT_X, haloRadius * TILT_Y, globalRotation * 0.3, 0, Math.PI * 2);
+      ctx.fill();
+
+      // 3. Render Stars along the Spiral Structure
       for (let i = 0; i < stars.length; i++) {
         const star = stars[i];
 
-        // Move gently across space
-        star.x += star.vx;
-        star.y += star.vy;
+        // Orbit update with differential rotation + global galaxy spin
+        const effectiveSpeed = star.orbitSpeed * (isPlaying ? 1.0 + beatPulse * 0.8 : 1.0);
+        star.angle += effectiveSpeed;
 
-        // Wrap edges seamlessly
-        if (star.x < 0) star.x = width;
-        if (star.x > width) star.x = 0;
-        if (star.y < 0) star.y = height;
-        if (star.y > height) star.y = 0;
+        // Current distance expands/swells slightly with music beat
+        const currentDist = star.isCore
+          ? star.baseDist * (1.0 + beatPulse * 0.1)
+          : star.baseDist * armPulse;
 
-        // Parallax offset based on layer depth and mouse position
-        const parallaxX = star.x - mouseDeltaX * star.layer * 18;
-        const parallaxY = star.y - mouseDeltaY * star.layer * 18;
+        // Total angle including galaxy rotation
+        const currentAngle = star.angle + globalRotation;
 
-        // Reactive proximity repulsion to cursor
-        const dx = parallaxX - mouse.x;
-        const dy = parallaxY - mouse.y;
-        const dist = Math.sqrt(dx * dx + dy * dy);
-        let reactX = parallaxX;
-        let reactY = parallaxY;
+        // Calculate 2D position with tilted disk perspective
+        const x = centerX + Math.cos(currentAngle) * currentDist * TILT_X;
+        const y = centerY + Math.sin(currentAngle) * currentDist * TILT_Y;
 
-        if (dist < 140) {
-          const force = (1 - dist / 140) * 16;
-          reactX += (dx / (dist || 1)) * force;
-          reactY += (dy / (dist || 1)) * force;
-        }
-
-        // Breathing twinkle
-        star.twinkleAngle += star.twinkleSpeed;
+        // Twinkle & music luminosity reaction
+        star.twinkleAngle += star.twinkleSpeed * (isPlaying ? 1.4 : 1.0);
+        const twinkle = Math.sin(star.twinkleAngle) * 0.25;
         const currentAlpha = Math.max(
-          0.1,
+          0.08,
           Math.min(
             1.0,
-            star.baseAlpha +
-              Math.sin(star.twinkleAngle) * 0.3 * (isPlaying ? 1.3 : 0.8)
+            star.baseAlpha + twinkle + (star.isCore ? beatPulse * 0.3 : beatPulse * 0.15)
           )
         );
 
-        // Music reactivity expands star radius softly with the beat
-        const currentRadius =
-          star.baseRadius * (isPlaying ? musicPulse : 1.0);
+        // Star radius breathing with music
+        const currentRadius = star.baseRadius * (1.0 + (star.isCore ? beatPulse * 0.4 : beatPulse * 0.25));
 
         ctx.beginPath();
-        ctx.arc(reactX, reactY, currentRadius, 0, Math.PI * 2);
+        ctx.arc(x, y, currentRadius, 0, Math.PI * 2);
         ctx.fillStyle = `${star.color} ${currentAlpha})`;
         ctx.fill();
 
-        // Subtle stellar glow on closer stars
-        if (star.layer > 2.2 && currentAlpha > 0.6) {
+        // Subtle glow halo for prominent stars
+        if (!star.isCore && star.baseRadius > 1.2 && currentAlpha > 0.45) {
           ctx.beginPath();
-          ctx.arc(reactX, reactY, currentRadius * 2.4, 0, Math.PI * 2);
-          ctx.fillStyle = `${star.color} ${currentAlpha * 0.15})`;
+          ctx.arc(x, y, currentRadius * 2.2, 0, Math.PI * 2);
+          ctx.fillStyle = `${star.color} ${currentAlpha * 0.12})`;
           ctx.fill();
         }
       }
@@ -202,8 +221,6 @@ export function GalaxyCanvas({ isPlaying = false, volume = 0.85 }) {
 
     return () => {
       cancelAnimationFrame(animationFrameId);
-      window.removeEventListener('mousemove', handleMouseMove);
-      window.removeEventListener('mouseleave', handleMouseLeave);
       window.removeEventListener('resize', handleResize);
     };
   }, [isPlaying, volume]);
