@@ -17,8 +17,7 @@ export function BroadcastFeed({ history = [], schedule }) {
         <div className="scheduleCard currentShowCard">
           <div className="scheduleCardHeader">
             <div className="scheduleBadge">
-              <span className="liveDot" />
-              <span>CURRENTLY ON AIR</span>
+              <span>BROADCAST MODE</span>
             </div>
             <span className="scheduleTag">Auto DJ</span>
           </div>

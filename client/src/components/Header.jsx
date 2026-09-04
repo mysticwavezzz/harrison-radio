@@ -9,18 +9,10 @@ export function Header({ station, onOpenMiniPlayer, onOpenAdmin }) {
           <div className="callsignText">
             {station?.callsign || 'HARRISON RADIO'}
           </div>
-          <div className="broadcastGenre">
-            {station?.genre || '24/7 Live Web Broadcast'}
-          </div>
         </div>
       </div>
 
       <div className="headerControls">
-        <div className="onAirBadge">
-          <div className="onAirDot" />
-          <span>ON AIR</span>
-        </div>
-
         {false && (
           <button onClick={onOpenAdmin} className="popoutLink adminStudioBtn" title="Host Studio Controls">
             <span>Studio</span>

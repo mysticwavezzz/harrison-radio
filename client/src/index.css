@@ -1,17 +1,17 @@
 :root {
-  /* Studio Color Palette */
-  --bg-main: #090a0d;
-  --bg-surface: #111318;
-  --bg-card: #151820;
-  --bg-card-hover: #1a1e28;
-  --border-subtle: #1f242f;
-  --border-strong: #2a3140;
+  /* Studio Color Palette - Deep, Warm & Natural Dark Mode */
+  --bg-main: #0c0d11;
+  --bg-surface: #14161d;
+  --bg-card: #181b24;
+  --bg-card-hover: #1f2330;
+  --border-subtle: rgba(255, 255, 255, 0.07);
+  --border-medium: rgba(255, 255, 255, 0.12);
+  --border-strong: rgba(255, 255, 255, 0.18);
 
-  /* Accents */
+  /* Accents - Grounded Emerald & Studio Warmth */
   --spotify-green: #1db954;
   --spotify-hover: #1ed760;
   --studio-red: #ef4444;
-  --studio-red-glow: rgba(239, 68, 68, 0.35);
 
   /* Typography Colors */
   --text-primary: #f8fafc;
@@ -21,6 +21,12 @@
   /* Fonts */
   --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
   --font-mono: 'JetBrains Mono', monospace;
+
+  /* Depth Shadows */
+  --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.25);
+  --shadow-md: 0 8px 24px rgba(0, 0, 0, 0.35);
+  --shadow-lg: 0 16px 40px rgba(0, 0, 0, 0.45);
+  --shadow-deck: 0 20px 50px rgba(0, 0, 0, 0.55), inset 0 1px 0 rgba(255, 255, 255, 0.05);
 }
 
 * {
@@ -65,18 +71,18 @@ button {
   border-radius: 3px;
 }
 ::-webkit-scrollbar-thumb:hover {
-  background: var(--border-strong);
+  background: var(--border-medium);
 }
 
 /* Master Layout */
 .masterLayout {
-  max-width: 1200px;
+  max-width: 1080px;
   width: 100%;
   margin: 0 auto;
-  padding: 24px 24px 60px;
+  padding: 32px 24px 72px;
   display: flex;
   flex-direction: column;
-  gap: 32px;
+  gap: 28px;
   min-height: 100vh;
 }
 
@@ -85,16 +91,17 @@ button {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 16px 24px;
+  padding: 16px 22px;
   background: var(--bg-surface);
   border: 1px solid var(--border-subtle);
-  border-radius: 12px;
+  border-radius: 14px;
+  box-shadow: var(--shadow-sm);
 }
 
 .stationIdentity {
   display: flex;
   align-items: center;
-  gap: 14px;
+  gap: 12px;
 }
 
 .callsignBlock {
@@ -105,110 +112,92 @@ button {
 .callsignText {
   font-size: 0.95rem;
   font-weight: 800;
-  letter-spacing: 1px;
+  letter-spacing: 1.5px;
   color: #fff;
   text-transform: uppercase;
-}
-
-.broadcastGenre {
-  font-size: 0.72rem;
-  color: var(--text-secondary);
-  letter-spacing: 0.5px;
 }
 
 .headerControls {
   display: flex;
   align-items: center;
-  gap: 16px;
-}
-
-/* Studio On Air Badge */
-.onAirBadge {
-  display: flex;
-  align-items: center;
-  gap: 7px;
-  background: rgba(239, 68, 68, 0.1);
-  border: 1px solid rgba(239, 68, 68, 0.3);
-  padding: 5px 12px;
-  border-radius: 20px;
-  font-family: var(--font-mono);
-  font-size: 0.72rem;
-  font-weight: 700;
-  color: var(--studio-red);
-  letter-spacing: 1px;
-}
-
-.onAirDot {
-  width: 6px;
-  height: 6px;
-  border-radius: 50%;
-  background: var(--studio-red);
-  box-shadow: 0 0 8px var(--studio-red);
-  animation: onAirPulse 1.6s ease-in-out infinite alternate;
-}
-
-@keyframes onAirPulse {
-  0% { opacity: 0.4; transform: scale(0.9); }
-  100% { opacity: 1; transform: scale(1.15); }
+  gap: 14px;
 }
 
 .popoutLink {
   display: flex;
   align-items: center;
   gap: 6px;
-  padding: 6px 12px;
+  padding: 6px 14px;
   border: 1px solid var(--border-subtle);
-  border-radius: 6px;
+  border-radius: 8px;
   font-size: 0.75rem;
   font-weight: 600;
   color: var(--text-secondary);
-  transition: all 0.2s;
+  background: rgba(255, 255, 255, 0.02);
+  transition: all 0.2s ease;
 }
 
 .popoutLink:hover {
-  background: rgba(255, 255, 255, 0.05);
-  border-color: var(--border-strong);
+  background: rgba(255, 255, 255, 0.06);
+  border-color: var(--border-medium);
   color: #fff;
 }
 
 /* Main Studio Stage (Hero Player Console) */
 .studioDeck {
+  position: relative;
   background: var(--bg-surface);
   border: 1px solid var(--border-subtle);
-  border-radius: 16px;
-  padding: 36px;
+  border-radius: 20px;
+  padding: 36px 40px;
   display: grid;
-  grid-template-columns: 360px 1fr;
-  gap: 48px;
+  grid-template-columns: 320px 1fr;
+  gap: 44px;
   align-items: center;
-  box-shadow: 0 24px 48px rgba(0, 0, 0, 0.4);
+  box-shadow: var(--shadow-deck);
+  overflow: hidden;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 860px) {
   .studioDeck {
     grid-template-columns: 1fr;
-    gap: 30px;
+    gap: 28px;
     padding: 24px;
   }
 }
 
-/* Physical Jacket & Vinyl Artwork Presentation */
+/* Subtle Ambient Depth Layer behind Player */
+.deckAmbientGlow {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  opacity: 0.7;
+}
+
+/* Physical Jacket Presentation */
 .jacketContainer {
   position: relative;
   width: 100%;
-  max-width: 360px;
+  max-width: 320px;
   margin: 0 auto;
+  perspective: 1000px;
 }
 
 .vinylJacket {
   width: 100%;
   aspect-ratio: 1;
-  background: #15171d;
-  border-radius: 8px;
+  background: #101217;
+  border-radius: 12px;
   overflow: hidden;
-  box-shadow: 0 16px 36px rgba(0, 0, 0, 0.6);
-  border: 1px solid var(--border-strong);
+  box-shadow: 0 16px 32px rgba(0, 0, 0, 0.55), 0 2px 6px rgba(0, 0, 0, 0.4);
+  border: 1px solid var(--border-medium);
   position: relative;
+  transition: transform 0.35s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.35s ease;
+}
+
+.vinylJacket:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.65), 0 4px 10px rgba(0, 0, 0, 0.45);
 }
 
 .jacketArt {
@@ -216,22 +205,40 @@ button {
   height: 100%;
   object-fit: cover;
   display: block;
-  transition: transform 0.5s ease;
 }
 
-.vinylJacket:hover .jacketArt {
-  transform: scale(1.02);
+/* =========================================================
+   Two-Stage Song Transition: Slide Out (Left) & Slide In (Right)
+   ========================================================= */
+.trackTransition-active {
+  opacity: 1;
+  transform: translateX(0);
+  transition: opacity 0.34s cubic-bezier(0.16, 1, 0.3, 1), transform 0.34s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.trackTransition-slide-out {
+  opacity: 0;
+  transform: translateX(-32px);
+  transition: opacity 0.32s cubic-bezier(0.4, 0, 0.2, 1), transform 0.32s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.trackTransition-slide-in {
+  opacity: 0;
+  transform: translateX(32px);
+  transition: none; /* Instant pre-position before sliding to active */
 }
 
 /* Now Playing Console (Right Side) */
 .consoleInfo {
   display: flex;
   flex-direction: column;
+  position: relative;
+  z-index: 1;
 }
 
 .streamTag {
   font-family: var(--font-mono);
-  font-size: 0.72rem;
+  font-size: 0.7rem;
   font-weight: 700;
   letter-spacing: 1.5px;
   text-transform: uppercase;
@@ -240,48 +247,48 @@ button {
 }
 
 .songName {
-  font-size: 2.6rem;
+  font-size: 2.3rem;
   font-weight: 800;
   line-height: 1.15;
-  letter-spacing: -0.02em;
+  letter-spacing: -0.025em;
   color: #fff;
-  margin-bottom: 8px;
+  margin-bottom: 6px;
   word-break: break-word;
 }
 
 @media (max-width: 600px) {
   .songName {
-    font-size: 1.9rem;
+    font-size: 1.75rem;
   }
 }
 
 .artistRow {
-  font-size: 1.25rem;
+  font-size: 1.15rem;
   font-weight: 600;
   color: var(--text-secondary);
-  margin-bottom: 20px;
+  margin-bottom: 18px;
 }
 
 .metaRow {
   display: flex;
   align-items: center;
-  gap: 16px;
-  margin-bottom: 28px;
+  gap: 14px;
+  margin-bottom: 24px;
   flex-wrap: wrap;
 }
 
 .spotifyButton {
   display: inline-flex;
   align-items: center;
-  gap: 7px;
-  background: rgba(29, 185, 84, 0.12);
-  border: 1px solid rgba(29, 185, 84, 0.3);
+  gap: 6px;
+  background: rgba(29, 185, 84, 0.1);
+  border: 1px solid rgba(29, 185, 84, 0.25);
   color: var(--spotify-green);
-  padding: 6px 14px;
+  padding: 5px 12px;
   border-radius: 20px;
-  font-size: 0.78rem;
+  font-size: 0.75rem;
   font-weight: 700;
-  transition: all 0.2s;
+  transition: all 0.2s ease;
 }
 
 .spotifyButton:hover {
@@ -290,8 +297,12 @@ button {
 }
 
 .albumLabel {
-  font-size: 0.8rem;
+  font-size: 0.78rem;
   color: var(--text-muted);
+  max-width: 320px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 /* Timeline & Scrubber */
@@ -299,13 +310,13 @@ button {
   display: flex;
   flex-direction: column;
   gap: 8px;
-  margin-bottom: 24px;
+  margin-bottom: 22px;
 }
 
 .timelineTrack {
   width: 100%;
   height: 4px;
-  background: var(--border-strong);
+  background: var(--border-medium);
   border-radius: 2px;
   overflow: hidden;
 }
@@ -321,7 +332,7 @@ button {
   display: flex;
   justify-content: space-between;
   font-family: var(--font-mono);
-  font-size: 0.75rem;
+  font-size: 0.72rem;
   color: var(--text-muted);
 }
 
@@ -331,36 +342,36 @@ button {
   align-items: center;
   justify-content: space-between;
   gap: 20px;
-  padding-top: 6px;
+  padding-top: 4px;
 }
 
 .playbackGroup {
   display: flex;
   align-items: center;
-  gap: 16px;
+  gap: 14px;
 }
 
 .masterPlayButton {
-  width: 54px;
-  height: 54px;
+  width: 50px;
+  height: 50px;
   border-radius: 50%;
   background: #fff;
-  color: #000;
+  color: #0c0d11;
   display: flex;
   align-items: center;
   justify-content: center;
   transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
-  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.4);
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.4);
 }
 
 .masterPlayButton:hover {
   background: var(--spotify-green);
-  transform: scale(1.06);
+  transform: scale(1.05);
 }
 
 .bufferingLabel {
   font-family: var(--font-mono);
-  font-size: 0.75rem;
+  font-size: 0.72rem;
   color: var(--spotify-green);
 }
 
@@ -368,7 +379,7 @@ button {
   display: flex;
   align-items: center;
   gap: 10px;
-  width: 150px;
+  width: 140px;
 }
 
 .volumeToggle {
@@ -387,7 +398,7 @@ button {
   appearance: none;
   width: 100%;
   height: 4px;
-  background: var(--border-strong);
+  background: var(--border-medium);
   border-radius: 2px;
   outline: none;
   cursor: pointer;
@@ -406,30 +417,25 @@ button {
 
 .volumeRange::-webkit-slider-thumb:hover {
   background: var(--spotify-green);
-  transform: scale(1.25);
+  transform: scale(1.2);
 }
 
 /* Lower Modular Broadcast Feed */
 .broadcastFeedGrid {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 24px;
-}
-
-@media (max-width: 800px) {
-  .broadcastFeedGrid {
-    grid-template-columns: 1fr;
-  }
+  grid-template-columns: 1fr;
+  gap: 20px;
 }
 
 .feedModule {
   background: var(--bg-surface);
   border: 1px solid var(--border-subtle);
-  border-radius: 14px;
-  padding: 24px;
+  border-radius: 16px;
+  padding: 22px 24px;
   display: flex;
   flex-direction: column;
-  gap: 16px;
+  gap: 14px;
+  box-shadow: var(--shadow-sm);
 }
 
 .moduleHeader {
@@ -441,9 +447,9 @@ button {
 }
 
 .moduleTitle {
-  font-size: 0.78rem;
+  font-size: 0.75rem;
   font-weight: 700;
-  letter-spacing: 1.5px;
+  letter-spacing: 1.2px;
   text-transform: uppercase;
   color: var(--text-secondary);
 }
@@ -457,38 +463,40 @@ button {
 .feedStack {
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 8px;
 }
 
 .feedTrackCard {
   display: flex;
   align-items: center;
   gap: 12px;
-  padding: 8px 10px;
+  padding: 9px 12px;
   background: var(--bg-card);
   border: 1px solid var(--border-subtle);
-  border-radius: 8px;
-  transition: all 0.2s;
+  border-radius: 10px;
+  transition: all 0.2s ease;
 }
 
 .feedTrackCard:hover {
   background: var(--bg-card-hover);
-  border-color: var(--border-strong);
+  border-color: var(--border-medium);
+  transform: translateX(2px);
 }
 
 .feedTrackImage {
-  width: 42px;
-  height: 42px;
+  width: 44px;
+  height: 44px;
   border-radius: 6px;
   object-fit: cover;
-  flex-shrink: 0;
+  border: 1px solid rgba(255, 255, 255, 0.08);
 }
 
 .feedTrackMeta {
   display: flex;
   flex-direction: column;
-  overflow: hidden;
   flex: 1;
+  min-width: 0;
+  gap: 3px;
 }
 
 .feedTrackTitle {
@@ -514,35 +522,112 @@ button {
   color: var(--text-muted);
 }
 
-/* Footer Stream Info */
-.stationFooter {
+/* Schedule Deck */
+.scheduleDeck {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+@media (max-width: 800px) {
+  .scheduleDeck {
+    grid-template-columns: 1fr;
+  }
+}
+
+.scheduleCard {
+  background: var(--bg-surface);
+  border: 1px solid var(--border-subtle);
+  border-radius: 16px;
+  padding: 20px 22px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  box-shadow: var(--shadow-sm);
+  transition: border-color 0.2s ease;
+}
+
+.scheduleCard:hover {
+  border-color: var(--border-medium);
+}
+
+.scheduleCardHeader {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 16px 20px;
-  border-radius: 8px;
-  background: var(--bg-surface);
+}
+
+.scheduleBadge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  color: var(--text-secondary);
+}
+
+.eventBadge {
+  color: var(--spotify-green);
+}
+
+.scheduleTag {
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  background: rgba(255, 255, 255, 0.04);
   border: 1px solid var(--border-subtle);
+  padding: 3px 8px;
+  border-radius: 4px;
+  color: var(--text-muted);
+}
+
+.eventTimeTag {
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  font-weight: 700;
+  background: rgba(29, 185, 84, 0.1);
+  border: 1px solid rgba(29, 185, 84, 0.25);
+  padding: 3px 10px;
+  border-radius: 12px;
+  color: var(--spotify-green);
+}
+
+.scheduleTitle {
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: #fff;
+  letter-spacing: -0.01em;
+  margin-bottom: 2px;
+}
+
+.eventTitle {
+  color: var(--spotify-green);
+}
+
+.scheduleDesc {
+  font-size: 0.8rem;
+  color: var(--text-secondary);
+  line-height: 1.4;
+}
+
+.noEventState {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  padding: 2px 0;
+}
+
+.noEventText {
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: var(--text-secondary);
+}
+
+.noEventSub {
   font-size: 0.75rem;
   color: var(--text-muted);
-  flex-wrap: wrap;
-  gap: 12px;
-}
-
-.footerLeft {
-  display: flex;
-  align-items: center;
-  gap: 8px;
-}
-
-.footerRight a {
-  color: var(--text-secondary);
-  font-weight: 600;
-  transition: color 0.2s;
-}
-
-.footerRight a:hover {
-  color: var(--spotify-green);
+  font-family: var(--font-mono);
 }
 
 /* Mini Player View */
@@ -564,7 +649,7 @@ button {
   border-radius: 10px;
   object-fit: cover;
   box-shadow: 0 16px 36px rgba(0, 0, 0, 0.7);
-  border: 1px solid var(--border-strong);
+  border: 1px solid var(--border-medium);
 }
 
 .miniTitle {
@@ -582,124 +667,6 @@ button {
   font-size: 0.9rem;
   color: var(--text-secondary);
   font-weight: 500;
-}
-
-/* =========================================================
-   Schedule Deck: Currently On Air & Upcoming Event Cards
-   ========================================================= */
-.scheduleDeck {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 20px;
-}
-
-@media (max-width: 800px) {
-  .scheduleDeck {
-    grid-template-columns: 1fr;
-  }
-}
-
-.scheduleCard {
-  background: var(--bg-surface);
-  border: 1px solid var(--border-subtle);
-  border-radius: 14px;
-  padding: 20px 24px;
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-  transition: border-color 0.2s;
-}
-
-.scheduleCard:hover {
-  border-color: var(--border-strong);
-}
-
-.scheduleCardHeader {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.scheduleBadge {
-  display: inline-flex;
-  align-items: center;
-  gap: 6px;
-  font-family: var(--font-mono);
-  font-size: 0.72rem;
-  font-weight: 700;
-  letter-spacing: 1px;
-  color: var(--text-secondary);
-}
-
-.eventBadge {
-  color: var(--spotify-green);
-}
-
-.liveDot {
-  width: 7px;
-  height: 7px;
-  border-radius: 50%;
-  background: var(--studio-red);
-  box-shadow: 0 0 6px var(--studio-red);
-  animation: onAirPulse 1.6s ease-in-out infinite alternate;
-}
-
-.scheduleTag {
-  font-family: var(--font-mono);
-  font-size: 0.72rem;
-  background: rgba(255, 255, 255, 0.05);
-  border: 1px solid var(--border-subtle);
-  padding: 3px 8px;
-  border-radius: 4px;
-  color: var(--text-muted);
-}
-
-.eventTimeTag {
-  font-family: var(--font-mono);
-  font-size: 0.72rem;
-  font-weight: 700;
-  background: rgba(29, 185, 84, 0.12);
-  border: 1px solid rgba(29, 185, 84, 0.3);
-  padding: 3px 10px;
-  border-radius: 12px;
-  color: var(--spotify-green);
-}
-
-.scheduleTitle {
-  font-size: 1.15rem;
-  font-weight: 700;
-  color: #fff;
-  letter-spacing: -0.01em;
-  margin-bottom: 4px;
-}
-
-.eventTitle {
-  color: var(--spotify-green);
-}
-
-.scheduleDesc {
-  font-size: 0.82rem;
-  color: var(--text-secondary);
-  line-height: 1.4;
-}
-
-.noEventState {
-  display: flex;
-  flex-direction: column;
-  gap: 3px;
-  padding: 4px 0;
-}
-
-.noEventText {
-  font-size: 1rem;
-  font-weight: 600;
-  color: var(--text-secondary);
-}
-
-.noEventSub {
-  font-size: 0.78rem;
-  color: var(--text-muted);
-  font-family: var(--font-mono);
 }
 
 /* =========================================================
@@ -736,8 +703,8 @@ button {
 }
 
 .adminModal {
-  background: #111318;
-  border: 1px solid var(--border-strong);
+  background: #14161d;
+  border: 1px solid var(--border-medium);
   border-radius: 16px;
   width: 100%;
   max-width: 620px;
@@ -803,7 +770,7 @@ button {
 }
 
 .adminSection {
-  background: #161820;
+  background: #181b24;
   border: 1px solid var(--border-subtle);
   border-radius: 12px;
   padding: 18px 20px;
@@ -813,7 +780,7 @@ button {
 }
 
 .liveMicSection {
-  background: linear-gradient(180deg, rgba(239, 68, 68, 0.08) 0%, rgba(22, 24, 32, 0.8) 100%);
+  background: linear-gradient(180deg, rgba(239, 68, 68, 0.08) 0%, rgba(24, 27, 36, 0.8) 100%);
   border-color: rgba(239, 68, 68, 0.25);
 }
 
@@ -836,7 +803,6 @@ button {
   font-size: 0.7rem;
   font-weight: 700;
   color: var(--studio-red);
-  animation: onAirPulse 1s infinite alternate;
 }
 
 .sectionDesc {
@@ -921,7 +887,7 @@ button {
 
 .btnAdminControl:hover {
   background: var(--bg-card-hover);
-  border-color: var(--border-strong);
+  border-color: var(--border-medium);
 }
 
 .btnPaused {
@@ -972,7 +938,7 @@ button {
   -webkit-appearance: none;
   appearance: none;
   height: 6px;
-  background: var(--border-strong);
+  background: var(--border-medium);
   border-radius: 3px;
   outline: none;
   cursor: pointer;
@@ -1067,4 +1033,3 @@ button {
 .btnClearEvent:hover {
   color: #f87171;
 }
-
