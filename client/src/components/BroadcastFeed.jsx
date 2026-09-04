@@ -1,7 +1,7 @@
 import React from 'react';
-import { ArrowUpRight, Calendar, Radio, Sparkles } from 'lucide-react';
+import { ArrowUpRight, Calendar } from 'lucide-react';
 
-export function BroadcastFeed({ upNext = [], history = [], playlist, schedule, currentTrack }) {
+export function BroadcastFeed({ history = [], playlist, schedule }) {
   const formatTime = (secs) => {
     if (!secs || isNaN(secs)) return '0:00';
     const m = Math.floor(secs / 60);
@@ -13,7 +13,6 @@ export function BroadcastFeed({ upNext = [], history = [], playlist, schedule, c
 
   return (
     <>
-      {/* Broadcast Schedule Banner (Currently On Air & Upcoming Event) */}
       <div className="scheduleDeck">
         <div className="scheduleCard currentShowCard">
           <div className="scheduleCardHeader">
@@ -26,7 +25,7 @@ export function BroadcastFeed({ upNext = [], history = [], playlist, schedule, c
           <div className="scheduleCardBody">
             <h3 className="scheduleTitle">Harrison Auto DJ</h3>
             <p className="scheduleDesc">
-              Continuous automated broadcast playing from 68-track curated library
+              Continuous automated broadcast playing from {playlist?.totalTracks || 94}-track curated library
             </p>
           </div>
         </div>
@@ -57,50 +56,16 @@ export function BroadcastFeed({ upNext = [], history = [], playlist, schedule, c
         </div>
       </div>
 
-      <div className="broadcastFeedGrid">
-        {/* Module 1: Cued Next in Rotation */}
+      <div className="broadcastFeedGrid singleModuleGrid">
         <div className="feedModule">
           <div className="moduleHeader">
-            <span className="moduleTitle">Cued Next in Rotation</span>
-            <span className="moduleBadge">{upNext.length} upcoming</span>
-          </div>
-
-          <div className="feedStack">
-            {upNext && upNext.length > 0 ? (
-              upNext.slice(0, 3).map((track, i) => (
-                <div key={track.id || i} className="feedTrackCard">
-                  <img
-                    src={track.coverArtThumb || track.coverArt || '/default-album-art.svg'}
-                    alt=""
-                    className="feedTrackImage"
-                  />
-                  <div className="feedTrackMeta">
-                    <span className="feedTrackTitle">{track.title}</span>
-                    <span className="feedTrackArtist">{track.artist}</span>
-                  </div>
-                  <span className="feedTrackDuration">
-                    {formatTime(track.duration)}
-                  </span>
-                </div>
-              ))
-            ) : (
-              <div style={{ color: 'var(--text-muted)', fontSize: '0.85rem', padding: '12px 0' }}>
-                Queueing next tracks...
-              </div>
-            )}
-          </div>
-        </div>
-
-        {/* Module 2: Recent Spins (History) */}
-        <div className="feedModule">
-          <div className="moduleHeader">
-            <span className="moduleTitle">Recent Spins</span>
+            <span className="moduleTitle">Recent Spins (History)</span>
             <span className="moduleBadge">{history.length} recorded</span>
           </div>
 
           <div className="feedStack">
             {history && history.length > 0 ? (
-              history.slice(0, 3).map((track, i) => (
+              history.slice(0, 6).map((track, i) => (
                 <div key={track.id || i} className="feedTrackCard">
                   <img
                     src={track.coverArtThumb || track.coverArt || '/default-album-art.svg'}
@@ -125,10 +90,9 @@ export function BroadcastFeed({ upNext = [], history = [], playlist, schedule, c
         </div>
       </div>
 
-      {/* Station Footer Bar */}
       <footer className="stationFooter">
         <div className="footerLeft">
-          <span>Source: Spotify #1 Playlist ({playlist?.totalTracks || 68} tracks in weighted rotation)</span>
+          <span>Source: Spotify #1 Playlist ({playlist?.totalTracks || 94} tracks in rotation)</span>
         </div>
         <div className="footerRight">
           <a

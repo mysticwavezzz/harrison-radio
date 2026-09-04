@@ -1,5 +1,5 @@
 import React from 'react';
-import { ExternalLink, Sliders } from 'lucide-react';
+import { ExternalLink } from 'lucide-react';
 
 export function Header({ station, onOpenMiniPlayer, onOpenAdmin }) {
   return (
@@ -21,10 +21,11 @@ export function Header({ station, onOpenMiniPlayer, onOpenAdmin }) {
           <span>ON AIR</span>
         </div>
 
-        <button onClick={onOpenAdmin} className="popoutLink adminStudioBtn" title="Host Studio Controls">
-          <Sliders size={13} />
-          <span>Studio</span>
-        </button>
+        {false && (
+          <button onClick={onOpenAdmin} className="popoutLink adminStudioBtn" title="Host Studio Controls">
+            <span>Studio</span>
+          </button>
+        )}
 
         <button onClick={onOpenMiniPlayer} className="popoutLink">
           <span>Mini Player</span>

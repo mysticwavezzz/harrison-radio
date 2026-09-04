@@ -13,7 +13,7 @@
   "playlist": {
     "id": "6GYZ7RuNutGzFMKAZYSzhb",
     "name": "#1 Playlist",
-    "totalTracks": 68,
+    "totalTracks": 94,
     "coverArt": "https://mosaic.scdn.co/640/ab67616d00001e022d69c136cce5333f00d848fcab67616d00001e024ae22ccf1ee264de7d464978ab67616d00001e025448a3dfe8528453a3686fd6ab67616d00001e02bce3aa89843c02d06c1c9fee"
   },
   "audioDrops": {
@@ -83,8 +83,8 @@
       "album": "#1 Playlist",
       "duration": 234,
       "popularity": 89,
-      "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273bce3aa89843c02d06c1c9fee",
-      "coverArtThumb": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02bce3aa89843c02d06c1c9fee",
+      "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273bce3aa89843c02d06c1c9fee",
+      "coverArtThumb": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e02bce3aa89843c02d06c1c9fee",
       "spotifyUrl": "https://open.spotify.com/track/2x6iNna6wQexggFz8smJcB",
       "audio": {
         "source": "youtube",
@@ -191,8 +191,8 @@
       "album": "#1 Playlist",
       "duration": 180,
       "popularity": 77,
-      "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2732c1f34ecc1929fb59908aad1",
-      "coverArtThumb": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e022c1f34ecc1929fb59908aad1",
+      "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b2732c1f34ecc1929fb59908aad1",
+      "coverArtThumb": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e022c1f34ecc1929fb59908aad1",
       "spotifyUrl": "https://open.spotify.com/track/59c2xv2kMzYM6HR9oY6BIa",
       "audio": {
         "source": "youtube",
@@ -281,8 +281,8 @@
       "album": "#1 Playlist",
       "duration": 209,
       "popularity": 66,
-      "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273fb1cb900d28642e668d77b12",
-      "coverArtThumb": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e02fb1cb900d28642e668d77b12",
+      "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273fb1cb900d28642e668d77b12",
+      "coverArtThumb": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02fb1cb900d28642e668d77b12",
       "spotifyUrl": "https://open.spotify.com/track/2tznHmp70DxMyr2XhWLOW0",
       "audio": {
         "source": "youtube",
@@ -299,8 +299,8 @@
       "album": "#1 Playlist",
       "duration": 198,
       "popularity": 64,
-      "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273f3aa0e6ca22a382007f61e4d",
-      "coverArtThumb": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e02f3aa0e6ca22a382007f61e4d",
+      "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273f3aa0e6ca22a382007f61e4d",
+      "coverArtThumb": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02f3aa0e6ca22a382007f61e4d",
       "spotifyUrl": "https://open.spotify.com/track/5r5cp9IpziiIsR6b93vcnQ",
       "audio": {
         "source": "youtube",
@@ -317,8 +317,8 @@
       "album": "#1 Playlist",
       "duration": 87,
       "popularity": 62,
-      "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b2731cc17bae5ee17cce117e198a",
-      "coverArtThumb": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e021cc17bae5ee17cce117e198a",
+      "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2731cc17bae5ee17cce117e198a",
+      "coverArtThumb": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e021cc17bae5ee17cce117e198a",
       "spotifyUrl": "https://open.spotify.com/track/6me7F0aaZjwDo6RJ5MrfBD",
       "audio": {
         "source": "youtube",
@@ -335,8 +335,8 @@
       "album": "#1 Playlist",
       "duration": 204,
       "popularity": 60,
-      "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b27305d081cbdc2f67d37a364d63",
-      "coverArtThumb": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e0205d081cbdc2f67d37a364d63",
+      "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b27305d081cbdc2f67d37a364d63",
+      "coverArtThumb": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e0205d081cbdc2f67d37a364d63",
       "spotifyUrl": "https://open.spotify.com/track/2uXlHCUbq9OMUwx3hrk06o",
       "audio": {
         "source": "youtube",
@@ -371,8 +371,8 @@
       "album": "#1 Playlist",
       "duration": 304,
       "popularity": 56,
-      "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273c18c4e6c2978fb6cbdef85e2",
-      "coverArtThumb": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e02c18c4e6c2978fb6cbdef85e2",
+      "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273c18c4e6c2978fb6cbdef85e2",
+      "coverArtThumb": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02c18c4e6c2978fb6cbdef85e2",
       "spotifyUrl": "https://open.spotify.com/track/2RlgNHKcydI9sayD2Df2xp",
       "audio": {
         "source": "youtube",
@@ -389,8 +389,8 @@
       "album": "#1 Playlist",
       "duration": 177,
       "popularity": 53,
-      "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273bce3aa89843c02d06c1c9fee",
-      "coverArtThumb": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02bce3aa89843c02d06c1c9fee",
+      "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273bce3aa89843c02d06c1c9fee",
+      "coverArtThumb": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e02bce3aa89843c02d06c1c9fee",
       "spotifyUrl": "https://open.spotify.com/track/3Gq4qo8QepeFNfngKWFZ9k",
       "audio": {
         "source": "youtube",
@@ -497,8 +497,8 @@
       "album": "#1 Playlist",
       "duration": 319,
       "popularity": 41,
-      "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2739e1cfc756886ac782e363d79",
-      "coverArtThumb": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e029e1cfc756886ac782e363d79",
+      "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b2739e1cfc756886ac782e363d79",
+      "coverArtThumb": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e029e1cfc756886ac782e363d79",
       "spotifyUrl": "https://open.spotify.com/track/5M4yti0QxgqJieUYaEXcpw",
       "audio": {
         "source": "youtube",
@@ -515,8 +515,8 @@
       "album": "#1 Playlist",
       "duration": 200,
       "popularity": 39,
-      "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b2731e0dc5baaabda304b0ad1815",
-      "coverArtThumb": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e021e0dc5baaabda304b0ad1815",
+      "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2731e0dc5baaabda304b0ad1815",
+      "coverArtThumb": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e021e0dc5baaabda304b0ad1815",
       "spotifyUrl": "https://open.spotify.com/track/2MLHyLy5z5l5YRp7momlgw",
       "audio": {
         "source": "youtube",
@@ -641,8 +641,8 @@
       "album": "#1 Playlist",
       "duration": 216,
       "popularity": 30,
-      "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b2739e1cfc756886ac782e363d79",
-      "coverArtThumb": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e029e1cfc756886ac782e363d79",
+      "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2739e1cfc756886ac782e363d79",
+      "coverArtThumb": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e029e1cfc756886ac782e363d79",
       "spotifyUrl": "https://open.spotify.com/track/6K4t31amVTZDgR3sKmwUJJ",
       "audio": {
         "source": "youtube",
@@ -659,8 +659,8 @@
       "album": "#1 Playlist",
       "duration": 229,
       "popularity": 30,
-      "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273fb1cb900d28642e668d77b12",
-      "coverArtThumb": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e02fb1cb900d28642e668d77b12",
+      "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273fb1cb900d28642e668d77b12",
+      "coverArtThumb": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02fb1cb900d28642e668d77b12",
       "spotifyUrl": "https://open.spotify.com/track/4sebUbjqbcgDSwG6PbSGI0",
       "audio": {
         "source": "youtube",
@@ -677,8 +677,8 @@
       "album": "#1 Playlist",
       "duration": 238,
       "popularity": 30,
-      "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b27358267bd34420a00d5cf83a49",
-      "coverArtThumb": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e0258267bd34420a00d5cf83a49",
+      "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b27358267bd34420a00d5cf83a49",
+      "coverArtThumb": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e0258267bd34420a00d5cf83a49",
       "spotifyUrl": "https://open.spotify.com/track/5hM5arv9KDbCHS0k9uqwjr",
       "audio": {
         "source": "youtube",
@@ -713,8 +713,8 @@
       "album": "#1 Playlist",
       "duration": 193,
       "popularity": 30,
-      "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b2734ae1c4c5c45aabe565499163",
-      "coverArtThumb": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e024ae1c4c5c45aabe565499163",
+      "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2734ae1c4c5c45aabe565499163",
+      "coverArtThumb": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e024ae1c4c5c45aabe565499163",
       "spotifyUrl": "https://open.spotify.com/track/0NdTUS4UiNYCNn5FgVqKQY",
       "audio": {
         "source": "youtube",
@@ -749,8 +749,8 @@
       "album": "#1 Playlist",
       "duration": 209,
       "popularity": 30,
-      "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2735e145eb24e282b9554501a27",
-      "coverArtThumb": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e025e145eb24e282b9554501a27",
+      "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b2735e145eb24e282b9554501a27",
+      "coverArtThumb": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e025e145eb24e282b9554501a27",
       "spotifyUrl": "https://open.spotify.com/track/2AYEOC02WLhUiOoaig2SEH",
       "audio": {
         "source": "youtube",
@@ -821,8 +821,8 @@
       "album": "#1 Playlist",
       "duration": 108,
       "popularity": 30,
-      "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b2739e1cfc756886ac782e363d79",
-      "coverArtThumb": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e029e1cfc756886ac782e363d79",
+      "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2739e1cfc756886ac782e363d79",
+      "coverArtThumb": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e029e1cfc756886ac782e363d79",
       "spotifyUrl": "https://open.spotify.com/track/1cCbsojaA6GIT7Y3zuMJ1q",
       "audio": {
         "source": "youtube",
@@ -857,8 +857,8 @@
       "album": "#1 Playlist",
       "duration": 272,
       "popularity": 30,
-      "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2734ae1c4c5c45aabe565499163",
-      "coverArtThumb": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e024ae1c4c5c45aabe565499163",
+      "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b2734ae1c4c5c45aabe565499163",
+      "coverArtThumb": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e024ae1c4c5c45aabe565499163",
       "spotifyUrl": "https://open.spotify.com/track/5FVd6KXrgO9B3JPmC8OPst",
       "audio": {
         "source": "youtube",
@@ -893,8 +893,8 @@
       "album": "#1 Playlist",
       "duration": 257,
       "popularity": 30,
-      "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2739293c743fa542094336c5e12",
-      "coverArtThumb": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e029293c743fa542094336c5e12",
+      "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b2739293c743fa542094336c5e12",
+      "coverArtThumb": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e029293c743fa542094336c5e12",
       "spotifyUrl": "https://open.spotify.com/track/2a1iMaoWQ5MnvLFBDv4qkf",
       "audio": {
         "source": "youtube",
@@ -911,8 +911,8 @@
       "album": "#1 Playlist",
       "duration": 264,
       "popularity": 30,
-      "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273c8b444df094279e70d0ed856",
-      "coverArtThumb": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02c8b444df094279e70d0ed856",
+      "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273c8b444df094279e70d0ed856",
+      "coverArtThumb": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e02c8b444df094279e70d0ed856",
       "spotifyUrl": "https://open.spotify.com/track/63OQupATfueTdZMWTxW03A",
       "audio": {
         "source": "youtube",
@@ -947,8 +947,8 @@
       "album": "#1 Playlist",
       "duration": 279,
       "popularity": 30,
-      "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2735160eaecb31b739ea1c2eaa5",
-      "coverArtThumb": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e025160eaecb31b739ea1c2eaa5",
+      "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b2735160eaecb31b739ea1c2eaa5",
+      "coverArtThumb": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e025160eaecb31b739ea1c2eaa5",
       "spotifyUrl": "https://open.spotify.com/track/61OJxhoY3Ix50rYVKo8zRK",
       "audio": {
         "source": "youtube",
@@ -983,8 +983,8 @@
       "album": "#1 Playlist",
       "duration": 203,
       "popularity": 30,
-      "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2732519d01c0cca06f134eeadd8",
-      "coverArtThumb": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e022519d01c0cca06f134eeadd8",
+      "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b2732519d01c0cca06f134eeadd8",
+      "coverArtThumb": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e022519d01c0cca06f134eeadd8",
       "spotifyUrl": "https://open.spotify.com/track/0ntQJM78wzOLVeCUAW7Y45",
       "audio": {
         "source": "youtube",
@@ -1001,8 +1001,8 @@
       "album": "#1 Playlist",
       "duration": 209,
       "popularity": 30,
-      "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2736ebd5e789646a833b8f7d4ba",
-      "coverArtThumb": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e026ebd5e789646a833b8f7d4ba",
+      "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b2736ebd5e789646a833b8f7d4ba",
+      "coverArtThumb": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e026ebd5e789646a833b8f7d4ba",
       "spotifyUrl": "https://open.spotify.com/track/5lWRaa0fBxDE5yU91npPq7",
       "audio": {
         "source": "youtube",
@@ -1037,8 +1037,8 @@
       "album": "#1 Playlist",
       "duration": 185,
       "popularity": 30,
-      "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273c5649add07ed3720be9d5526",
-      "coverArtThumb": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02c5649add07ed3720be9d5526",
+      "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273c5649add07ed3720be9d5526",
+      "coverArtThumb": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e02c5649add07ed3720be9d5526",
       "spotifyUrl": "https://open.spotify.com/track/3xKsf9qdS1CyvXSMEid6g8",
       "audio": {
         "source": "youtube",
@@ -1109,8 +1109,8 @@
       "album": "#1 Playlist",
       "duration": 260,
       "popularity": 30,
-      "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b2734bc9bcdbdc9ac34e37d8b6bb",
-      "coverArtThumb": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e024bc9bcdbdc9ac34e37d8b6bb",
+      "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2734bc9bcdbdc9ac34e37d8b6bb",
+      "coverArtThumb": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e024bc9bcdbdc9ac34e37d8b6bb",
       "spotifyUrl": "https://open.spotify.com/track/4dVbhS6OiYvFikshyaQaCN",
       "audio": {
         "source": "youtube",
@@ -1217,8 +1217,8 @@
       "album": "#1 Playlist",
       "duration": 175,
       "popularity": 30,
-      "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273ee515815329b81291adae0dd",
-      "coverArtThumb": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e02ee515815329b81291adae0dd",
+      "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273ee515815329b81291adae0dd",
+      "coverArtThumb": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02ee515815329b81291adae0dd",
       "spotifyUrl": "https://open.spotify.com/track/1LkoYGxmYpO6QSEvY5C0Zl",
       "audio": {
         "source": "youtube",
@@ -1235,14 +1235,482 @@
       "album": "#1 Playlist",
       "duration": 339,
       "popularity": 30,
-      "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273aff4aef671b2510be7c115b3",
-      "coverArtThumb": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e02aff4aef671b2510be7c115b3",
+      "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273aff4aef671b2510be7c115b3",
+      "coverArtThumb": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02aff4aef671b2510be7c115b3",
       "spotifyUrl": "https://open.spotify.com/track/70C4NyhjD5OZUMzvWZ3njJ",
       "audio": {
         "source": "youtube",
         "youtubeId": "QwVjTlTdIDQ",
         "title": "Billy Joel - Piano Man (Official Audio)",
         "duration": 340
+      }
+    },
+    {
+      "id": "0R3TWpoxAhT3HDXM7tpRzS",
+      "title": "Ghostride",
+      "artist": "Crumb",
+      "primaryArtist": "Crumb",
+      "album": "#1 Playlist",
+      "duration": 126,
+      "popularity": 30,
+      "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2736d9fb491fa8815157aa54a84",
+      "coverArtThumb": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e026d9fb491fa8815157aa54a84",
+      "spotifyUrl": "https://open.spotify.com/track/0R3TWpoxAhT3HDXM7tpRzS",
+      "audio": {
+        "source": "youtube",
+        "youtubeId": "HS4aJ_51qNQ",
+        "title": "Crumb - Ghostride [Official Audio]",
+        "duration": 127
+      }
+    },
+    {
+      "id": "6A46jG17UumVQLqodsFxuV",
+      "title": "Show Me How (Album V)",
+      "artist": "Men I Trust",
+      "primaryArtist": "Men I Trust",
+      "album": "#1 Playlist",
+      "duration": 215,
+      "popularity": 30,
+      "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273080a103172ab636cd50df7f0",
+      "coverArtThumb": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02080a103172ab636cd50df7f0",
+      "spotifyUrl": "https://open.spotify.com/track/6A46jG17UumVQLqodsFxuV",
+      "audio": {
+        "source": "youtube",
+        "youtubeId": "cJRFMfztgBg",
+        "title": "Men I Trust -  Show Me How (album v)",
+        "duration": 216
+      }
+    },
+    {
+      "id": "3xnM0WCRJKk4Iz49rkG5OC",
+      "title": "I Hope to Be Around",
+      "artist": "Men I Trust",
+      "primaryArtist": "Men I Trust",
+      "album": "#1 Playlist",
+      "duration": 206,
+      "popularity": 30,
+      "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273e39911ac44a41ac82d44fa89",
+      "coverArtThumb": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02e39911ac44a41ac82d44fa89",
+      "spotifyUrl": "https://open.spotify.com/track/3xnM0WCRJKk4Iz49rkG5OC",
+      "audio": {
+        "source": "youtube",
+        "youtubeId": "DviID8Ni7Ns",
+        "title": "Men I Trust - I hope to be around",
+        "duration": 207
+      }
+    },
+    {
+      "id": "2JKtCvtxP47fOMYi0BjMoY",
+      "title": "Tree Among Shrubs",
+      "artist": "Men I Trust",
+      "primaryArtist": "Men I Trust",
+      "album": "#1 Playlist",
+      "duration": 188,
+      "popularity": 30,
+      "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b2739843089bfdc548de16945f64",
+      "coverArtThumb": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e029843089bfdc548de16945f64",
+      "spotifyUrl": "https://open.spotify.com/track/2JKtCvtxP47fOMYi0BjMoY",
+      "audio": {
+        "source": "youtube",
+        "youtubeId": "0LMwgWFzDjU",
+        "title": "Men I Trust - Tree Among Shrubs",
+        "duration": 188
+      }
+    },
+    {
+      "id": "5QvditjxADt1HMKPgaMjJm",
+      "title": "Seven",
+      "artist": "Men I Trust",
+      "primaryArtist": "Men I Trust",
+      "album": "#1 Playlist",
+      "duration": 225,
+      "popularity": 30,
+      "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b27375b60845bf2bd7e0637885e2",
+      "coverArtThumb": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e0275b60845bf2bd7e0637885e2",
+      "spotifyUrl": "https://open.spotify.com/track/5QvditjxADt1HMKPgaMjJm",
+      "audio": {
+        "source": "youtube",
+        "youtubeId": "pnY7m5CK-as",
+        "title": "Men I Trust - Seven",
+        "duration": 220
+      }
+    },
+    {
+      "id": "294NusLyTV6cRxJVjCqxML",
+      "title": "You Deserve This",
+      "artist": "Men I Trust",
+      "primaryArtist": "Men I Trust",
+      "album": "#1 Playlist",
+      "duration": 185,
+      "popularity": 30,
+      "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273186d5ab142e22ab70fbced5f",
+      "coverArtThumb": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e02186d5ab142e22ab70fbced5f",
+      "spotifyUrl": "https://open.spotify.com/track/294NusLyTV6cRxJVjCqxML",
+      "audio": {
+        "source": "youtube",
+        "youtubeId": "pNx6jAcx6Gw",
+        "title": "Men I Trust - You Deserve This (Official Audio)",
+        "duration": 185
+      }
+    },
+    {
+      "id": "2vWBUC9djv6BtiGlmKiQaH",
+      "title": "YKWIM?",
+      "artist": "Yot Club",
+      "primaryArtist": "Yot Club",
+      "album": "#1 Playlist",
+      "duration": 213,
+      "popularity": 30,
+      "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b2731a72818330a056c9d3556a68",
+      "coverArtThumb": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e021a72818330a056c9d3556a68",
+      "spotifyUrl": "https://open.spotify.com/track/2vWBUC9djv6BtiGlmKiQaH",
+      "audio": {
+        "source": "youtube",
+        "youtubeId": "KY2PM_HsQv8",
+        "title": "Yot Club - YKWIM",
+        "duration": 213
+      }
+    },
+    {
+      "id": "02wNtFxlr9dLmZXKT5TIF5",
+      "title": "Over the Moon",
+      "artist": "The Marías",
+      "primaryArtist": "The Marías",
+      "album": "#1 Playlist",
+      "duration": 183,
+      "popularity": 30,
+      "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273a64b06c0eb30ce15c3e6edc1",
+      "coverArtThumb": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02a64b06c0eb30ce15c3e6edc1",
+      "spotifyUrl": "https://open.spotify.com/track/02wNtFxlr9dLmZXKT5TIF5",
+      "audio": {
+        "source": "youtube",
+        "youtubeId": "6jiu9TlR11o",
+        "title": "The Marías - Over The Moon",
+        "duration": 184
+      }
+    },
+    {
+      "id": "2qpacEyFxmbxCpIEqZkqvC",
+      "title": "You Are the Right One",
+      "artist": "Sports",
+      "primaryArtist": "Sports",
+      "album": "#1 Playlist",
+      "duration": 173,
+      "popularity": 30,
+      "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2731192eb9f894b18f0de2682f1",
+      "coverArtThumb": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e021192eb9f894b18f0de2682f1",
+      "spotifyUrl": "https://open.spotify.com/track/2qpacEyFxmbxCpIEqZkqvC",
+      "audio": {
+        "source": "youtube",
+        "youtubeId": "BHBLjY4KB7U",
+        "title": "Sports - You Are The Right One (Official Audio)",
+        "duration": 173
+      }
+    },
+    {
+      "id": "41HyMiZSBLGlfopnDE7Ppc",
+      "title": "Baby Baby",
+      "artist": "Sports",
+      "primaryArtist": "Sports",
+      "album": "#1 Playlist",
+      "duration": 183,
+      "popularity": 30,
+      "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b27332ef5c2d0ac3fac700e39f21",
+      "coverArtThumb": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e0232ef5c2d0ac3fac700e39f21",
+      "spotifyUrl": "https://open.spotify.com/track/41HyMiZSBLGlfopnDE7Ppc",
+      "audio": {
+        "source": "youtube",
+        "youtubeId": "gJ8A72vvngo",
+        "title": "Baby Baby",
+        "duration": 183
+      }
+    },
+    {
+      "id": "6keyBQK6pA0OApRfM1f0dp",
+      "title": "Panama",
+      "artist": "Sports",
+      "primaryArtist": "Sports",
+      "album": "#1 Playlist",
+      "duration": 199,
+      "popularity": 30,
+      "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2731192eb9f894b18f0de2682f1",
+      "coverArtThumb": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e021192eb9f894b18f0de2682f1",
+      "spotifyUrl": "https://open.spotify.com/track/6keyBQK6pA0OApRfM1f0dp",
+      "audio": {
+        "source": "youtube",
+        "youtubeId": "I3Ec8y1HiYk",
+        "title": "Sports - Panama",
+        "duration": 199
+      }
+    },
+    {
+      "id": "0nD7DjR7KsnFzQiijXGPWd",
+      "title": "Strange to Hear",
+      "artist": "Sports",
+      "primaryArtist": "Sports",
+      "album": "#1 Playlist",
+      "duration": 253,
+      "popularity": 30,
+      "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b2731192eb9f894b18f0de2682f1",
+      "coverArtThumb": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e021192eb9f894b18f0de2682f1",
+      "spotifyUrl": "https://open.spotify.com/track/0nD7DjR7KsnFzQiijXGPWd",
+      "audio": {
+        "source": "youtube",
+        "youtubeId": "bM9OHyAmDi8",
+        "title": "Sports - Strange to Hear (Official Audio)",
+        "duration": 253
+      }
+    },
+    {
+      "id": "2isf9DCebk6mUhGagcD5bf",
+      "title": "Birch Tree",
+      "artist": "Strawberry Guy",
+      "primaryArtist": "Strawberry Guy",
+      "album": "#1 Playlist",
+      "duration": 281,
+      "popularity": 30,
+      "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2736ad1cdd4785d829027fa61ba",
+      "coverArtThumb": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e026ad1cdd4785d829027fa61ba",
+      "spotifyUrl": "https://open.spotify.com/track/2isf9DCebk6mUhGagcD5bf",
+      "audio": {
+        "source": "youtube",
+        "youtubeId": "JAl3APTekdg",
+        "title": "Birch Tree",
+        "duration": 281
+      }
+    },
+    {
+      "id": "4iVj0UxqLlgrFWNdOnCwFS",
+      "title": "Mrs Magic (Strings Version)",
+      "artist": "Strawberry Guy",
+      "primaryArtist": "Strawberry Guy",
+      "album": "#1 Playlist",
+      "duration": 222,
+      "popularity": 30,
+      "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273534aa32cffc253c433d99e7c",
+      "coverArtThumb": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02534aa32cffc253c433d99e7c",
+      "spotifyUrl": "https://open.spotify.com/track/4iVj0UxqLlgrFWNdOnCwFS",
+      "audio": {
+        "source": "youtube",
+        "youtubeId": "r22AG0WKV1M",
+        "title": "Strawberry Guy -  Mrs Magic (Strings Version)",
+        "duration": 222
+      }
+    },
+    {
+      "id": "1ucnuV88gFTfR3BalmznDk",
+      "title": "Lover Is a Day",
+      "artist": "Cuco",
+      "primaryArtist": "Cuco",
+      "album": "#1 Playlist",
+      "duration": 456,
+      "popularity": 30,
+      "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273b1c091e32aad5310ebbdd558",
+      "coverArtThumb": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02b1c091e32aad5310ebbdd558",
+      "spotifyUrl": "https://open.spotify.com/track/1ucnuV88gFTfR3BalmznDk",
+      "audio": {
+        "source": "youtube",
+        "youtubeId": "9wiEM0s4aCQ",
+        "title": "CUCO - Lover Is a Day (Audio)",
+        "duration": 456
+      }
+    },
+    {
+      "id": "0BFvipq5YFFiBKDHPoM8MF",
+      "title": "Dinner Date",
+      "artist": "Sunrise Academy",
+      "primaryArtist": "Sunrise Academy",
+      "album": "#1 Playlist",
+      "duration": 139,
+      "popularity": 30,
+      "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b2738c68047281dae7be3d07dda7",
+      "coverArtThumb": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e028c68047281dae7be3d07dda7",
+      "spotifyUrl": "https://open.spotify.com/track/0BFvipq5YFFiBKDHPoM8MF",
+      "audio": {
+        "source": "youtube",
+        "youtubeId": "BsiqSe4LAIE",
+        "title": "Dinner Date",
+        "duration": 140
+      }
+    },
+    {
+      "id": "1gyIYA98zceKTnjISviYRz",
+      "title": "Radio",
+      "artist": "Freak Slug",
+      "primaryArtist": "Freak Slug",
+      "album": "#1 Playlist",
+      "duration": 192,
+      "popularity": 30,
+      "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273d51041ef5c6a58f12afb900a",
+      "coverArtThumb": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e02d51041ef5c6a58f12afb900a",
+      "spotifyUrl": "https://open.spotify.com/track/1gyIYA98zceKTnjISviYRz",
+      "audio": {
+        "source": "youtube",
+        "youtubeId": "L0BjHPapWLM",
+        "title": "Radio",
+        "duration": 192
+      }
+    },
+    {
+      "id": "1Snko28yJOihcRVXs9dAo9",
+      "title": "Chamber Of Reflection",
+      "artist": "Mac DeMarco",
+      "primaryArtist": "Mac DeMarco",
+      "album": "#1 Playlist",
+      "duration": 232,
+      "popularity": 30,
+      "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b2738b221f2ccf777ae0d4b0db50",
+      "coverArtThumb": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e028b221f2ccf777ae0d4b0db50",
+      "spotifyUrl": "https://open.spotify.com/track/1Snko28yJOihcRVXs9dAo9",
+      "audio": {
+        "source": "youtube",
+        "youtubeId": "MJoSyNdffGo",
+        "title": "Chamber Of Reflection",
+        "duration": 232
+      }
+    },
+    {
+      "id": "42NbsmivX4RD8nvBLcNGu5",
+      "title": "Still Beating",
+      "artist": "Mac DeMarco",
+      "primaryArtist": "Mac DeMarco",
+      "album": "#1 Playlist",
+      "duration": 182,
+      "popularity": 30,
+      "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b2733f7561fb0914fb1f5f101f0a",
+      "coverArtThumb": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e023f7561fb0914fb1f5f101f0a",
+      "spotifyUrl": "https://open.spotify.com/track/42NbsmivX4RD8nvBLcNGu5",
+      "audio": {
+        "source": "youtube",
+        "youtubeId": "ve9Kf7uO85s",
+        "title": "Still Beating",
+        "duration": 182
+      }
+    },
+    {
+      "id": "7iNPzYwhBg2YVqKi19lGMp",
+      "title": "On the Level",
+      "artist": "Mac DeMarco",
+      "primaryArtist": "Mac DeMarco",
+      "album": "#1 Playlist",
+      "duration": 228,
+      "popularity": 30,
+      "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2733f7561fb0914fb1f5f101f0a",
+      "coverArtThumb": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e023f7561fb0914fb1f5f101f0a",
+      "spotifyUrl": "https://open.spotify.com/track/7iNPzYwhBg2YVqKi19lGMp",
+      "audio": {
+        "source": "youtube",
+        "youtubeId": "KtuA6Qylpyo",
+        "title": "Mac DeMarco // On the Level (Official Audio)",
+        "duration": 228
+      }
+    },
+    {
+      "id": "6g4DgASUwDFOzfqIRsv2GD",
+      "title": "Blue Boy",
+      "artist": "Mac DeMarco",
+      "primaryArtist": "Mac DeMarco",
+      "album": "#1 Playlist",
+      "duration": 126,
+      "popularity": 30,
+      "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2738b221f2ccf777ae0d4b0db50",
+      "coverArtThumb": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e028b221f2ccf777ae0d4b0db50",
+      "spotifyUrl": "https://open.spotify.com/track/6g4DgASUwDFOzfqIRsv2GD",
+      "audio": {
+        "source": "youtube",
+        "youtubeId": "AR_R1kt4V54",
+        "title": "Mac DeMarco - Blue Boy",
+        "duration": 127
+      }
+    },
+    {
+      "id": "6N4WUdbz6HVKy6u6JX1KqK",
+      "title": "Preoccupied",
+      "artist": "Mac DeMarco",
+      "primaryArtist": "Mac DeMarco",
+      "album": "#1 Playlist",
+      "duration": 240,
+      "popularity": 30,
+      "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273fa1323bb50728c7489980672",
+      "coverArtThumb": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e02fa1323bb50728c7489980672",
+      "spotifyUrl": "https://open.spotify.com/track/6N4WUdbz6HVKy6u6JX1KqK",
+      "audio": {
+        "source": "youtube",
+        "youtubeId": "X_FzO4gkVZY",
+        "title": "Preoccupied",
+        "duration": 240
+      }
+    },
+    {
+      "id": "7DcJ6fEBb7BaKuYKTwiDxK",
+      "title": "Homage",
+      "artist": "Mild High Club",
+      "primaryArtist": "Mild High Club",
+      "album": "#1 Playlist",
+      "duration": 177,
+      "popularity": 30,
+      "coverArt": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b27396bc7d5bd0b6488de76598ab",
+      "coverArtThumb": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e0296bc7d5bd0b6488de76598ab",
+      "spotifyUrl": "https://open.spotify.com/track/7DcJ6fEBb7BaKuYKTwiDxK",
+      "audio": {
+        "source": "youtube",
+        "youtubeId": "oRGDhgITetc",
+        "title": "Mild High Club - Homage",
+        "duration": 178
+      }
+    },
+    {
+      "id": "5hS8s1Vf4CeSRBT1bTWa39",
+      "title": "Roddy",
+      "artist": "Djo",
+      "primaryArtist": "Djo",
+      "album": "#1 Playlist",
+      "duration": 253,
+      "popularity": 30,
+      "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2735b97ef03e581f7ab1cea9c48",
+      "coverArtThumb": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e025b97ef03e581f7ab1cea9c48",
+      "spotifyUrl": "https://open.spotify.com/track/5hS8s1Vf4CeSRBT1bTWa39",
+      "audio": {
+        "source": "youtube",
+        "youtubeId": "dCfCzzCyMU4",
+        "title": "Djo – Roddy (Official Audio)",
+        "duration": 253
+      }
+    },
+    {
+      "id": "3vjs2MDHoF9xhylNg6Y9un",
+      "title": "Chateau (Feel Alright)",
+      "artist": "Djo",
+      "primaryArtist": "Djo",
+      "album": "#1 Playlist",
+      "duration": 272,
+      "popularity": 30,
+      "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2735b97ef03e581f7ab1cea9c48",
+      "coverArtThumb": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e025b97ef03e581f7ab1cea9c48",
+      "spotifyUrl": "https://open.spotify.com/track/3vjs2MDHoF9xhylNg6Y9un",
+      "audio": {
+        "source": "youtube",
+        "youtubeId": "zM0goJtxxJY",
+        "title": "Djo – Chateau (Feel Alright) [Official Audio]",
+        "duration": 273
+      }
+    },
+    {
+      "id": "1zFbBrZmJr1Z49HYe84dBg",
+      "title": "Harvey",
+      "artist": "Her's",
+      "primaryArtist": "Her's",
+      "album": "#1 Playlist",
+      "duration": 211,
+      "popularity": 30,
+      "coverArt": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273280a001e43c93792dd1e27c7",
+      "coverArtThumb": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02280a001e43c93792dd1e27c7",
+      "spotifyUrl": "https://open.spotify.com/track/1zFbBrZmJr1Z49HYe84dBg",
+      "audio": {
+        "source": "youtube",
+        "youtubeId": "gaA7RAy5rYg",
+        "title": "Her's - Harvey (Official Audio)",
+        "duration": 212
       }
     }
   ]
