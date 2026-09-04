@@ -1,12 +1,12 @@
 :root {
-  /* Studio Color Palette - Deep, Warm & Natural Dark Mode */
-  --bg-main: #0c0d11;
-  --bg-surface: #14161d;
-  --bg-card: #181b24;
-  --bg-card-hover: #1f2330;
-  --border-subtle: rgba(255, 255, 255, 0.07);
-  --border-medium: rgba(255, 255, 255, 0.12);
-  --border-strong: rgba(255, 255, 255, 0.18);
+  /* Ultra-Dark Studio Color Palette with Deep Space Obsidian */
+  --bg-main: #07080a;
+  --bg-surface: #0e0f14;
+  --bg-card: #12141a;
+  --bg-card-hover: #171a22;
+  --border-subtle: rgba(255, 255, 255, 0.055);
+  --border-medium: rgba(255, 255, 255, 0.1);
+  --border-strong: rgba(255, 255, 255, 0.16);
 
   /* Accents - Grounded Emerald & Studio Warmth */
   --spotify-green: #1db954;
@@ -74,8 +74,21 @@ button {
   background: var(--border-medium);
 }
 
+/* Interactive Galaxy Canvas Background */
+.interactiveGalaxyCanvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  pointer-events: none;
+  z-index: 0;
+}
+
 /* Master Layout */
 .masterLayout {
+  position: relative;
+  z-index: 1;
   max-width: 1080px;
   width: 100%;
   margin: 0 auto;

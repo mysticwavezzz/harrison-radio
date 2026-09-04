@@ -6,6 +6,7 @@ import { RadioStage } from './components/RadioStage';
 import { BroadcastFeed } from './components/BroadcastFeed';
 import { MiniPlayer } from './components/MiniPlayer';
 import { AdminModal } from './components/AdminModal';
+import { GalaxyCanvas } from './components/GalaxyCanvas';
 import { getSynchronizedStationState } from './staticBroadcastEngine';
 
 export default function App() {
@@ -227,7 +228,11 @@ export default function App() {
   };
 
   return (
-    <div className="masterLayout">
+    <>
+      {/* Interactive Ambient Galaxy Background Canvas */}
+      <GalaxyCanvas isPlaying={isPlaying} volume={volume} />
+
+      <div className="masterLayout">
       {/* Background YouTube Audio Streaming Controller */}
       <AudioPlayer
         currentTrack={stationState?.currentTrack}
@@ -295,5 +300,6 @@ export default function App() {
         </>
       )}
     </div>
+    </>
   );
 }
