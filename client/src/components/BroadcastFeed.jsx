@@ -1,7 +1,7 @@
 import React from 'react';
-import { ArrowUpRight, Calendar } from 'lucide-react';
+import { Calendar } from 'lucide-react';
 
-export function BroadcastFeed({ history = [], playlist, schedule }) {
+export function BroadcastFeed({ history = [], schedule }) {
   const formatTime = (secs) => {
     if (!secs || isNaN(secs)) return '0:00';
     const m = Math.floor(secs / 60);
@@ -25,7 +25,7 @@ export function BroadcastFeed({ history = [], playlist, schedule }) {
           <div className="scheduleCardBody">
             <h3 className="scheduleTitle">Harrison Auto DJ</h3>
             <p className="scheduleDesc">
-              Continuous automated broadcast playing from {playlist?.totalTracks || 94}-track curated library
+              Continuous automated live broadcast streaming from curated station catalog
             </p>
           </div>
         </div>
@@ -89,23 +89,6 @@ export function BroadcastFeed({ history = [], playlist, schedule }) {
           </div>
         </div>
       </div>
-
-      <footer className="stationFooter">
-        <div className="footerLeft">
-          <span>Source: Spotify #1 Playlist ({playlist?.totalTracks || 94} tracks in rotation)</span>
-        </div>
-        <div className="footerRight">
-          <a
-            href="https://open.spotify.com/playlist/6GYZ7RuNutGzFMKAZYSzhb"
-            target="_blank"
-            rel="noreferrer"
-            style={{ display: 'inline-flex', alignItems: 'center', gap: '4px' }}
-          >
-            <span>Spotify Playlist</span>
-            <ArrowUpRight size={12} />
-          </a>
-        </div>
-      </footer>
     </>
   );
 }
