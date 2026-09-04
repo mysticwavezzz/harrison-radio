@@ -184,16 +184,17 @@ export function GalaxyCanvas({ isPlaying = false, volume = 0.85, djConfig = null
       const accB = Math.round(currentTheme.accentB);
 
       // -----------------------------------------------------------------------
-      // A. MASSIVE AMBIENT GALACTIC HALO (Smooth gradient across the viewport)
+      // A. MASSIVE AMBIENT GALACTIC HALO (Deep atmospheric space background)
       // -----------------------------------------------------------------------
-      const ambientHaloRadius = maxDim * 0.65;
+      const ambientHaloRadius = maxDim * 0.7;
       const ambientHalo = ctx.createRadialGradient(
-        centerX, centerY, minDim * 0.05,
+        centerX, centerY, minDim * 0.04,
         centerX, centerY, ambientHaloRadius
       );
-      ambientHalo.addColorStop(0, `rgba(${priR}, ${priG}, ${priB}, ${0.26 + beatPulse * 0.12})`);
-      ambientHalo.addColorStop(0.35, `rgba(${accR}, ${accG}, ${accB}, ${0.12 + beatPulse * 0.06})`);
-      ambientHalo.addColorStop(0.7, 'rgba(8, 12, 24, 0.05)');
+      // Soft deep cosmic haze blending seamlessly to #060709
+      ambientHalo.addColorStop(0, `rgba(${priR}, ${priG}, ${priB}, ${0.16 + beatPulse * 0.08})`);
+      ambientHalo.addColorStop(0.3, `rgba(${accR}, ${accG}, ${accB}, ${0.08 + beatPulse * 0.04})`);
+      ambientHalo.addColorStop(0.6, 'rgba(12, 16, 28, 0.04)');
       ambientHalo.addColorStop(1, 'rgba(6, 7, 9, 0)');
 
       ctx.fillStyle = ambientHalo;
@@ -202,9 +203,9 @@ export function GalaxyCanvas({ isPlaying = false, volume = 0.85, djConfig = null
       ctx.fill();
 
       // -----------------------------------------------------------------------
-      // B. VOLUMETRIC SPIRAL ARM GAS CLOUDS (Continuous, blended gaseous arms)
+      // B. VOLUMETRIC SPIRAL ARM GAS CLOUDS (Deeply blended gaseous arms)
       // -----------------------------------------------------------------------
-      const gasExpansion = 1.0 + beatPulse * 0.12;
+      const gasExpansion = 1.0 + beatPulse * 0.1;
       for (let i = 0; i < gasPuffs.length; i++) {
         const puff = gasPuffs[i];
         puff.angle += puff.orbitSpeed * (isPlaying ? 1.0 + beatPulse * 0.5 : 1.0);
@@ -216,13 +217,15 @@ export function GalaxyCanvas({ isPlaying = false, volume = 0.85, djConfig = null
         const py = centerY + Math.sin(currentAngle) * currentDist * TILT_Y;
         const pr = puff.baseRadius * gasExpansion;
 
-        // Alternate arm gas between primary and accent DJ tones
-        const isAccentArm = (i % 2 === 0);
-        const [cloudR, cloudG, cloudB] = isAccentArm ? [accR, accG, accB] : [priR, priG, priB];
+        // Balanced harmonic color blend: interpolate between deep sapphire base and song accent
+        const blendRatio = (i % 3) / 2; // 0, 0.5, 1
+        const cloudR = Math.round(priR * (1 - blendRatio) + accR * blendRatio);
+        const cloudG = Math.round(priG * (1 - blendRatio) + accG * blendRatio);
+        const cloudB = Math.round(priB * (1 - blendRatio) + accB * blendRatio);
 
         const puffGrad = ctx.createRadialGradient(px, py, 0, px, py, pr);
-        puffGrad.addColorStop(0, `rgba(${cloudR}, ${cloudG}, ${cloudB}, ${0.18 + beatPulse * 0.08})`);
-        puffGrad.addColorStop(0.55, `rgba(${cloudR}, ${cloudG}, ${cloudB}, 0.06)`);
+        puffGrad.addColorStop(0, `rgba(${cloudR}, ${cloudG}, ${cloudB}, ${0.12 + beatPulse * 0.06})`);
+        puffGrad.addColorStop(0.5, `rgba(${cloudR}, ${cloudG}, ${cloudB}, ${0.035 + beatPulse * 0.015})`);
         puffGrad.addColorStop(1, 'rgba(0,0,0,0)');
 
         ctx.fillStyle = puffGrad;
@@ -232,10 +235,10 @@ export function GalaxyCanvas({ isPlaying = false, volume = 0.85, djConfig = null
       }
 
       // -----------------------------------------------------------------------
-      // C. LUMINOUS GALACTIC CORE BULGE (Soft, incandescent organic nucleus)
+      // C. LUMINOUS GALACTIC CORE BULGE (Golden/pearl incandescent nucleus)
       // -----------------------------------------------------------------------
-      const corePulse = 1.0 + beatPulse * 0.35;
-      const coreRadius = minDim * 0.25 * corePulse;
+      const corePulse = 1.0 + beatPulse * 0.3;
+      const coreRadius = minDim * 0.22 * corePulse;
       const coreR = Math.round(currentTheme.coreR);
       const coreG = Math.round(currentTheme.coreG);
       const coreB = Math.round(currentTheme.coreB);
@@ -244,10 +247,10 @@ export function GalaxyCanvas({ isPlaying = false, volume = 0.85, djConfig = null
         centerX, centerY, 0,
         centerX, centerY, coreRadius
       );
-      coreGrad.addColorStop(0, `rgba(${coreR}, ${coreG}, ${coreB}, ${0.44 + beatPulse * 0.24})`);
-      coreGrad.addColorStop(0.14, `rgba(${accR}, ${accG}, ${accB}, ${0.26 + beatPulse * 0.15})`);
-      coreGrad.addColorStop(0.38, `rgba(${priR}, ${priG}, ${priB}, ${0.12 + beatPulse * 0.08})`);
-      coreGrad.addColorStop(0.68, 'rgba(30, 45, 90, 0.04)');
+      coreGrad.addColorStop(0, `rgba(${coreR}, ${coreG}, ${coreB}, ${0.42 + beatPulse * 0.2})`);
+      coreGrad.addColorStop(0.18, `rgba(${accR}, ${accG}, ${accB}, ${0.2 + beatPulse * 0.1})`);
+      coreGrad.addColorStop(0.45, `rgba(${priR}, ${priG}, ${priB}, ${0.08 + beatPulse * 0.05})`);
+      coreGrad.addColorStop(0.75, 'rgba(16, 22, 45, 0.025)');
       coreGrad.addColorStop(1, 'rgba(6, 7, 9, 0)');
 
       ctx.fillStyle = coreGrad;
@@ -256,7 +259,7 @@ export function GalaxyCanvas({ isPlaying = false, volume = 0.85, djConfig = null
       ctx.fill();
 
       // -----------------------------------------------------------------------
-      // D. STARS WITH SOFT GLOW RADII (Blended, not sharp dots)
+      // D. STARS WITH SOFT GLOW RADII (Blended, feathered starlight)
       // -----------------------------------------------------------------------
       const starR = Math.round(currentTheme.starR);
       const starG = Math.round(currentTheme.starG);

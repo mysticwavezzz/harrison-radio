@@ -183,59 +183,13 @@ button {
   }
 }
 
-/* Subtle Ambient Depth Layer behind Player */
+/* Ambient Backlight Depth Layer behind Player (Soft Organic Tween) */
 .deckAmbientGlow {
   position: absolute;
   inset: 0;
   pointer-events: none;
-  opacity: 0.8;
-  transition: background-image 0.6s cubic-bezier(0.16, 1, 0.3, 1);
-}
-
-/* Top DJ Studio Light Bar (Subtle Synced Segmented Bar) */
-.djStageLightBar {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  height: 3px;
-  display: flex;
-  gap: 2px;
-  padding: 0 40px;
-  opacity: 0.85;
-  pointer-events: none;
-}
-
-.djStageLightSegment {
-  flex: 1;
-  height: 100%;
-  background: var(--border-subtle);
-  border-radius: 0 0 2px 2px;
-  transition: all 0.3s ease;
-}
-
-.djStageLightSegment.light-active {
-  background: var(--song-primary, var(--spotify-green));
-  box-shadow: 0 0 10px var(--song-primary, var(--spotify-green));
-}
-
-.djStageLightSegment.seg-1.light-active { animation: djLightPulse 1.8s infinite ease-in-out; }
-.djStageLightSegment.seg-2.light-active { animation: djLightPulse 1.8s infinite ease-in-out 0.25s; }
-.djStageLightSegment.seg-3.light-active { animation: djLightPulse 1.8s infinite ease-in-out 0.5s; }
-.djStageLightSegment.seg-4.light-active { animation: djLightPulse 1.8s infinite ease-in-out 0.75s; }
-.djStageLightSegment.seg-5.light-active { animation: djLightPulse 1.8s infinite ease-in-out 1.0s; }
-
-@keyframes djLightPulse {
-  0%, 100% {
-    opacity: 0.45;
-    background: var(--song-primary, var(--spotify-green));
-    box-shadow: 0 0 6px var(--song-primary, var(--spotify-green));
-  }
-  50% {
-    opacity: 1;
-    background: var(--song-accent, #38bdf8);
-    box-shadow: 0 0 14px var(--song-accent, #38bdf8);
-  }
+  opacity: 0.75;
+  transition: background-image 1.2s cubic-bezier(0.16, 1, 0.3, 1), opacity 1.2s ease;
 }
 
 /* Physical Jacket Presentation */
@@ -256,7 +210,7 @@ button {
   box-shadow: 0 16px 32px rgba(0, 0, 0, 0.55), 0 2px 6px rgba(0, 0, 0, 0.4);
   border: 1px solid var(--border-medium);
   position: relative;
-  transition: transform 0.35s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.35s ease;
+  transition: transform 0.4s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.4s ease;
 }
 
 .vinylJacket:hover {
@@ -272,24 +226,31 @@ button {
 }
 
 /* =========================================================
-   Two-Stage Song Transition: Slide Out (Left) & Slide In (Right)
+   Cinematic Smooth Song Transition (Gentle Cross-fade & Scale Tween)
    ========================================================= */
 .trackTransition-active {
   opacity: 1;
-  transform: translateX(0);
-  transition: opacity 0.34s cubic-bezier(0.16, 1, 0.3, 1), transform 0.34s cubic-bezier(0.16, 1, 0.3, 1);
+  transform: translateY(0) scale(1);
+  filter: blur(0px);
+  transition: opacity 0.55s cubic-bezier(0.16, 1, 0.3, 1),
+              transform 0.55s cubic-bezier(0.16, 1, 0.3, 1),
+              filter 0.55s cubic-bezier(0.16, 1, 0.3, 1);
 }
 
 .trackTransition-slide-out {
   opacity: 0;
-  transform: translateX(-32px);
-  transition: opacity 0.32s cubic-bezier(0.4, 0, 0.2, 1), transform 0.32s cubic-bezier(0.4, 0, 0.2, 1);
+  transform: translateY(-12px) scale(0.97);
+  filter: blur(4px);
+  transition: opacity 0.45s cubic-bezier(0.4, 0, 0.2, 1),
+              transform 0.45s cubic-bezier(0.4, 0, 0.2, 1),
+              filter 0.45s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .trackTransition-slide-in {
   opacity: 0;
-  transform: translateX(32px);
-  transition: none; /* Instant pre-position before sliding to active */
+  transform: translateY(14px) scale(0.97);
+  filter: blur(4px);
+  transition: none; /* Instant pre-position before smooth settlement */
 }
 
 /* Now Playing Console (Right Side) */
@@ -298,54 +259,6 @@ button {
   flex-direction: column;
   position: relative;
   z-index: 1;
-}
-
-.streamTagRow {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  gap: 10px;
-  margin-bottom: 12px;
-}
-
-.streamTag {
-  font-family: var(--font-mono);
-  font-size: 0.7rem;
-  font-weight: 700;
-  letter-spacing: 1.5px;
-  text-transform: uppercase;
-  color: var(--song-primary, var(--spotify-green));
-}
-
-.djVibeBadge {
-  display: inline-flex;
-  align-items: center;
-  gap: 7px;
-  padding: 3px 10px;
-  background: rgba(255, 255, 255, 0.04);
-  border: 1px solid var(--border-subtle);
-  border-radius: 20px;
-  font-family: var(--font-mono);
-  font-size: 0.68rem;
-  font-weight: 600;
-  color: var(--text-secondary);
-  transition: all 0.3s ease;
-}
-
-.djVibeDot {
-  width: 6px;
-  height: 6px;
-  border-radius: 50%;
-  background: var(--song-primary, var(--spotify-green));
-  box-shadow: 0 0 8px var(--song-primary, var(--spotify-green));
-}
-
-.djBpmText {
-  color: var(--song-accent, #38bdf8);
-  font-weight: 700;
-  padding-left: 4px;
-  border-left: 1px solid var(--border-subtle);
 }
 
 .songName {

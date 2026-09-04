@@ -45,7 +45,7 @@ export function RadioStage({
             setSlidePhase('active');
           });
         });
-      }, 340); // 340ms slide-out animation
+      }, 460); // 460ms cross-fade and scale tween
 
       return () => clearTimeout(timerOut);
     } else {
@@ -73,22 +73,13 @@ export function RadioStage({
         '--song-accent': djConfig.accentColor,
       }}
     >
-      {/* Dynamic Ambient Backlight glow based on song's curated DJ lighting config */}
+      {/* Dynamic Ambient Backlight glow based on song's curated DJ lighting config with smooth cross-fade */}
       <div
         className="deckAmbientGlow"
         style={{
-          backgroundImage: `radial-gradient(circle at 30% 50%, ${djConfig.primaryColor}18 0%, ${djConfig.accentColor}0a 45%, transparent 70%)`
+          backgroundImage: `radial-gradient(circle at 30% 50%, ${djConfig.primaryColor}14 0%, ${djConfig.accentColor}06 50%, transparent 75%)`
         }}
       />
-
-      {/* Top DJ Studio Light Bar (Gentle synced luminous glow) */}
-      <div className="djStageLightBar">
-        <div className={`djStageLightSegment seg-1 ${isPlaying ? 'light-active' : ''}`} />
-        <div className={`djStageLightSegment seg-2 ${isPlaying ? 'light-active' : ''}`} />
-        <div className={`djStageLightSegment seg-3 ${isPlaying ? 'light-active' : ''}`} />
-        <div className={`djStageLightSegment seg-4 ${isPlaying ? 'light-active' : ''}`} />
-        <div className={`djStageLightSegment seg-5 ${isPlaying ? 'light-active' : ''}`} />
-      </div>
 
       {/* Left: Physical Vinyl Jacket with Slide Animation */}
       <div className="jacketContainer">
@@ -104,19 +95,6 @@ export function RadioStage({
 
       {/* Right: Broadcast Console & Metadata with Matching Slide */}
       <div className={`consoleInfo trackTransition-${slidePhase}`}>
-        <div className="streamTagRow">
-          <div className="streamTag">
-            LIVE TRANSMISSION // HARRISON ROTATION
-          </div>
-          {djConfig?.vibe && (
-            <div className="djVibeBadge">
-              <span className="djVibeDot" />
-              <span>{djConfig.vibe}</span>
-              {djConfig?.bpm && <span className="djBpmText">{djConfig.bpm} BPM</span>}
-            </div>
-          )}
-        </div>
-
         <h1 className="songName">
           {displayTrack?.title || 'Connecting to Broadcast...'}
         </h1>
