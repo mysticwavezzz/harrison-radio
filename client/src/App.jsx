@@ -229,8 +229,12 @@ export default function App() {
 
   return (
     <>
-      {/* Interactive Ambient Galaxy Background Canvas */}
-      <GalaxyCanvas isPlaying={isPlaying} volume={volume} />
+      {/* Interactive Ambient Galaxy Background Canvas with Song-Specific DJ Lighting Sync */}
+      <GalaxyCanvas
+        isPlaying={isPlaying}
+        volume={volume}
+        djConfig={stationState?.currentTrack?.djConfig}
+      />
 
       <div className="masterLayout">
       {/* Background YouTube Audio Streaming Controller */}

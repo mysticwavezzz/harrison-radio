@@ -72,7 +72,15 @@ export function BroadcastFeed({ history = [], schedule }) {
                     className="feedTrackImage"
                   />
                   <div className="feedTrackMeta">
-                    <span className="feedTrackTitle">{track.title}</span>
+                    <div className="feedTrackTitleRow">
+                      <span className="feedTrackTitle">{track.title}</span>
+                      {track.djConfig?.vibe && (
+                        <span className="feedVibeBadge" style={{ borderColor: `${track.djConfig.primaryColor}40` }}>
+                          <span className="feedVibeDot" style={{ background: track.djConfig.primaryColor }} />
+                          {track.djConfig.vibe.split(' / ')[0]}
+                        </span>
+                      )}
+                    </div>
                     <span className="feedTrackArtist">{track.artist}</span>
                   </div>
                   <span className="feedTrackDuration">

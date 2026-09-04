@@ -55,16 +55,40 @@ export function RadioStage({
   }, [currentTrack?.id]);
 
   const coverImage = displayTrack?.coverArt || currentTrack?.coverArt || '/default-album-art.svg';
+  const djConfig = displayTrack?.djConfig || currentTrack?.djConfig || {
+    primaryColor: '#1DB954',
+    secondaryColor: '#38bdf8',
+    accentColor: '#fbbf24',
+    vibe: 'Indie Rock / Emerald Drive',
+    bpm: 124,
+    pulseRate: 1.25,
+  };
 
   return (
-    <section className="studioDeck">
-      {/* Dynamic Ambient Backlight glow based on cover art */}
+    <section
+      className="studioDeck"
+      style={{
+        '--song-primary': djConfig.primaryColor,
+        '--song-secondary': djConfig.secondaryColor,
+        '--song-accent': djConfig.accentColor,
+      }}
+    >
+      {/* Dynamic Ambient Backlight glow based on song's curated DJ lighting config */}
       <div
         className="deckAmbientGlow"
         style={{
-          backgroundImage: `radial-gradient(circle at 30% 50%, rgba(29, 185, 84, 0.08) 0%, transparent 65%)`
+          backgroundImage: `radial-gradient(circle at 30% 50%, ${djConfig.primaryColor}18 0%, ${djConfig.accentColor}0a 45%, transparent 70%)`
         }}
       />
+
+      {/* Top DJ Studio Light Bar (Gentle synced luminous glow) */}
+      <div className="djStageLightBar">
+        <div className={`djStageLightSegment seg-1 ${isPlaying ? 'light-active' : ''}`} />
+        <div className={`djStageLightSegment seg-2 ${isPlaying ? 'light-active' : ''}`} />
+        <div className={`djStageLightSegment seg-3 ${isPlaying ? 'light-active' : ''}`} />
+        <div className={`djStageLightSegment seg-4 ${isPlaying ? 'light-active' : ''}`} />
+        <div className={`djStageLightSegment seg-5 ${isPlaying ? 'light-active' : ''}`} />
+      </div>
 
       {/* Left: Physical Vinyl Jacket with Slide Animation */}
       <div className="jacketContainer">
@@ -80,8 +104,17 @@ export function RadioStage({
 
       {/* Right: Broadcast Console & Metadata with Matching Slide */}
       <div className={`consoleInfo trackTransition-${slidePhase}`}>
-        <div className="streamTag">
-          LIVE TRANSMISSION // HARRISON ROTATION
+        <div className="streamTagRow">
+          <div className="streamTag">
+            LIVE TRANSMISSION // HARRISON ROTATION
+          </div>
+          {djConfig?.vibe && (
+            <div className="djVibeBadge">
+              <span className="djVibeDot" />
+              <span>{djConfig.vibe}</span>
+              {djConfig?.bpm && <span className="djBpmText">{djConfig.bpm} BPM</span>}
+            </div>
+          )}
         </div>
 
         <h1 className="songName">
@@ -118,7 +151,10 @@ export function RadioStage({
           <div className="timelineTrack">
             <div
               className="timelineFill"
-              style={{ width: `${progressPercent}%` }}
+              style={{
+                width: `${progressPercent}%`,
+                background: `linear-gradient(90deg, ${djConfig.primaryColor}, ${djConfig.accentColor})`
+              }}
             />
           </div>
           <div className="timelineTime">
@@ -127,12 +163,16 @@ export function RadioStage({
           </div>
         </div>
 
-        {/* Playback Controls */}
+        {/* Playback Controls & DJ Meter Strip */}
         <div className="deckControls">
           <div className="playbackGroup">
             <button
               onClick={onTogglePlay}
               className="masterPlayButton"
+              style={{
+                background: isPlaying ? djConfig.primaryColor : '#ffffff',
+                color: isPlaying ? '#ffffff' : '#000000'
+              }}
               aria-label={isPlaying ? 'Pause' : 'Play'}
             >
               {isPlaying ? (
@@ -145,6 +185,15 @@ export function RadioStage({
             {isBuffering && (
               <span className="bufferingLabel">Buffering...</span>
             )}
+
+            {/* DJ VU Meter Indicator Strip */}
+            <div className={`djVuMeter ${isPlaying ? 'meter-pulsing' : ''}`} aria-hidden="true">
+              <span className="vuBar bar-1" />
+              <span className="vuBar bar-2" />
+              <span className="vuBar bar-3" />
+              <span className="vuBar bar-4" />
+              <span className="vuBar bar-5" />
+            </div>
           </div>
 
           <div className="volumeControl">

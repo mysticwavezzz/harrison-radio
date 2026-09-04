@@ -1,7 +1,13 @@
 import React, { useEffect, useRef } from 'react';
 
-export function GalaxyCanvas({ isPlaying = false, volume = 0.85 }) {
+export function GalaxyCanvas({ isPlaying = false, volume = 0.85, djConfig = null }) {
   const canvasRef = useRef(null);
+
+  // Keep live reference of current djConfig for smooth interpolated transitions
+  const configRef = useRef(djConfig);
+  useEffect(() => {
+    configRef.current = djConfig;
+  }, [djConfig]);
 
   useEffect(() => {
     const canvas = canvasRef.current;
@@ -23,52 +29,27 @@ export function GalaxyCanvas({ isPlaying = false, volume = 0.85 }) {
     // =========================================================================
     // 1. VOLUMETRIC SPIRAL NEBULA GAS CLOUDS (Soft gaseous atmospheric blending)
     // =========================================================================
-    // Instead of bare dots, a real galaxy has continuous gas lanes and interstellar medium
     const GAS_PUFF_COUNT = 90;
-    const ARMS = 2; // Classic 2-arm grand design spiral for clean, majestic arms
+    const ARMS = 2;
     const gasPuffs = [];
 
     for (let i = 0; i < GAS_PUFF_COUNT; i++) {
       const armIndex = i % ARMS;
       const armOffset = armIndex * Math.PI;
-      // Progress along arm from core outwards
-      const progress = Math.pow(Math.random(), 0.85); // 0 (near core) to 1 (outer tip)
+      const progress = Math.pow(Math.random(), 0.85);
       const maxDist = Math.min(width, height) * 0.72;
       const dist = progress * maxDist + 20;
       
-      // Logarithmic spiral angle + gentle lateral dispersion
       const spiralAngle = dist * 0.0048 + armOffset;
       const dispersion = (Math.random() - 0.5) * 0.42;
       const angle = spiralAngle + dispersion;
-
-      // Cloud radius grows larger as it moves further along the arm
       const baseRadius = 55 + progress * 120 + Math.random() * 40;
-
-      // Deep space atmospheric hues: deep cosmic navy, subtle indigo, soft cyan, muted dust violet
-      let colorStopInner;
-      let colorStopMid;
-      const tint = Math.random();
-      if (tint < 0.38) {
-        // Celestial indigo / navy
-        colorStopInner = 'rgba(28, 38, 75, 0.22)';
-        colorStopMid = 'rgba(18, 22, 45, 0.09)';
-      } else if (tint < 0.72) {
-        // Ethereal soft cyan / teal mist
-        colorStopInner = 'rgba(20, 48, 68, 0.18)';
-        colorStopMid = 'rgba(12, 28, 40, 0.07)';
-      } else {
-        // Muted interstellar violet / mauve
-        colorStopInner = 'rgba(38, 28, 62, 0.16)';
-        colorStopMid = 'rgba(22, 16, 40, 0.06)';
-      }
 
       gasPuffs.push({
         dist,
         baseDist: dist,
         angle,
         baseRadius,
-        colorStopInner,
-        colorStopMid,
         orbitSpeed: (0.00035 / (Math.sqrt(dist + 40) * 0.08)),
       });
     }
@@ -80,13 +61,12 @@ export function GalaxyCanvas({ isPlaying = false, volume = 0.85 }) {
     const stars = [];
 
     for (let i = 0; i < STAR_COUNT; i++) {
-      const isCore = Math.random() < 0.35; // 35% in smooth glowing nucleus
+      const isCore = Math.random() < 0.35;
 
       let dist;
       let angle;
 
       if (isCore) {
-        // Dense core with soft gaussian-like distribution
         dist = Math.pow(Math.random(), 2.0) * (Math.min(width, height) * 0.2);
         angle = Math.random() * Math.PI * 2;
       } else {
@@ -102,16 +82,6 @@ export function GalaxyCanvas({ isPlaying = false, volume = 0.85 }) {
 
       const baseOrbitSpeed = (0.00065 / (Math.sqrt(dist + 30) * 0.08)) * 0.6;
 
-      // Soft luminous colors (warm pearl at core, diamond / ice-blue along arms)
-      let r = 220, g = 235, b = 255;
-      if (isCore) {
-        r = 255; g = 244; b = 225;
-      } else if (Math.random() < 0.25) {
-        r = 205; g = 220; b = 255; // Ice blue
-      } else if (Math.random() < 0.5) {
-        r = 230; g = 215; b = 255; // Soft lilac
-      }
-
       stars.push({
         dist,
         baseDist: dist,
@@ -122,32 +92,79 @@ export function GalaxyCanvas({ isPlaying = false, volume = 0.85 }) {
         twinkleSpeed: Math.random() * 0.025 + 0.008,
         twinkleAngle: Math.random() * Math.PI * 2,
         isCore,
-        r, g, b,
       });
     }
 
-    // Galactic tilt & elliptical perspective
     const TILT_X = 1.0;
     const TILT_Y = 0.55;
 
     let globalRotation = 0;
     let pulseTime = 0;
 
+    // Smooth lighting color interpolation state
+    const currentTheme = {
+      primaryR: 29,  primaryG: 185, primaryB: 84,   // Default Spotify emerald
+      accentR: 56,   accentG: 189, accentB: 248,   // Cyan
+      coreR: 255,    coreG: 246,   coreB: 220,     // Warm pearl core
+      starR: 220,    starG: 235,   starB: 255,     // Soft starlight
+      pulseRate: 1.0,
+      lightIntensity: 0.8,
+      rotationBoost: 1.0
+    };
+
+    // Helper to parse hex to [r, g, b]
+    const hexToRgb = (hex) => {
+      if (!hex || hex[0] !== '#') return [29, 185, 84];
+      const bigint = parseInt(hex.slice(1), 16);
+      return [(bigint >> 16) & 255, (bigint >> 8) & 255, bigint & 255];
+    };
+
     const render = () => {
-      // Dynamic Music Simulation:
-      // When playing, calculate rhythmic music pulse
-      pulseTime += isPlaying ? 0.038 : 0.01;
+      // Smoothly interpolate current theme values toward the active song's djConfig
+      const targetCfg = configRef.current;
+      if (targetCfg) {
+        const [targetPriR, targetPriG, targetPriB] = hexToRgb(targetCfg.primaryColor);
+        const [targetAccR, targetAccG, targetAccB] = hexToRgb(targetCfg.accentColor);
+        const [targetCoreR, targetCoreG, targetCoreB] = targetCfg.coreRgb || [255, 246, 220];
+        const [targetStarR, targetStarG, targetStarB] = targetCfg.starRgb || [220, 235, 255];
+
+        const lerpFactor = 0.025; // Gentle cinematic color ease
+        currentTheme.primaryR += (targetPriR - currentTheme.primaryR) * lerpFactor;
+        currentTheme.primaryG += (targetPriG - currentTheme.primaryG) * lerpFactor;
+        currentTheme.primaryB += (targetPriB - currentTheme.primaryB) * lerpFactor;
+
+        currentTheme.accentR += (targetAccR - currentTheme.accentR) * lerpFactor;
+        currentTheme.accentG += (targetAccG - currentTheme.accentG) * lerpFactor;
+        currentTheme.accentB += (targetAccB - currentTheme.accentB) * lerpFactor;
+
+        currentTheme.coreR += (targetCoreR - currentTheme.coreR) * lerpFactor;
+        currentTheme.coreG += (targetCoreG - currentTheme.coreG) * lerpFactor;
+        currentTheme.coreB += (targetCoreB - currentTheme.coreB) * lerpFactor;
+
+        currentTheme.starR += (targetStarR - currentTheme.starR) * lerpFactor;
+        currentTheme.starG += (targetStarG - currentTheme.starG) * lerpFactor;
+        currentTheme.starB += (targetStarB - currentTheme.starB) * lerpFactor;
+
+        currentTheme.pulseRate += ((targetCfg.pulseRate || 1.0) - currentTheme.pulseRate) * lerpFactor;
+        currentTheme.lightIntensity += ((targetCfg.lightIntensity || 0.8) - currentTheme.lightIntensity) * lerpFactor;
+        currentTheme.rotationBoost += ((targetCfg.rotationBoost || 1.0) - currentTheme.rotationBoost) * lerpFactor;
+      }
+
+      // Dynamic Music Simulation synced to song tempo & volume
+      pulseTime += isPlaying ? 0.038 * currentTheme.pulseRate : 0.01;
 
       const beat = Math.max(0, Math.sin(pulseTime * 2.0));
       const subBass = Math.max(0, Math.sin(pulseTime * 1.0));
       const musicIntensity = isPlaying ? volume : 0.0;
-      const beatPulse = (beat * 0.3 + subBass * 0.2) * musicIntensity;
+      const beatPulse = (beat * 0.32 + subBass * 0.22) * musicIntensity * currentTheme.lightIntensity;
 
-      // Rotational movement
-      const rotSpeed = isPlaying ? 0.00045 + beatPulse * 0.0003 : 0.0002;
+      // Rotational velocity accelerates naturally based on song energy
+      const rotSpeed = isPlaying
+        ? (0.00045 + beatPulse * 0.0003) * currentTheme.rotationBoost
+        : 0.0002;
       globalRotation += rotSpeed;
 
-      // Background fill: seamlessly matches --bg-main (#060709)
+      // Deep space base fill
       ctx.fillStyle = '#060709';
       ctx.fillRect(0, 0, width, height);
 
@@ -156,9 +173,15 @@ export function GalaxyCanvas({ isPlaying = false, volume = 0.85 }) {
       const minDim = Math.min(width, height);
       const maxDim = Math.max(width, height);
 
-      // Use 'screen' / additive composition for luminous cosmic gas blending
       ctx.save();
       ctx.globalCompositeOperation = 'screen';
+
+      const priR = Math.round(currentTheme.primaryR);
+      const priG = Math.round(currentTheme.primaryG);
+      const priB = Math.round(currentTheme.primaryB);
+      const accR = Math.round(currentTheme.accentR);
+      const accG = Math.round(currentTheme.accentG);
+      const accB = Math.round(currentTheme.accentB);
 
       // -----------------------------------------------------------------------
       // A. MASSIVE AMBIENT GALACTIC HALO (Smooth gradient across the viewport)
@@ -168,8 +191,8 @@ export function GalaxyCanvas({ isPlaying = false, volume = 0.85 }) {
         centerX, centerY, minDim * 0.05,
         centerX, centerY, ambientHaloRadius
       );
-      ambientHalo.addColorStop(0, `rgba(28, 38, 72, ${0.28 + beatPulse * 0.1})`);
-      ambientHalo.addColorStop(0.35, `rgba(16, 24, 48, ${0.14 + beatPulse * 0.05})`);
+      ambientHalo.addColorStop(0, `rgba(${priR}, ${priG}, ${priB}, ${0.26 + beatPulse * 0.12})`);
+      ambientHalo.addColorStop(0.35, `rgba(${accR}, ${accG}, ${accB}, ${0.12 + beatPulse * 0.06})`);
       ambientHalo.addColorStop(0.7, 'rgba(8, 12, 24, 0.05)');
       ambientHalo.addColorStop(1, 'rgba(6, 7, 9, 0)');
 
@@ -193,9 +216,13 @@ export function GalaxyCanvas({ isPlaying = false, volume = 0.85 }) {
         const py = centerY + Math.sin(currentAngle) * currentDist * TILT_Y;
         const pr = puff.baseRadius * gasExpansion;
 
+        // Alternate arm gas between primary and accent DJ tones
+        const isAccentArm = (i % 2 === 0);
+        const [cloudR, cloudG, cloudB] = isAccentArm ? [accR, accG, accB] : [priR, priG, priB];
+
         const puffGrad = ctx.createRadialGradient(px, py, 0, px, py, pr);
-        puffGrad.addColorStop(0, puff.colorStopInner);
-        puffGrad.addColorStop(0.5, puff.colorStopMid);
+        puffGrad.addColorStop(0, `rgba(${cloudR}, ${cloudG}, ${cloudB}, ${0.18 + beatPulse * 0.08})`);
+        puffGrad.addColorStop(0.55, `rgba(${cloudR}, ${cloudG}, ${cloudB}, 0.06)`);
         puffGrad.addColorStop(1, 'rgba(0,0,0,0)');
 
         ctx.fillStyle = puffGrad;
@@ -209,14 +236,18 @@ export function GalaxyCanvas({ isPlaying = false, volume = 0.85 }) {
       // -----------------------------------------------------------------------
       const corePulse = 1.0 + beatPulse * 0.35;
       const coreRadius = minDim * 0.25 * corePulse;
+      const coreR = Math.round(currentTheme.coreR);
+      const coreG = Math.round(currentTheme.coreG);
+      const coreB = Math.round(currentTheme.coreB);
+
       const coreGrad = ctx.createRadialGradient(
         centerX, centerY, 0,
         centerX, centerY, coreRadius
       );
-      coreGrad.addColorStop(0, `rgba(255, 246, 220, ${0.45 + beatPulse * 0.25})`);
-      coreGrad.addColorStop(0.12, `rgba(220, 230, 255, ${0.28 + beatPulse * 0.15})`);
-      coreGrad.addColorStop(0.35, `rgba(140, 175, 255, ${0.12 + beatPulse * 0.08})`);
-      coreGrad.addColorStop(0.65, `rgba(50, 75, 150, ${0.05 + beatPulse * 0.03})`);
+      coreGrad.addColorStop(0, `rgba(${coreR}, ${coreG}, ${coreB}, ${0.44 + beatPulse * 0.24})`);
+      coreGrad.addColorStop(0.14, `rgba(${accR}, ${accG}, ${accB}, ${0.26 + beatPulse * 0.15})`);
+      coreGrad.addColorStop(0.38, `rgba(${priR}, ${priG}, ${priB}, ${0.12 + beatPulse * 0.08})`);
+      coreGrad.addColorStop(0.68, 'rgba(30, 45, 90, 0.04)');
       coreGrad.addColorStop(1, 'rgba(6, 7, 9, 0)');
 
       ctx.fillStyle = coreGrad;
@@ -227,6 +258,10 @@ export function GalaxyCanvas({ isPlaying = false, volume = 0.85 }) {
       // -----------------------------------------------------------------------
       // D. STARS WITH SOFT GLOW RADII (Blended, not sharp dots)
       // -----------------------------------------------------------------------
+      const starR = Math.round(currentTheme.starR);
+      const starG = Math.round(currentTheme.starG);
+      const starB = Math.round(currentTheme.starB);
+
       for (let i = 0; i < stars.length; i++) {
         const star = stars[i];
 
@@ -252,11 +287,10 @@ export function GalaxyCanvas({ isPlaying = false, volume = 0.85 }) {
 
         const radius = star.baseRadius * (1.0 + beatPulse * 0.2);
 
-        // Soft radial feather for each star so it never looks like raw square/hard pixels
         const starGrad = ctx.createRadialGradient(x, y, 0, x, y, radius * 2.6);
-        starGrad.addColorStop(0, `rgba(${star.r}, ${star.g}, ${star.b}, ${alpha})`);
-        starGrad.addColorStop(0.4, `rgba(${star.r}, ${star.g}, ${star.b}, ${alpha * 0.5})`);
-        starGrad.addColorStop(1, `rgba(${star.r}, ${star.g}, ${star.b}, 0)`);
+        starGrad.addColorStop(0, `rgba(${starR}, ${starG}, ${starB}, ${alpha})`);
+        starGrad.addColorStop(0.4, `rgba(${starR}, ${starG}, ${starB}, ${alpha * 0.5})`);
+        starGrad.addColorStop(1, `rgba(${starR}, ${starG}, ${starB}, 0)`);
 
         ctx.fillStyle = starGrad;
         ctx.beginPath();

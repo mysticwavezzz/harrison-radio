@@ -37,6 +37,31 @@
         "youtubeId": "gTMWO7ovAXk",
         "title": "Will Paquin - Chandelier (Official Audio)",
         "duration": 129
+      },
+      "djConfig": {
+        "bpm": 106,
+        "profile": "bedroom_indie",
+        "vibe": "Bedroom Pop / Warm Wave",
+        "primaryColor": "#38bdf8",
+        "secondaryColor": "#a78bfa",
+        "accentColor": "#34d399",
+        "pulseRate": 1.05,
+        "lightIntensity": 0.76,
+        "nebulaInner": "rgba(22, 58, 80, 0.26)",
+        "nebulaMid": "rgba(12, 34, 48, 0.10)",
+        "haloColor": "rgba(56, 189, 248, 0.22)",
+        "coreRgb": [
+          225,
+          245,
+          255
+        ],
+        "starRgb": [
+          205,
+          235,
+          255
+        ],
+        "rotationBoost": 1.05,
+        "lightMode": "aurora_wave"
       }
     },
     {
@@ -55,6 +80,31 @@
         "youtubeId": "U5aU5dIyBlA",
         "title": "Joy Again - Looking Out for You (Lyric Video)",
         "duration": 180
+      },
+      "djConfig": {
+        "bpm": 106,
+        "profile": "bedroom_indie",
+        "vibe": "Bedroom Pop / Warm Wave",
+        "primaryColor": "#38bdf8",
+        "secondaryColor": "#a78bfa",
+        "accentColor": "#34d399",
+        "pulseRate": 1.05,
+        "lightIntensity": 0.76,
+        "nebulaInner": "rgba(22, 58, 80, 0.26)",
+        "nebulaMid": "rgba(12, 34, 48, 0.10)",
+        "haloColor": "rgba(56, 189, 248, 0.22)",
+        "coreRgb": [
+          225,
+          245,
+          255
+        ],
+        "starRgb": [
+          205,
+          235,
+          255
+        ],
+        "rotationBoost": 1.05,
+        "lightMode": "aurora_wave"
       }
     },
     {
@@ -73,6 +123,31 @@
         "youtubeId": "aWTWHth8Zlw",
         "title": "I Think I Like When It Rains - WILLIS (Lyrics)",
         "duration": 278
+      },
+      "djConfig": {
+        "bpm": 106,
+        "profile": "bedroom_indie",
+        "vibe": "Bedroom Pop / Warm Wave",
+        "primaryColor": "#38bdf8",
+        "secondaryColor": "#a78bfa",
+        "accentColor": "#34d399",
+        "pulseRate": 1.05,
+        "lightIntensity": 0.76,
+        "nebulaInner": "rgba(22, 58, 80, 0.26)",
+        "nebulaMid": "rgba(12, 34, 48, 0.10)",
+        "haloColor": "rgba(56, 189, 248, 0.22)",
+        "coreRgb": [
+          225,
+          245,
+          255
+        ],
+        "starRgb": [
+          205,
+          235,
+          255
+        ],
+        "rotationBoost": 1.05,
+        "lightMode": "aurora_wave"
       }
     },
     {
@@ -91,6 +166,31 @@
         "youtubeId": "GCW5pDY2PtA",
         "title": "INOHA - Seventh Heaven (Official Tour Lyric Video)",
         "duration": 233
+      },
+      "djConfig": {
+        "bpm": 106,
+        "profile": "bedroom_indie",
+        "vibe": "Bedroom Pop / Warm Wave",
+        "primaryColor": "#38bdf8",
+        "secondaryColor": "#a78bfa",
+        "accentColor": "#34d399",
+        "pulseRate": 1.05,
+        "lightIntensity": 0.76,
+        "nebulaInner": "rgba(22, 58, 80, 0.26)",
+        "nebulaMid": "rgba(12, 34, 48, 0.10)",
+        "haloColor": "rgba(56, 189, 248, 0.22)",
+        "coreRgb": [
+          225,
+          245,
+          255
+        ],
+        "starRgb": [
+          205,
+          235,
+          255
+        ],
+        "rotationBoost": 1.05,
+        "lightMode": "aurora_wave"
       }
     },
     {
@@ -109,6 +209,31 @@
         "youtubeId": "oTwVce9eWb4",
         "title": "Kilby Girl",
         "duration": 283
+      },
+      "djConfig": {
+        "bpm": 124,
+        "profile": "upbeat_indie_rock",
+        "vibe": "Indie Rock / Emerald Drive",
+        "primaryColor": "#1DB954",
+        "secondaryColor": "#38bdf8",
+        "accentColor": "#fbbf24",
+        "pulseRate": 1.25,
+        "lightIntensity": 0.84,
+        "nebulaInner": "rgba(24, 75, 48, 0.28)",
+        "nebulaMid": "rgba(14, 42, 32, 0.12)",
+        "haloColor": "rgba(29, 185, 84, 0.24)",
+        "coreRgb": [
+          255,
+          248,
+          225
+        ],
+        "starRgb": [
+          220,
+          245,
+          235
+        ],
+        "rotationBoost": 1.35,
+        "lightMode": "emerald_drive"
       }
     },
     {
@@ -127,6 +252,31 @@
         "youtubeId": "FDzYuXpyUTI",
         "title": "Fever",
         "duration": 145
+      },
+      "djConfig": {
+        "bpm": 94,
+        "profile": "hiphop_boom_bap",
+        "vibe": "Hip-Hop / Heavy Kick",
+        "primaryColor": "#ec4899",
+        "secondaryColor": "#8b5cf6",
+        "accentColor": "#06b6d4",
+        "pulseRate": 1.15,
+        "lightIntensity": 0.88,
+        "nebulaInner": "rgba(68, 20, 52, 0.28)",
+        "nebulaMid": "rgba(38, 12, 30, 0.12)",
+        "haloColor": "rgba(236, 72, 153, 0.24)",
+        "coreRgb": [
+          255,
+          225,
+          245
+        ],
+        "starRgb": [
+          240,
+          205,
+          255
+        ],
+        "rotationBoost": 1.25,
+        "lightMode": "bass_kick"
       }
     },
     {
@@ -145,6 +295,31 @@
         "youtubeId": "hwR6teRhmlc",
         "title": "Creed - One Last Breath (Official Audio)",
         "duration": 240
+      },
+      "djConfig": {
+        "bpm": 138,
+        "profile": "energetic_alt",
+        "vibe": "Alt-Rock / High Energy",
+        "primaryColor": "#f97316",
+        "secondaryColor": "#ef4444",
+        "accentColor": "#fbbf24",
+        "pulseRate": 1.4,
+        "lightIntensity": 0.92,
+        "nebulaInner": "rgba(78, 32, 22, 0.28)",
+        "nebulaMid": "rgba(46, 18, 14, 0.12)",
+        "haloColor": "rgba(249, 115, 22, 0.24)",
+        "coreRgb": [
+          255,
+          235,
+          210
+        ],
+        "starRgb": [
+          255,
+          220,
+          195
+        ],
+        "rotationBoost": 1.5,
+        "lightMode": "strobe_chase"
       }
     },
     {
@@ -163,6 +338,31 @@
         "youtubeId": "pvIJyRkS9y0",
         "title": "Mr. Brightside HQ (The Killers)",
         "duration": 224
+      },
+      "djConfig": {
+        "bpm": 138,
+        "profile": "energetic_alt",
+        "vibe": "Alt-Rock / High Energy",
+        "primaryColor": "#f97316",
+        "secondaryColor": "#ef4444",
+        "accentColor": "#fbbf24",
+        "pulseRate": 1.4,
+        "lightIntensity": 0.92,
+        "nebulaInner": "rgba(78, 32, 22, 0.28)",
+        "nebulaMid": "rgba(46, 18, 14, 0.12)",
+        "haloColor": "rgba(249, 115, 22, 0.24)",
+        "coreRgb": [
+          255,
+          235,
+          210
+        ],
+        "starRgb": [
+          255,
+          220,
+          195
+        ],
+        "rotationBoost": 1.5,
+        "lightMode": "strobe_chase"
       }
     },
     {
@@ -181,6 +381,31 @@
         "youtubeId": "7dfBmjrN5W0",
         "title": "Take Me Out",
         "duration": 240
+      },
+      "djConfig": {
+        "bpm": 138,
+        "profile": "energetic_alt",
+        "vibe": "Alt-Rock / High Energy",
+        "primaryColor": "#f97316",
+        "secondaryColor": "#ef4444",
+        "accentColor": "#fbbf24",
+        "pulseRate": 1.4,
+        "lightIntensity": 0.92,
+        "nebulaInner": "rgba(78, 32, 22, 0.28)",
+        "nebulaMid": "rgba(46, 18, 14, 0.12)",
+        "haloColor": "rgba(249, 115, 22, 0.24)",
+        "coreRgb": [
+          255,
+          235,
+          210
+        ],
+        "starRgb": [
+          255,
+          220,
+          195
+        ],
+        "rotationBoost": 1.5,
+        "lightMode": "strobe_chase"
       }
     },
     {
@@ -199,6 +424,31 @@
         "youtubeId": "i_aYOx3ePe0",
         "title": "Malcolm Todd - Sweet Boy (Lyrics)",
         "duration": 181
+      },
+      "djConfig": {
+        "bpm": 92,
+        "profile": "late_night_rnb",
+        "vibe": "Late Night R&B / Velvet Groove",
+        "primaryColor": "#c084fc",
+        "secondaryColor": "#f43f5e",
+        "accentColor": "#38bdf8",
+        "pulseRate": 0.95,
+        "lightIntensity": 0.74,
+        "nebulaInner": "rgba(64, 24, 76, 0.26)",
+        "nebulaMid": "rgba(40, 12, 45, 0.11)",
+        "haloColor": "rgba(192, 132, 252, 0.24)",
+        "coreRgb": [
+          250,
+          228,
+          255
+        ],
+        "starRgb": [
+          235,
+          210,
+          255
+        ],
+        "rotationBoost": 0.95,
+        "lightMode": "velvet_pulse"
       }
     },
     {
@@ -217,6 +467,31 @@
         "youtubeId": "Egx0AXIIChA",
         "title": "Malcolm Todd - Roommates",
         "duration": 215
+      },
+      "djConfig": {
+        "bpm": 92,
+        "profile": "late_night_rnb",
+        "vibe": "Late Night R&B / Velvet Groove",
+        "primaryColor": "#c084fc",
+        "secondaryColor": "#f43f5e",
+        "accentColor": "#38bdf8",
+        "pulseRate": 0.95,
+        "lightIntensity": 0.74,
+        "nebulaInner": "rgba(64, 24, 76, 0.26)",
+        "nebulaMid": "rgba(40, 12, 45, 0.11)",
+        "haloColor": "rgba(192, 132, 252, 0.24)",
+        "coreRgb": [
+          250,
+          228,
+          255
+        ],
+        "starRgb": [
+          235,
+          210,
+          255
+        ],
+        "rotationBoost": 0.95,
+        "lightMode": "velvet_pulse"
       }
     },
     {
@@ -235,6 +510,31 @@
         "youtubeId": "463ychC4qIM",
         "title": "For the First Time",
         "duration": 183
+      },
+      "djConfig": {
+        "bpm": 106,
+        "profile": "bedroom_indie",
+        "vibe": "Bedroom Pop / Warm Wave",
+        "primaryColor": "#38bdf8",
+        "secondaryColor": "#a78bfa",
+        "accentColor": "#34d399",
+        "pulseRate": 1.05,
+        "lightIntensity": 0.76,
+        "nebulaInner": "rgba(22, 58, 80, 0.26)",
+        "nebulaMid": "rgba(12, 34, 48, 0.10)",
+        "haloColor": "rgba(56, 189, 248, 0.22)",
+        "coreRgb": [
+          225,
+          245,
+          255
+        ],
+        "starRgb": [
+          205,
+          235,
+          255
+        ],
+        "rotationBoost": 1.05,
+        "lightMode": "aurora_wave"
       }
     },
     {
@@ -253,6 +553,31 @@
         "youtubeId": "cRqTvWWX70Y",
         "title": "Cupid's Chokehold / Breakfast in America",
         "duration": 244
+      },
+      "djConfig": {
+        "bpm": 124,
+        "profile": "upbeat_indie_rock",
+        "vibe": "Indie Rock / Emerald Drive",
+        "primaryColor": "#1DB954",
+        "secondaryColor": "#38bdf8",
+        "accentColor": "#fbbf24",
+        "pulseRate": 1.25,
+        "lightIntensity": 0.84,
+        "nebulaInner": "rgba(24, 75, 48, 0.28)",
+        "nebulaMid": "rgba(14, 42, 32, 0.12)",
+        "haloColor": "rgba(29, 185, 84, 0.24)",
+        "coreRgb": [
+          255,
+          248,
+          225
+        ],
+        "starRgb": [
+          220,
+          245,
+          235
+        ],
+        "rotationBoost": 1.35,
+        "lightMode": "emerald_drive"
       }
     },
     {
@@ -271,6 +596,31 @@
         "youtubeId": "IKSKY1M1sVE",
         "title": "John Lennon - Beautiful Boy (Darling Boy) [2010 Remastered] | Beautiful Boy OST",
         "duration": 244
+      },
+      "djConfig": {
+        "bpm": 114,
+        "profile": "golden_classic",
+        "vibe": "Vintage Psych / Golden Starlight",
+        "primaryColor": "#fbbf24",
+        "secondaryColor": "#f59e0b",
+        "accentColor": "#10b981",
+        "pulseRate": 1.12,
+        "lightIntensity": 0.8,
+        "nebulaInner": "rgba(74, 55, 22, 0.26)",
+        "nebulaMid": "rgba(42, 32, 12, 0.10)",
+        "haloColor": "rgba(251, 191, 36, 0.22)",
+        "coreRgb": [
+          255,
+          245,
+          215
+        ],
+        "starRgb": [
+          255,
+          235,
+          200
+        ],
+        "rotationBoost": 1.12,
+        "lightMode": "warm_lantern"
       }
     },
     {
@@ -289,6 +639,31 @@
         "youtubeId": "Jt0w1XUzM2Q",
         "title": "Cigarette Daydreams - Cage the Elephant",
         "duration": 210
+      },
+      "djConfig": {
+        "bpm": 138,
+        "profile": "energetic_alt",
+        "vibe": "Alt-Rock / High Energy",
+        "primaryColor": "#f97316",
+        "secondaryColor": "#ef4444",
+        "accentColor": "#fbbf24",
+        "pulseRate": 1.4,
+        "lightIntensity": 0.92,
+        "nebulaInner": "rgba(78, 32, 22, 0.28)",
+        "nebulaMid": "rgba(46, 18, 14, 0.12)",
+        "haloColor": "rgba(249, 115, 22, 0.24)",
+        "coreRgb": [
+          255,
+          235,
+          210
+        ],
+        "starRgb": [
+          255,
+          220,
+          195
+        ],
+        "rotationBoost": 1.5,
+        "lightMode": "strobe_chase"
       }
     },
     {
@@ -307,6 +682,31 @@
         "youtubeId": "kNCMxxYVYYY",
         "title": "Walking On A Dream by Empire Of The Sun (HQ Music)",
         "duration": 203
+      },
+      "djConfig": {
+        "bpm": 124,
+        "profile": "upbeat_indie_rock",
+        "vibe": "Indie Rock / Emerald Drive",
+        "primaryColor": "#1DB954",
+        "secondaryColor": "#38bdf8",
+        "accentColor": "#fbbf24",
+        "pulseRate": 1.25,
+        "lightIntensity": 0.84,
+        "nebulaInner": "rgba(24, 75, 48, 0.28)",
+        "nebulaMid": "rgba(14, 42, 32, 0.12)",
+        "haloColor": "rgba(29, 185, 84, 0.24)",
+        "coreRgb": [
+          255,
+          248,
+          225
+        ],
+        "starRgb": [
+          220,
+          245,
+          235
+        ],
+        "rotationBoost": 1.35,
+        "lightMode": "emerald_drive"
       }
     },
     {
@@ -325,6 +725,31 @@
         "youtubeId": "h2BIuhiL4o0",
         "title": "Evergreen (Original Audio) Richy Mitch & The Coal Miners",
         "duration": 83
+      },
+      "djConfig": {
+        "bpm": 106,
+        "profile": "bedroom_indie",
+        "vibe": "Bedroom Pop / Warm Wave",
+        "primaryColor": "#38bdf8",
+        "secondaryColor": "#a78bfa",
+        "accentColor": "#34d399",
+        "pulseRate": 1.05,
+        "lightIntensity": 0.76,
+        "nebulaInner": "rgba(22, 58, 80, 0.26)",
+        "nebulaMid": "rgba(12, 34, 48, 0.10)",
+        "haloColor": "rgba(56, 189, 248, 0.22)",
+        "coreRgb": [
+          225,
+          245,
+          255
+        ],
+        "starRgb": [
+          205,
+          235,
+          255
+        ],
+        "rotationBoost": 1.05,
+        "lightMode": "aurora_wave"
       }
     },
     {
@@ -343,6 +768,31 @@
         "youtubeId": "Y6TFSTHUxi0",
         "title": "Riptide- Vance Joy",
         "duration": 205
+      },
+      "djConfig": {
+        "bpm": 106,
+        "profile": "bedroom_indie",
+        "vibe": "Bedroom Pop / Warm Wave",
+        "primaryColor": "#38bdf8",
+        "secondaryColor": "#a78bfa",
+        "accentColor": "#34d399",
+        "pulseRate": 1.05,
+        "lightIntensity": 0.76,
+        "nebulaInner": "rgba(22, 58, 80, 0.26)",
+        "nebulaMid": "rgba(12, 34, 48, 0.10)",
+        "haloColor": "rgba(56, 189, 248, 0.22)",
+        "coreRgb": [
+          225,
+          245,
+          255
+        ],
+        "starRgb": [
+          205,
+          235,
+          255
+        ],
+        "rotationBoost": 1.05,
+        "lightMode": "aurora_wave"
       }
     },
     {
@@ -361,6 +811,31 @@
         "youtubeId": "9Z1k8thLiNE",
         "title": "Ax and the Hatchetmen - Hotel Room (Lyric Video)",
         "duration": 150
+      },
+      "djConfig": {
+        "bpm": 106,
+        "profile": "bedroom_indie",
+        "vibe": "Bedroom Pop / Warm Wave",
+        "primaryColor": "#38bdf8",
+        "secondaryColor": "#a78bfa",
+        "accentColor": "#34d399",
+        "pulseRate": 1.05,
+        "lightIntensity": 0.76,
+        "nebulaInner": "rgba(22, 58, 80, 0.26)",
+        "nebulaMid": "rgba(12, 34, 48, 0.10)",
+        "haloColor": "rgba(56, 189, 248, 0.22)",
+        "coreRgb": [
+          225,
+          245,
+          255
+        ],
+        "starRgb": [
+          205,
+          235,
+          255
+        ],
+        "rotationBoost": 1.05,
+        "lightMode": "aurora_wave"
       }
     },
     {
@@ -379,6 +854,31 @@
         "youtubeId": "wuJIqmha2Hk",
         "title": "Mr. Blue Sky",
         "duration": 303
+      },
+      "djConfig": {
+        "bpm": 114,
+        "profile": "golden_classic",
+        "vibe": "Vintage Psych / Golden Starlight",
+        "primaryColor": "#fbbf24",
+        "secondaryColor": "#f59e0b",
+        "accentColor": "#10b981",
+        "pulseRate": 1.12,
+        "lightIntensity": 0.8,
+        "nebulaInner": "rgba(74, 55, 22, 0.26)",
+        "nebulaMid": "rgba(42, 32, 12, 0.10)",
+        "haloColor": "rgba(251, 191, 36, 0.22)",
+        "coreRgb": [
+          255,
+          245,
+          215
+        ],
+        "starRgb": [
+          255,
+          235,
+          200
+        ],
+        "rotationBoost": 1.12,
+        "lightMode": "warm_lantern"
       }
     },
     {
@@ -397,6 +897,31 @@
         "youtubeId": "mtx7Hmh6bjk",
         "title": "Saturday Nights - Inoha Lyric Video",
         "duration": 175
+      },
+      "djConfig": {
+        "bpm": 106,
+        "profile": "bedroom_indie",
+        "vibe": "Bedroom Pop / Warm Wave",
+        "primaryColor": "#38bdf8",
+        "secondaryColor": "#a78bfa",
+        "accentColor": "#34d399",
+        "pulseRate": 1.05,
+        "lightIntensity": 0.76,
+        "nebulaInner": "rgba(22, 58, 80, 0.26)",
+        "nebulaMid": "rgba(12, 34, 48, 0.10)",
+        "haloColor": "rgba(56, 189, 248, 0.22)",
+        "coreRgb": [
+          225,
+          245,
+          255
+        ],
+        "starRgb": [
+          205,
+          235,
+          255
+        ],
+        "rotationBoost": 1.05,
+        "lightMode": "aurora_wave"
       }
     },
     {
@@ -415,6 +940,31 @@
         "youtubeId": "Fot9VQGVxAk",
         "title": "Grouplove - Tongue Tied (HQ)",
         "duration": 219
+      },
+      "djConfig": {
+        "bpm": 124,
+        "profile": "upbeat_indie_rock",
+        "vibe": "Indie Rock / Emerald Drive",
+        "primaryColor": "#1DB954",
+        "secondaryColor": "#38bdf8",
+        "accentColor": "#fbbf24",
+        "pulseRate": 1.25,
+        "lightIntensity": 0.84,
+        "nebulaInner": "rgba(24, 75, 48, 0.28)",
+        "nebulaMid": "rgba(14, 42, 32, 0.12)",
+        "haloColor": "rgba(29, 185, 84, 0.24)",
+        "coreRgb": [
+          255,
+          248,
+          225
+        ],
+        "starRgb": [
+          220,
+          245,
+          235
+        ],
+        "rotationBoost": 1.35,
+        "lightMode": "emerald_drive"
       }
     },
     {
@@ -433,6 +983,31 @@
         "youtubeId": "JyGNABrosb8",
         "title": "Nirvana - Smells Like Teen Spirit [Nevermind] [HQ Sound]",
         "duration": 302
+      },
+      "djConfig": {
+        "bpm": 138,
+        "profile": "energetic_alt",
+        "vibe": "Alt-Rock / High Energy",
+        "primaryColor": "#f97316",
+        "secondaryColor": "#ef4444",
+        "accentColor": "#fbbf24",
+        "pulseRate": 1.4,
+        "lightIntensity": 0.92,
+        "nebulaInner": "rgba(78, 32, 22, 0.28)",
+        "nebulaMid": "rgba(46, 18, 14, 0.12)",
+        "haloColor": "rgba(249, 115, 22, 0.24)",
+        "coreRgb": [
+          255,
+          235,
+          210
+        ],
+        "starRgb": [
+          255,
+          220,
+          195
+        ],
+        "rotationBoost": 1.5,
+        "lightMode": "strobe_chase"
       }
     },
     {
@@ -451,6 +1026,31 @@
         "youtubeId": "GPGdXrQID7c",
         "title": "Arctic Monkeys - Fluorescent Adolescent",
         "duration": 178
+      },
+      "djConfig": {
+        "bpm": 138,
+        "profile": "energetic_alt",
+        "vibe": "Alt-Rock / High Energy",
+        "primaryColor": "#f97316",
+        "secondaryColor": "#ef4444",
+        "accentColor": "#fbbf24",
+        "pulseRate": 1.4,
+        "lightIntensity": 0.92,
+        "nebulaInner": "rgba(78, 32, 22, 0.28)",
+        "nebulaMid": "rgba(46, 18, 14, 0.12)",
+        "haloColor": "rgba(249, 115, 22, 0.24)",
+        "coreRgb": [
+          255,
+          235,
+          210
+        ],
+        "starRgb": [
+          255,
+          220,
+          195
+        ],
+        "rotationBoost": 1.5,
+        "lightMode": "strobe_chase"
       }
     },
     {
@@ -469,6 +1069,31 @@
         "youtubeId": "4nRX7NIrrzs",
         "title": "The Drums - Money (Official Audio)",
         "duration": 236
+      },
+      "djConfig": {
+        "bpm": 124,
+        "profile": "upbeat_indie_rock",
+        "vibe": "Indie Rock / Emerald Drive",
+        "primaryColor": "#1DB954",
+        "secondaryColor": "#38bdf8",
+        "accentColor": "#fbbf24",
+        "pulseRate": 1.25,
+        "lightIntensity": 0.84,
+        "nebulaInner": "rgba(24, 75, 48, 0.28)",
+        "nebulaMid": "rgba(14, 42, 32, 0.12)",
+        "haloColor": "rgba(29, 185, 84, 0.24)",
+        "coreRgb": [
+          255,
+          248,
+          225
+        ],
+        "starRgb": [
+          220,
+          245,
+          235
+        ],
+        "rotationBoost": 1.35,
+        "lightMode": "emerald_drive"
       }
     },
     {
@@ -487,6 +1112,31 @@
         "youtubeId": "xRzbLQ_WKPs",
         "title": "Steve Lacy - Dark Red",
         "duration": 175
+      },
+      "djConfig": {
+        "bpm": 92,
+        "profile": "late_night_rnb",
+        "vibe": "Late Night R&B / Velvet Groove",
+        "primaryColor": "#c084fc",
+        "secondaryColor": "#f43f5e",
+        "accentColor": "#38bdf8",
+        "pulseRate": 0.95,
+        "lightIntensity": 0.74,
+        "nebulaInner": "rgba(64, 24, 76, 0.26)",
+        "nebulaMid": "rgba(40, 12, 45, 0.11)",
+        "haloColor": "rgba(192, 132, 252, 0.24)",
+        "coreRgb": [
+          250,
+          228,
+          255
+        ],
+        "starRgb": [
+          235,
+          210,
+          255
+        ],
+        "rotationBoost": 0.95,
+        "lightMode": "velvet_pulse"
       }
     },
     {
@@ -505,6 +1155,31 @@
         "youtubeId": "GHe8kKO8uds",
         "title": "Tame Impala - Eventually (Audio)",
         "duration": 320
+      },
+      "djConfig": {
+        "bpm": 124,
+        "profile": "upbeat_indie_rock",
+        "vibe": "Indie Rock / Emerald Drive",
+        "primaryColor": "#1DB954",
+        "secondaryColor": "#38bdf8",
+        "accentColor": "#fbbf24",
+        "pulseRate": 1.25,
+        "lightIntensity": 0.84,
+        "nebulaInner": "rgba(24, 75, 48, 0.28)",
+        "nebulaMid": "rgba(14, 42, 32, 0.12)",
+        "haloColor": "rgba(29, 185, 84, 0.24)",
+        "coreRgb": [
+          255,
+          248,
+          225
+        ],
+        "starRgb": [
+          220,
+          245,
+          235
+        ],
+        "rotationBoost": 1.35,
+        "lightMode": "emerald_drive"
       }
     },
     {
@@ -523,6 +1198,31 @@
         "youtubeId": "HVHUjzZZGQ4",
         "title": "Weezer - Island In The Sun",
         "duration": 211
+      },
+      "djConfig": {
+        "bpm": 138,
+        "profile": "energetic_alt",
+        "vibe": "Alt-Rock / High Energy",
+        "primaryColor": "#f97316",
+        "secondaryColor": "#ef4444",
+        "accentColor": "#fbbf24",
+        "pulseRate": 1.4,
+        "lightIntensity": 0.92,
+        "nebulaInner": "rgba(78, 32, 22, 0.28)",
+        "nebulaMid": "rgba(46, 18, 14, 0.12)",
+        "haloColor": "rgba(249, 115, 22, 0.24)",
+        "coreRgb": [
+          255,
+          235,
+          210
+        ],
+        "starRgb": [
+          255,
+          220,
+          195
+        ],
+        "rotationBoost": 1.5,
+        "lightMode": "strobe_chase"
       }
     },
     {
@@ -541,6 +1241,31 @@
         "youtubeId": "4ugf5G2DjiU",
         "title": "Tyler, The Creator - Where This Flower Blooms (ft. Frank Ocean)",
         "duration": 195
+      },
+      "djConfig": {
+        "bpm": 94,
+        "profile": "hiphop_boom_bap",
+        "vibe": "Hip-Hop / Heavy Kick",
+        "primaryColor": "#ec4899",
+        "secondaryColor": "#8b5cf6",
+        "accentColor": "#06b6d4",
+        "pulseRate": 1.15,
+        "lightIntensity": 0.88,
+        "nebulaInner": "rgba(68, 20, 52, 0.28)",
+        "nebulaMid": "rgba(38, 12, 30, 0.12)",
+        "haloColor": "rgba(236, 72, 153, 0.24)",
+        "coreRgb": [
+          255,
+          225,
+          245
+        ],
+        "starRgb": [
+          240,
+          205,
+          255
+        ],
+        "rotationBoost": 1.25,
+        "lightMode": "bass_kick"
       }
     },
     {
@@ -559,6 +1284,31 @@
         "youtubeId": "y1uzBncUsQQ",
         "title": "The Rare Occasions | Origami (Lyric Video)",
         "duration": 175
+      },
+      "djConfig": {
+        "bpm": 138,
+        "profile": "energetic_alt",
+        "vibe": "Alt-Rock / High Energy",
+        "primaryColor": "#f97316",
+        "secondaryColor": "#ef4444",
+        "accentColor": "#fbbf24",
+        "pulseRate": 1.4,
+        "lightIntensity": 0.92,
+        "nebulaInner": "rgba(78, 32, 22, 0.28)",
+        "nebulaMid": "rgba(46, 18, 14, 0.12)",
+        "haloColor": "rgba(249, 115, 22, 0.24)",
+        "coreRgb": [
+          255,
+          235,
+          210
+        ],
+        "starRgb": [
+          255,
+          220,
+          195
+        ],
+        "rotationBoost": 1.5,
+        "lightMode": "strobe_chase"
       }
     },
     {
@@ -577,6 +1327,31 @@
         "youtubeId": "2g5jmS8Vx9Q",
         "title": "Made In Japan",
         "duration": 165
+      },
+      "djConfig": {
+        "bpm": 114,
+        "profile": "golden_classic",
+        "vibe": "Vintage Psych / Golden Starlight",
+        "primaryColor": "#fbbf24",
+        "secondaryColor": "#f59e0b",
+        "accentColor": "#10b981",
+        "pulseRate": 1.12,
+        "lightIntensity": 0.8,
+        "nebulaInner": "rgba(74, 55, 22, 0.26)",
+        "nebulaMid": "rgba(42, 32, 12, 0.10)",
+        "haloColor": "rgba(251, 191, 36, 0.22)",
+        "coreRgb": [
+          255,
+          245,
+          215
+        ],
+        "starRgb": [
+          255,
+          235,
+          200
+        ],
+        "rotationBoost": 1.12,
+        "lightMode": "warm_lantern"
       }
     },
     {
@@ -595,6 +1370,31 @@
         "youtubeId": "WvZnX0P04Q0",
         "title": "Tame Impala - Loser",
         "duration": 224
+      },
+      "djConfig": {
+        "bpm": 124,
+        "profile": "upbeat_indie_rock",
+        "vibe": "Indie Rock / Emerald Drive",
+        "primaryColor": "#1DB954",
+        "secondaryColor": "#38bdf8",
+        "accentColor": "#fbbf24",
+        "pulseRate": 1.25,
+        "lightIntensity": 0.84,
+        "nebulaInner": "rgba(24, 75, 48, 0.28)",
+        "nebulaMid": "rgba(14, 42, 32, 0.12)",
+        "haloColor": "rgba(29, 185, 84, 0.24)",
+        "coreRgb": [
+          255,
+          248,
+          225
+        ],
+        "starRgb": [
+          220,
+          245,
+          235
+        ],
+        "rotationBoost": 1.35,
+        "lightMode": "emerald_drive"
       }
     },
     {
@@ -613,6 +1413,31 @@
         "youtubeId": "TZ-W40TEXNc",
         "title": "Tame Impala - Feels Like We Only Go Backwards (Audio)",
         "duration": 194
+      },
+      "djConfig": {
+        "bpm": 124,
+        "profile": "upbeat_indie_rock",
+        "vibe": "Indie Rock / Emerald Drive",
+        "primaryColor": "#1DB954",
+        "secondaryColor": "#38bdf8",
+        "accentColor": "#fbbf24",
+        "pulseRate": 1.25,
+        "lightIntensity": 0.84,
+        "nebulaInner": "rgba(24, 75, 48, 0.28)",
+        "nebulaMid": "rgba(14, 42, 32, 0.12)",
+        "haloColor": "rgba(29, 185, 84, 0.24)",
+        "coreRgb": [
+          255,
+          248,
+          225
+        ],
+        "starRgb": [
+          220,
+          245,
+          235
+        ],
+        "rotationBoost": 1.35,
+        "lightMode": "emerald_drive"
       }
     },
     {
@@ -631,6 +1456,31 @@
         "youtubeId": "o4qsjmLxhow",
         "title": "The Strokes - The Adults Are Talking (Official Audio)",
         "duration": 311
+      },
+      "djConfig": {
+        "bpm": 138,
+        "profile": "energetic_alt",
+        "vibe": "Alt-Rock / High Energy",
+        "primaryColor": "#f97316",
+        "secondaryColor": "#ef4444",
+        "accentColor": "#fbbf24",
+        "pulseRate": 1.4,
+        "lightIntensity": 0.92,
+        "nebulaInner": "rgba(78, 32, 22, 0.28)",
+        "nebulaMid": "rgba(46, 18, 14, 0.12)",
+        "haloColor": "rgba(249, 115, 22, 0.24)",
+        "coreRgb": [
+          255,
+          235,
+          210
+        ],
+        "starRgb": [
+          255,
+          220,
+          195
+        ],
+        "rotationBoost": 1.5,
+        "lightMode": "strobe_chase"
       }
     },
     {
@@ -649,6 +1499,31 @@
         "youtubeId": "2SUwOgmvzK4",
         "title": "Tame Impala - The Less I Know The Better (Audio)",
         "duration": 218
+      },
+      "djConfig": {
+        "bpm": 124,
+        "profile": "upbeat_indie_rock",
+        "vibe": "Indie Rock / Emerald Drive",
+        "primaryColor": "#1DB954",
+        "secondaryColor": "#38bdf8",
+        "accentColor": "#fbbf24",
+        "pulseRate": 1.25,
+        "lightIntensity": 0.84,
+        "nebulaInner": "rgba(24, 75, 48, 0.28)",
+        "nebulaMid": "rgba(14, 42, 32, 0.12)",
+        "haloColor": "rgba(29, 185, 84, 0.24)",
+        "coreRgb": [
+          255,
+          248,
+          225
+        ],
+        "starRgb": [
+          220,
+          245,
+          235
+        ],
+        "rotationBoost": 1.35,
+        "lightMode": "emerald_drive"
       }
     },
     {
@@ -667,6 +1542,31 @@
         "youtubeId": "8xtg-ntDZGk",
         "title": "Cage The Elephant - Come A Little Closer (Official Audio)",
         "duration": 230
+      },
+      "djConfig": {
+        "bpm": 138,
+        "profile": "energetic_alt",
+        "vibe": "Alt-Rock / High Energy",
+        "primaryColor": "#f97316",
+        "secondaryColor": "#ef4444",
+        "accentColor": "#fbbf24",
+        "pulseRate": 1.4,
+        "lightIntensity": 0.92,
+        "nebulaInner": "rgba(78, 32, 22, 0.28)",
+        "nebulaMid": "rgba(46, 18, 14, 0.12)",
+        "haloColor": "rgba(249, 115, 22, 0.24)",
+        "coreRgb": [
+          255,
+          235,
+          210
+        ],
+        "starRgb": [
+          255,
+          220,
+          195
+        ],
+        "rotationBoost": 1.5,
+        "lightMode": "strobe_chase"
       }
     },
     {
@@ -685,6 +1585,31 @@
         "youtubeId": "2g5xkLqIElU",
         "title": "Tame Impala - Borderline (Official Audio)",
         "duration": 238
+      },
+      "djConfig": {
+        "bpm": 124,
+        "profile": "upbeat_indie_rock",
+        "vibe": "Indie Rock / Emerald Drive",
+        "primaryColor": "#1DB954",
+        "secondaryColor": "#38bdf8",
+        "accentColor": "#fbbf24",
+        "pulseRate": 1.25,
+        "lightIntensity": 0.84,
+        "nebulaInner": "rgba(24, 75, 48, 0.28)",
+        "nebulaMid": "rgba(14, 42, 32, 0.12)",
+        "haloColor": "rgba(29, 185, 84, 0.24)",
+        "coreRgb": [
+          255,
+          248,
+          225
+        ],
+        "starRgb": [
+          220,
+          245,
+          235
+        ],
+        "rotationBoost": 1.35,
+        "lightMode": "emerald_drive"
       }
     },
     {
@@ -703,6 +1628,31 @@
         "youtubeId": "hq0rZ3IiyWw",
         "title": "Foo Fighters - Everlong",
         "duration": 251
+      },
+      "djConfig": {
+        "bpm": 138,
+        "profile": "energetic_alt",
+        "vibe": "Alt-Rock / High Energy",
+        "primaryColor": "#f97316",
+        "secondaryColor": "#ef4444",
+        "accentColor": "#fbbf24",
+        "pulseRate": 1.4,
+        "lightIntensity": 0.92,
+        "nebulaInner": "rgba(78, 32, 22, 0.28)",
+        "nebulaMid": "rgba(46, 18, 14, 0.12)",
+        "haloColor": "rgba(249, 115, 22, 0.24)",
+        "coreRgb": [
+          255,
+          235,
+          210
+        ],
+        "starRgb": [
+          255,
+          220,
+          195
+        ],
+        "rotationBoost": 1.5,
+        "lightMode": "strobe_chase"
       }
     },
     {
@@ -721,6 +1671,31 @@
         "youtubeId": "1_O_T6Aq85E",
         "title": "Arctic Monkeys - Snap Out Of It (Official Audio)",
         "duration": 197
+      },
+      "djConfig": {
+        "bpm": 138,
+        "profile": "energetic_alt",
+        "vibe": "Alt-Rock / High Energy",
+        "primaryColor": "#f97316",
+        "secondaryColor": "#ef4444",
+        "accentColor": "#fbbf24",
+        "pulseRate": 1.4,
+        "lightIntensity": 0.92,
+        "nebulaInner": "rgba(78, 32, 22, 0.28)",
+        "nebulaMid": "rgba(46, 18, 14, 0.12)",
+        "haloColor": "rgba(249, 115, 22, 0.24)",
+        "coreRgb": [
+          255,
+          235,
+          210
+        ],
+        "starRgb": [
+          255,
+          220,
+          195
+        ],
+        "rotationBoost": 1.5,
+        "lightMode": "strobe_chase"
       }
     },
     {
@@ -739,6 +1714,31 @@
         "youtubeId": "5mKX21of0sM",
         "title": "Her's - What Once Was (Official Audio)",
         "duration": 256
+      },
+      "djConfig": {
+        "bpm": 84,
+        "profile": "dream_pop_lofi",
+        "vibe": "Dream Pop / Ethereal Mist",
+        "primaryColor": "#818cf8",
+        "secondaryColor": "#f472b6",
+        "accentColor": "#38bdf8",
+        "pulseRate": 0.82,
+        "lightIntensity": 0.65,
+        "nebulaInner": "rgba(48, 35, 88, 0.26)",
+        "nebulaMid": "rgba(32, 22, 58, 0.10)",
+        "haloColor": "rgba(129, 140, 248, 0.22)",
+        "coreRgb": [
+          240,
+          235,
+          255
+        ],
+        "starRgb": [
+          215,
+          225,
+          255
+        ],
+        "rotationBoost": 0.82,
+        "lightMode": "breathing_wave"
       }
     },
     {
@@ -757,6 +1757,31 @@
         "youtubeId": "I-QmZpLWjHc",
         "title": "Fitz and the Tantrums - Out of My League (Audio)",
         "duration": 187
+      },
+      "djConfig": {
+        "bpm": 138,
+        "profile": "energetic_alt",
+        "vibe": "Alt-Rock / High Energy",
+        "primaryColor": "#f97316",
+        "secondaryColor": "#ef4444",
+        "accentColor": "#fbbf24",
+        "pulseRate": 1.4,
+        "lightIntensity": 0.92,
+        "nebulaInner": "rgba(78, 32, 22, 0.28)",
+        "nebulaMid": "rgba(46, 18, 14, 0.12)",
+        "haloColor": "rgba(249, 115, 22, 0.24)",
+        "coreRgb": [
+          255,
+          235,
+          210
+        ],
+        "starRgb": [
+          255,
+          220,
+          195
+        ],
+        "rotationBoost": 1.5,
+        "lightMode": "strobe_chase"
       }
     },
     {
@@ -775,6 +1800,31 @@
         "youtubeId": "_9bw_VtMUGA",
         "title": "Tame Impala - New Person, Same Old Mistakes (Audio)",
         "duration": 365
+      },
+      "djConfig": {
+        "bpm": 124,
+        "profile": "upbeat_indie_rock",
+        "vibe": "Indie Rock / Emerald Drive",
+        "primaryColor": "#1DB954",
+        "secondaryColor": "#38bdf8",
+        "accentColor": "#fbbf24",
+        "pulseRate": 1.25,
+        "lightIntensity": 0.84,
+        "nebulaInner": "rgba(24, 75, 48, 0.28)",
+        "nebulaMid": "rgba(14, 42, 32, 0.12)",
+        "haloColor": "rgba(29, 185, 84, 0.24)",
+        "coreRgb": [
+          255,
+          248,
+          225
+        ],
+        "starRgb": [
+          220,
+          245,
+          235
+        ],
+        "rotationBoost": 1.35,
+        "lightMode": "emerald_drive"
       }
     },
     {
@@ -793,6 +1843,31 @@
         "youtubeId": "-ed6UeDp1ek",
         "title": "Tame Impala - Let It Happen (Official Audio)",
         "duration": 475
+      },
+      "djConfig": {
+        "bpm": 124,
+        "profile": "upbeat_indie_rock",
+        "vibe": "Indie Rock / Emerald Drive",
+        "primaryColor": "#1DB954",
+        "secondaryColor": "#38bdf8",
+        "accentColor": "#fbbf24",
+        "pulseRate": 1.25,
+        "lightIntensity": 0.84,
+        "nebulaInner": "rgba(24, 75, 48, 0.28)",
+        "nebulaMid": "rgba(14, 42, 32, 0.12)",
+        "haloColor": "rgba(29, 185, 84, 0.24)",
+        "coreRgb": [
+          255,
+          248,
+          225
+        ],
+        "starRgb": [
+          220,
+          245,
+          235
+        ],
+        "rotationBoost": 1.35,
+        "lightMode": "emerald_drive"
       }
     },
     {
@@ -811,6 +1886,31 @@
         "youtubeId": "Y0U6u2D8cMU",
         "title": "Tame Impala - One More Hour (Official Audio)",
         "duration": 434
+      },
+      "djConfig": {
+        "bpm": 124,
+        "profile": "upbeat_indie_rock",
+        "vibe": "Indie Rock / Emerald Drive",
+        "primaryColor": "#1DB954",
+        "secondaryColor": "#38bdf8",
+        "accentColor": "#fbbf24",
+        "pulseRate": 1.25,
+        "lightIntensity": 0.84,
+        "nebulaInner": "rgba(24, 75, 48, 0.28)",
+        "nebulaMid": "rgba(14, 42, 32, 0.12)",
+        "haloColor": "rgba(29, 185, 84, 0.24)",
+        "coreRgb": [
+          255,
+          248,
+          225
+        ],
+        "starRgb": [
+          220,
+          245,
+          235
+        ],
+        "rotationBoost": 1.35,
+        "lightMode": "emerald_drive"
       }
     },
     {
@@ -829,6 +1929,31 @@
         "youtubeId": "c3yEjD_oijw",
         "title": "Tame Impala - Nangs (Audio)",
         "duration": 109
+      },
+      "djConfig": {
+        "bpm": 124,
+        "profile": "upbeat_indie_rock",
+        "vibe": "Indie Rock / Emerald Drive",
+        "primaryColor": "#1DB954",
+        "secondaryColor": "#38bdf8",
+        "accentColor": "#fbbf24",
+        "pulseRate": 1.25,
+        "lightIntensity": 0.84,
+        "nebulaInner": "rgba(24, 75, 48, 0.28)",
+        "nebulaMid": "rgba(14, 42, 32, 0.12)",
+        "haloColor": "rgba(29, 185, 84, 0.24)",
+        "coreRgb": [
+          255,
+          248,
+          225
+        ],
+        "starRgb": [
+          220,
+          245,
+          235
+        ],
+        "rotationBoost": 1.35,
+        "lightMode": "emerald_drive"
       }
     },
     {
@@ -847,6 +1972,31 @@
         "youtubeId": "MrmPDUvKyLs",
         "title": "505 - Arctic Monkeys",
         "duration": 255
+      },
+      "djConfig": {
+        "bpm": 138,
+        "profile": "energetic_alt",
+        "vibe": "Alt-Rock / High Energy",
+        "primaryColor": "#f97316",
+        "secondaryColor": "#ef4444",
+        "accentColor": "#fbbf24",
+        "pulseRate": 1.4,
+        "lightIntensity": 0.92,
+        "nebulaInner": "rgba(78, 32, 22, 0.28)",
+        "nebulaMid": "rgba(46, 18, 14, 0.12)",
+        "haloColor": "rgba(249, 115, 22, 0.24)",
+        "coreRgb": [
+          255,
+          235,
+          210
+        ],
+        "starRgb": [
+          255,
+          220,
+          195
+        ],
+        "rotationBoost": 1.5,
+        "lightMode": "strobe_chase"
       }
     },
     {
@@ -865,6 +2015,31 @@
         "youtubeId": "bpOSxM0rNPM",
         "title": "Arctic Monkeys - Do I Wanna Know? (Official Video)",
         "duration": 266
+      },
+      "djConfig": {
+        "bpm": 138,
+        "profile": "energetic_alt",
+        "vibe": "Alt-Rock / High Energy",
+        "primaryColor": "#f97316",
+        "secondaryColor": "#ef4444",
+        "accentColor": "#fbbf24",
+        "pulseRate": 1.4,
+        "lightIntensity": 0.92,
+        "nebulaInner": "rgba(78, 32, 22, 0.28)",
+        "nebulaMid": "rgba(46, 18, 14, 0.12)",
+        "haloColor": "rgba(249, 115, 22, 0.24)",
+        "coreRgb": [
+          255,
+          235,
+          210
+        ],
+        "starRgb": [
+          255,
+          220,
+          195
+        ],
+        "rotationBoost": 1.5,
+        "lightMode": "strobe_chase"
       }
     },
     {
@@ -883,6 +2058,31 @@
         "youtubeId": "3oK22ll4cxw",
         "title": "Arctic Monkeys - Why'd You Only Call Me When You're High?",
         "duration": 162
+      },
+      "djConfig": {
+        "bpm": 138,
+        "profile": "energetic_alt",
+        "vibe": "Alt-Rock / High Energy",
+        "primaryColor": "#f97316",
+        "secondaryColor": "#ef4444",
+        "accentColor": "#fbbf24",
+        "pulseRate": 1.4,
+        "lightIntensity": 0.92,
+        "nebulaInner": "rgba(78, 32, 22, 0.28)",
+        "nebulaMid": "rgba(46, 18, 14, 0.12)",
+        "haloColor": "rgba(249, 115, 22, 0.24)",
+        "coreRgb": [
+          255,
+          235,
+          210
+        ],
+        "starRgb": [
+          255,
+          220,
+          195
+        ],
+        "rotationBoost": 1.5,
+        "lightMode": "strobe_chase"
       }
     },
     {
@@ -901,6 +2101,31 @@
         "youtubeId": "jvQ943C3wPQ",
         "title": "Radiohead - High and Dry [HQ]",
         "duration": 256
+      },
+      "djConfig": {
+        "bpm": 138,
+        "profile": "energetic_alt",
+        "vibe": "Alt-Rock / High Energy",
+        "primaryColor": "#f97316",
+        "secondaryColor": "#ef4444",
+        "accentColor": "#fbbf24",
+        "pulseRate": 1.4,
+        "lightIntensity": 0.92,
+        "nebulaInner": "rgba(78, 32, 22, 0.28)",
+        "nebulaMid": "rgba(46, 18, 14, 0.12)",
+        "haloColor": "rgba(249, 115, 22, 0.24)",
+        "coreRgb": [
+          255,
+          235,
+          210
+        ],
+        "starRgb": [
+          255,
+          220,
+          195
+        ],
+        "rotationBoost": 1.5,
+        "lightMode": "strobe_chase"
       }
     },
     {
@@ -919,6 +2144,31 @@
         "youtubeId": "4IJI6soiQhI",
         "title": "Karma Police",
         "duration": 265
+      },
+      "djConfig": {
+        "bpm": 138,
+        "profile": "energetic_alt",
+        "vibe": "Alt-Rock / High Energy",
+        "primaryColor": "#f97316",
+        "secondaryColor": "#ef4444",
+        "accentColor": "#fbbf24",
+        "pulseRate": 1.4,
+        "lightIntensity": 0.92,
+        "nebulaInner": "rgba(78, 32, 22, 0.28)",
+        "nebulaMid": "rgba(46, 18, 14, 0.12)",
+        "haloColor": "rgba(249, 115, 22, 0.24)",
+        "coreRgb": [
+          255,
+          235,
+          210
+        ],
+        "starRgb": [
+          255,
+          220,
+          195
+        ],
+        "rotationBoost": 1.5,
+        "lightMode": "strobe_chase"
       }
     },
     {
@@ -937,6 +2187,31 @@
         "youtubeId": "PufFJWCcc_w",
         "title": "The Smashing Pumpkins - 1979 - Remastered",
         "duration": 267
+      },
+      "djConfig": {
+        "bpm": 138,
+        "profile": "energetic_alt",
+        "vibe": "Alt-Rock / High Energy",
+        "primaryColor": "#f97316",
+        "secondaryColor": "#ef4444",
+        "accentColor": "#fbbf24",
+        "pulseRate": 1.4,
+        "lightIntensity": 0.92,
+        "nebulaInner": "rgba(78, 32, 22, 0.28)",
+        "nebulaMid": "rgba(46, 18, 14, 0.12)",
+        "haloColor": "rgba(249, 115, 22, 0.24)",
+        "coreRgb": [
+          255,
+          235,
+          210
+        ],
+        "starRgb": [
+          255,
+          220,
+          195
+        ],
+        "rotationBoost": 1.5,
+        "lightMode": "strobe_chase"
       }
     },
     {
@@ -955,6 +2230,31 @@
         "youtubeId": "n-IwmbARwBo",
         "title": "Can I Call You Tonight?",
         "duration": 279
+      },
+      "djConfig": {
+        "bpm": 106,
+        "profile": "bedroom_indie",
+        "vibe": "Bedroom Pop / Warm Wave",
+        "primaryColor": "#38bdf8",
+        "secondaryColor": "#a78bfa",
+        "accentColor": "#34d399",
+        "pulseRate": 1.05,
+        "lightIntensity": 0.76,
+        "nebulaInner": "rgba(22, 58, 80, 0.26)",
+        "nebulaMid": "rgba(12, 34, 48, 0.10)",
+        "haloColor": "rgba(56, 189, 248, 0.22)",
+        "coreRgb": [
+          225,
+          245,
+          255
+        ],
+        "starRgb": [
+          205,
+          235,
+          255
+        ],
+        "rotationBoost": 1.05,
+        "lightMode": "aurora_wave"
       }
     },
     {
@@ -973,6 +2273,31 @@
         "youtubeId": "LPOqvIlFwFc",
         "title": "Phoenix - 1901 (Remastered 2022)",
         "duration": 193
+      },
+      "djConfig": {
+        "bpm": 114,
+        "profile": "golden_classic",
+        "vibe": "Vintage Psych / Golden Starlight",
+        "primaryColor": "#fbbf24",
+        "secondaryColor": "#f59e0b",
+        "accentColor": "#10b981",
+        "pulseRate": 1.12,
+        "lightIntensity": 0.8,
+        "nebulaInner": "rgba(74, 55, 22, 0.26)",
+        "nebulaMid": "rgba(42, 32, 12, 0.10)",
+        "haloColor": "rgba(251, 191, 36, 0.22)",
+        "coreRgb": [
+          255,
+          245,
+          215
+        ],
+        "starRgb": [
+          255,
+          235,
+          200
+        ],
+        "rotationBoost": 1.12,
+        "lightMode": "warm_lantern"
       }
     },
     {
@@ -991,6 +2316,31 @@
         "youtubeId": "Z_SLRm4wito",
         "title": "Kings Of Leon - Sex On Fire (Audio)",
         "duration": 208
+      },
+      "djConfig": {
+        "bpm": 138,
+        "profile": "energetic_alt",
+        "vibe": "Alt-Rock / High Energy",
+        "primaryColor": "#f97316",
+        "secondaryColor": "#ef4444",
+        "accentColor": "#fbbf24",
+        "pulseRate": 1.4,
+        "lightIntensity": 0.92,
+        "nebulaInner": "rgba(78, 32, 22, 0.28)",
+        "nebulaMid": "rgba(46, 18, 14, 0.12)",
+        "haloColor": "rgba(249, 115, 22, 0.24)",
+        "coreRgb": [
+          255,
+          235,
+          210
+        ],
+        "starRgb": [
+          255,
+          220,
+          195
+        ],
+        "rotationBoost": 1.5,
+        "lightMode": "strobe_chase"
       }
     },
     {
@@ -1009,6 +2359,31 @@
         "youtubeId": "D818z-7BzuA",
         "title": "No Doubt - Just A Girl",
         "duration": 210
+      },
+      "djConfig": {
+        "bpm": 138,
+        "profile": "energetic_alt",
+        "vibe": "Alt-Rock / High Energy",
+        "primaryColor": "#f97316",
+        "secondaryColor": "#ef4444",
+        "accentColor": "#fbbf24",
+        "pulseRate": 1.4,
+        "lightIntensity": 0.92,
+        "nebulaInner": "rgba(78, 32, 22, 0.28)",
+        "nebulaMid": "rgba(46, 18, 14, 0.12)",
+        "haloColor": "rgba(249, 115, 22, 0.24)",
+        "coreRgb": [
+          255,
+          235,
+          210
+        ],
+        "starRgb": [
+          255,
+          220,
+          195
+        ],
+        "rotationBoost": 1.5,
+        "lightMode": "strobe_chase"
       }
     },
     {
@@ -1027,6 +2402,31 @@
         "youtubeId": "970Lq2M_ld0",
         "title": "Closing Time",
         "duration": 275
+      },
+      "djConfig": {
+        "bpm": 114,
+        "profile": "golden_classic",
+        "vibe": "Vintage Psych / Golden Starlight",
+        "primaryColor": "#fbbf24",
+        "secondaryColor": "#f59e0b",
+        "accentColor": "#10b981",
+        "pulseRate": 1.12,
+        "lightIntensity": 0.8,
+        "nebulaInner": "rgba(74, 55, 22, 0.26)",
+        "nebulaMid": "rgba(42, 32, 12, 0.10)",
+        "haloColor": "rgba(251, 191, 36, 0.22)",
+        "coreRgb": [
+          255,
+          245,
+          215
+        ],
+        "starRgb": [
+          255,
+          235,
+          200
+        ],
+        "rotationBoost": 1.12,
+        "lightMode": "warm_lantern"
       }
     },
     {
@@ -1045,6 +2445,31 @@
         "youtubeId": "uzS3WG6__G4",
         "title": "Frank Ocean - Pink + White",
         "duration": 185
+      },
+      "djConfig": {
+        "bpm": 84,
+        "profile": "dream_pop_lofi",
+        "vibe": "Dream Pop / Ethereal Mist",
+        "primaryColor": "#818cf8",
+        "secondaryColor": "#f472b6",
+        "accentColor": "#38bdf8",
+        "pulseRate": 0.82,
+        "lightIntensity": 0.65,
+        "nebulaInner": "rgba(48, 35, 88, 0.26)",
+        "nebulaMid": "rgba(32, 22, 58, 0.10)",
+        "haloColor": "rgba(129, 140, 248, 0.22)",
+        "coreRgb": [
+          240,
+          235,
+          255
+        ],
+        "starRgb": [
+          215,
+          225,
+          255
+        ],
+        "rotationBoost": 0.82,
+        "lightMode": "breathing_wave"
       }
     },
     {
@@ -1063,6 +2488,31 @@
         "youtubeId": "PKfD8d3XJok",
         "title": "The White Stripes - We're Going To Be Friends (Official Music Video)",
         "duration": 150
+      },
+      "djConfig": {
+        "bpm": 138,
+        "profile": "energetic_alt",
+        "vibe": "Alt-Rock / High Energy",
+        "primaryColor": "#f97316",
+        "secondaryColor": "#ef4444",
+        "accentColor": "#fbbf24",
+        "pulseRate": 1.4,
+        "lightIntensity": 0.92,
+        "nebulaInner": "rgba(78, 32, 22, 0.28)",
+        "nebulaMid": "rgba(46, 18, 14, 0.12)",
+        "haloColor": "rgba(249, 115, 22, 0.24)",
+        "coreRgb": [
+          255,
+          235,
+          210
+        ],
+        "starRgb": [
+          255,
+          220,
+          195
+        ],
+        "rotationBoost": 1.5,
+        "lightMode": "strobe_chase"
       }
     },
     {
@@ -1081,6 +2531,31 @@
         "youtubeId": "6JCfWVV3SX0",
         "title": "David Bowie - \"Heroes\" (2017 Remaster)",
         "duration": 372
+      },
+      "djConfig": {
+        "bpm": 114,
+        "profile": "golden_classic",
+        "vibe": "Vintage Psych / Golden Starlight",
+        "primaryColor": "#fbbf24",
+        "secondaryColor": "#f59e0b",
+        "accentColor": "#10b981",
+        "pulseRate": 1.12,
+        "lightIntensity": 0.8,
+        "nebulaInner": "rgba(74, 55, 22, 0.26)",
+        "nebulaMid": "rgba(42, 32, 12, 0.10)",
+        "haloColor": "rgba(251, 191, 36, 0.22)",
+        "coreRgb": [
+          255,
+          245,
+          215
+        ],
+        "starRgb": [
+          255,
+          235,
+          200
+        ],
+        "rotationBoost": 1.12,
+        "lightMode": "warm_lantern"
       }
     },
     {
@@ -1099,6 +2574,31 @@
         "youtubeId": "A6iqfDrQ0_o",
         "title": "Another Brick in the Wall, Pt. 2",
         "duration": 242
+      },
+      "djConfig": {
+        "bpm": 114,
+        "profile": "golden_classic",
+        "vibe": "Vintage Psych / Golden Starlight",
+        "primaryColor": "#fbbf24",
+        "secondaryColor": "#f59e0b",
+        "accentColor": "#10b981",
+        "pulseRate": 1.12,
+        "lightIntensity": 0.8,
+        "nebulaInner": "rgba(74, 55, 22, 0.26)",
+        "nebulaMid": "rgba(42, 32, 12, 0.10)",
+        "haloColor": "rgba(251, 191, 36, 0.22)",
+        "coreRgb": [
+          255,
+          245,
+          215
+        ],
+        "starRgb": [
+          255,
+          235,
+          200
+        ],
+        "rotationBoost": 1.12,
+        "lightMode": "warm_lantern"
       }
     },
     {
@@ -1117,6 +2617,31 @@
         "youtubeId": "c7RDwh2pIEY",
         "title": "Foo Fighters- My Hero [HD]",
         "duration": 261
+      },
+      "djConfig": {
+        "bpm": 138,
+        "profile": "energetic_alt",
+        "vibe": "Alt-Rock / High Energy",
+        "primaryColor": "#f97316",
+        "secondaryColor": "#ef4444",
+        "accentColor": "#fbbf24",
+        "pulseRate": 1.4,
+        "lightIntensity": 0.92,
+        "nebulaInner": "rgba(78, 32, 22, 0.28)",
+        "nebulaMid": "rgba(46, 18, 14, 0.12)",
+        "haloColor": "rgba(249, 115, 22, 0.24)",
+        "coreRgb": [
+          255,
+          235,
+          210
+        ],
+        "starRgb": [
+          255,
+          220,
+          195
+        ],
+        "rotationBoost": 1.5,
+        "lightMode": "strobe_chase"
       }
     },
     {
@@ -1135,6 +2660,31 @@
         "youtubeId": "89dGC8de0CA",
         "title": "Aerosmith - Dream On (Audio)",
         "duration": 269
+      },
+      "djConfig": {
+        "bpm": 114,
+        "profile": "golden_classic",
+        "vibe": "Vintage Psych / Golden Starlight",
+        "primaryColor": "#fbbf24",
+        "secondaryColor": "#f59e0b",
+        "accentColor": "#10b981",
+        "pulseRate": 1.12,
+        "lightIntensity": 0.8,
+        "nebulaInner": "rgba(74, 55, 22, 0.26)",
+        "nebulaMid": "rgba(42, 32, 12, 0.10)",
+        "haloColor": "rgba(251, 191, 36, 0.22)",
+        "coreRgb": [
+          255,
+          245,
+          215
+        ],
+        "starRgb": [
+          255,
+          235,
+          200
+        ],
+        "rotationBoost": 1.12,
+        "lightMode": "warm_lantern"
       }
     },
     {
@@ -1153,6 +2703,31 @@
         "youtubeId": "upoEYQ7dcEk",
         "title": "Santeria",
         "duration": 186
+      },
+      "djConfig": {
+        "bpm": 114,
+        "profile": "golden_classic",
+        "vibe": "Vintage Psych / Golden Starlight",
+        "primaryColor": "#fbbf24",
+        "secondaryColor": "#f59e0b",
+        "accentColor": "#10b981",
+        "pulseRate": 1.12,
+        "lightIntensity": 0.8,
+        "nebulaInner": "rgba(74, 55, 22, 0.26)",
+        "nebulaMid": "rgba(42, 32, 12, 0.10)",
+        "haloColor": "rgba(251, 191, 36, 0.22)",
+        "coreRgb": [
+          255,
+          245,
+          215
+        ],
+        "starRgb": [
+          255,
+          235,
+          200
+        ],
+        "rotationBoost": 1.12,
+        "lightMode": "warm_lantern"
       }
     },
     {
@@ -1171,6 +2746,31 @@
         "youtubeId": "JAr3y9X63Kc",
         "title": "Half Mast",
         "duration": 235
+      },
+      "djConfig": {
+        "bpm": 124,
+        "profile": "upbeat_indie_rock",
+        "vibe": "Indie Rock / Emerald Drive",
+        "primaryColor": "#1DB954",
+        "secondaryColor": "#38bdf8",
+        "accentColor": "#fbbf24",
+        "pulseRate": 1.25,
+        "lightIntensity": 0.84,
+        "nebulaInner": "rgba(24, 75, 48, 0.28)",
+        "nebulaMid": "rgba(14, 42, 32, 0.12)",
+        "haloColor": "rgba(29, 185, 84, 0.24)",
+        "coreRgb": [
+          255,
+          248,
+          225
+        ],
+        "starRgb": [
+          220,
+          245,
+          235
+        ],
+        "rotationBoost": 1.35,
+        "lightMode": "emerald_drive"
       }
     },
     {
@@ -1189,6 +2789,31 @@
         "youtubeId": "wccRif2DaGs",
         "title": "Billy Joel - Vienna (Official Audio)",
         "duration": 217
+      },
+      "djConfig": {
+        "bpm": 114,
+        "profile": "golden_classic",
+        "vibe": "Vintage Psych / Golden Starlight",
+        "primaryColor": "#fbbf24",
+        "secondaryColor": "#f59e0b",
+        "accentColor": "#10b981",
+        "pulseRate": 1.12,
+        "lightIntensity": 0.8,
+        "nebulaInner": "rgba(74, 55, 22, 0.26)",
+        "nebulaMid": "rgba(42, 32, 12, 0.10)",
+        "haloColor": "rgba(251, 191, 36, 0.22)",
+        "coreRgb": [
+          255,
+          245,
+          215
+        ],
+        "starRgb": [
+          255,
+          235,
+          200
+        ],
+        "rotationBoost": 1.12,
+        "lightMode": "warm_lantern"
       }
     },
     {
@@ -1207,6 +2832,31 @@
         "youtubeId": "j9_Jli5pv20",
         "title": "1982 Dexys Midnight Runners - Come On Eileen",
         "duration": 288
+      },
+      "djConfig": {
+        "bpm": 138,
+        "profile": "energetic_alt",
+        "vibe": "Alt-Rock / High Energy",
+        "primaryColor": "#f97316",
+        "secondaryColor": "#ef4444",
+        "accentColor": "#fbbf24",
+        "pulseRate": 1.4,
+        "lightIntensity": 0.92,
+        "nebulaInner": "rgba(78, 32, 22, 0.28)",
+        "nebulaMid": "rgba(46, 18, 14, 0.12)",
+        "haloColor": "rgba(249, 115, 22, 0.24)",
+        "coreRgb": [
+          255,
+          235,
+          210
+        ],
+        "starRgb": [
+          255,
+          220,
+          195
+        ],
+        "rotationBoost": 1.5,
+        "lightMode": "strobe_chase"
       }
     },
     {
@@ -1225,6 +2875,31 @@
         "youtubeId": "lcEkS9tcIjg",
         "title": "Scotty Doesn't Know",
         "duration": 176
+      },
+      "djConfig": {
+        "bpm": 138,
+        "profile": "energetic_alt",
+        "vibe": "Alt-Rock / High Energy",
+        "primaryColor": "#f97316",
+        "secondaryColor": "#ef4444",
+        "accentColor": "#fbbf24",
+        "pulseRate": 1.4,
+        "lightIntensity": 0.92,
+        "nebulaInner": "rgba(78, 32, 22, 0.28)",
+        "nebulaMid": "rgba(46, 18, 14, 0.12)",
+        "haloColor": "rgba(249, 115, 22, 0.24)",
+        "coreRgb": [
+          255,
+          235,
+          210
+        ],
+        "starRgb": [
+          255,
+          220,
+          195
+        ],
+        "rotationBoost": 1.5,
+        "lightMode": "strobe_chase"
       }
     },
     {
@@ -1243,6 +2918,31 @@
         "youtubeId": "QwVjTlTdIDQ",
         "title": "Billy Joel - Piano Man (Official Audio)",
         "duration": 340
+      },
+      "djConfig": {
+        "bpm": 114,
+        "profile": "golden_classic",
+        "vibe": "Vintage Psych / Golden Starlight",
+        "primaryColor": "#fbbf24",
+        "secondaryColor": "#f59e0b",
+        "accentColor": "#10b981",
+        "pulseRate": 1.12,
+        "lightIntensity": 0.8,
+        "nebulaInner": "rgba(74, 55, 22, 0.26)",
+        "nebulaMid": "rgba(42, 32, 12, 0.10)",
+        "haloColor": "rgba(251, 191, 36, 0.22)",
+        "coreRgb": [
+          255,
+          245,
+          215
+        ],
+        "starRgb": [
+          255,
+          235,
+          200
+        ],
+        "rotationBoost": 1.12,
+        "lightMode": "warm_lantern"
       }
     },
     {
@@ -1261,6 +2961,31 @@
         "youtubeId": "HS4aJ_51qNQ",
         "title": "Crumb - Ghostride [Official Audio]",
         "duration": 127
+      },
+      "djConfig": {
+        "bpm": 84,
+        "profile": "dream_pop_lofi",
+        "vibe": "Dream Pop / Ethereal Mist",
+        "primaryColor": "#818cf8",
+        "secondaryColor": "#f472b6",
+        "accentColor": "#38bdf8",
+        "pulseRate": 0.82,
+        "lightIntensity": 0.65,
+        "nebulaInner": "rgba(48, 35, 88, 0.26)",
+        "nebulaMid": "rgba(32, 22, 58, 0.10)",
+        "haloColor": "rgba(129, 140, 248, 0.22)",
+        "coreRgb": [
+          240,
+          235,
+          255
+        ],
+        "starRgb": [
+          215,
+          225,
+          255
+        ],
+        "rotationBoost": 0.82,
+        "lightMode": "breathing_wave"
       }
     },
     {
@@ -1279,6 +3004,31 @@
         "youtubeId": "cJRFMfztgBg",
         "title": "Men I Trust -  Show Me How (album v)",
         "duration": 216
+      },
+      "djConfig": {
+        "bpm": 84,
+        "profile": "dream_pop_lofi",
+        "vibe": "Dream Pop / Ethereal Mist",
+        "primaryColor": "#818cf8",
+        "secondaryColor": "#f472b6",
+        "accentColor": "#38bdf8",
+        "pulseRate": 0.82,
+        "lightIntensity": 0.65,
+        "nebulaInner": "rgba(48, 35, 88, 0.26)",
+        "nebulaMid": "rgba(32, 22, 58, 0.10)",
+        "haloColor": "rgba(129, 140, 248, 0.22)",
+        "coreRgb": [
+          240,
+          235,
+          255
+        ],
+        "starRgb": [
+          215,
+          225,
+          255
+        ],
+        "rotationBoost": 0.82,
+        "lightMode": "breathing_wave"
       }
     },
     {
@@ -1297,6 +3047,31 @@
         "youtubeId": "DviID8Ni7Ns",
         "title": "Men I Trust - I hope to be around",
         "duration": 207
+      },
+      "djConfig": {
+        "bpm": 84,
+        "profile": "dream_pop_lofi",
+        "vibe": "Dream Pop / Ethereal Mist",
+        "primaryColor": "#818cf8",
+        "secondaryColor": "#f472b6",
+        "accentColor": "#38bdf8",
+        "pulseRate": 0.82,
+        "lightIntensity": 0.65,
+        "nebulaInner": "rgba(48, 35, 88, 0.26)",
+        "nebulaMid": "rgba(32, 22, 58, 0.10)",
+        "haloColor": "rgba(129, 140, 248, 0.22)",
+        "coreRgb": [
+          240,
+          235,
+          255
+        ],
+        "starRgb": [
+          215,
+          225,
+          255
+        ],
+        "rotationBoost": 0.82,
+        "lightMode": "breathing_wave"
       }
     },
     {
@@ -1315,6 +3090,31 @@
         "youtubeId": "0LMwgWFzDjU",
         "title": "Men I Trust - Tree Among Shrubs",
         "duration": 188
+      },
+      "djConfig": {
+        "bpm": 84,
+        "profile": "dream_pop_lofi",
+        "vibe": "Dream Pop / Ethereal Mist",
+        "primaryColor": "#818cf8",
+        "secondaryColor": "#f472b6",
+        "accentColor": "#38bdf8",
+        "pulseRate": 0.82,
+        "lightIntensity": 0.65,
+        "nebulaInner": "rgba(48, 35, 88, 0.26)",
+        "nebulaMid": "rgba(32, 22, 58, 0.10)",
+        "haloColor": "rgba(129, 140, 248, 0.22)",
+        "coreRgb": [
+          240,
+          235,
+          255
+        ],
+        "starRgb": [
+          215,
+          225,
+          255
+        ],
+        "rotationBoost": 0.82,
+        "lightMode": "breathing_wave"
       }
     },
     {
@@ -1333,6 +3133,31 @@
         "youtubeId": "pnY7m5CK-as",
         "title": "Men I Trust - Seven",
         "duration": 220
+      },
+      "djConfig": {
+        "bpm": 84,
+        "profile": "dream_pop_lofi",
+        "vibe": "Dream Pop / Ethereal Mist",
+        "primaryColor": "#818cf8",
+        "secondaryColor": "#f472b6",
+        "accentColor": "#38bdf8",
+        "pulseRate": 0.82,
+        "lightIntensity": 0.65,
+        "nebulaInner": "rgba(48, 35, 88, 0.26)",
+        "nebulaMid": "rgba(32, 22, 58, 0.10)",
+        "haloColor": "rgba(129, 140, 248, 0.22)",
+        "coreRgb": [
+          240,
+          235,
+          255
+        ],
+        "starRgb": [
+          215,
+          225,
+          255
+        ],
+        "rotationBoost": 0.82,
+        "lightMode": "breathing_wave"
       }
     },
     {
@@ -1351,6 +3176,31 @@
         "youtubeId": "pNx6jAcx6Gw",
         "title": "Men I Trust - You Deserve This (Official Audio)",
         "duration": 185
+      },
+      "djConfig": {
+        "bpm": 84,
+        "profile": "dream_pop_lofi",
+        "vibe": "Dream Pop / Ethereal Mist",
+        "primaryColor": "#818cf8",
+        "secondaryColor": "#f472b6",
+        "accentColor": "#38bdf8",
+        "pulseRate": 0.82,
+        "lightIntensity": 0.65,
+        "nebulaInner": "rgba(48, 35, 88, 0.26)",
+        "nebulaMid": "rgba(32, 22, 58, 0.10)",
+        "haloColor": "rgba(129, 140, 248, 0.22)",
+        "coreRgb": [
+          240,
+          235,
+          255
+        ],
+        "starRgb": [
+          215,
+          225,
+          255
+        ],
+        "rotationBoost": 0.82,
+        "lightMode": "breathing_wave"
       }
     },
     {
@@ -1369,6 +3219,31 @@
         "youtubeId": "KY2PM_HsQv8",
         "title": "Yot Club - YKWIM",
         "duration": 213
+      },
+      "djConfig": {
+        "bpm": 84,
+        "profile": "dream_pop_lofi",
+        "vibe": "Dream Pop / Ethereal Mist",
+        "primaryColor": "#818cf8",
+        "secondaryColor": "#f472b6",
+        "accentColor": "#38bdf8",
+        "pulseRate": 0.82,
+        "lightIntensity": 0.65,
+        "nebulaInner": "rgba(48, 35, 88, 0.26)",
+        "nebulaMid": "rgba(32, 22, 58, 0.10)",
+        "haloColor": "rgba(129, 140, 248, 0.22)",
+        "coreRgb": [
+          240,
+          235,
+          255
+        ],
+        "starRgb": [
+          215,
+          225,
+          255
+        ],
+        "rotationBoost": 0.82,
+        "lightMode": "breathing_wave"
       }
     },
     {
@@ -1387,6 +3262,31 @@
         "youtubeId": "6jiu9TlR11o",
         "title": "The Marías - Over The Moon",
         "duration": 184
+      },
+      "djConfig": {
+        "bpm": 84,
+        "profile": "dream_pop_lofi",
+        "vibe": "Dream Pop / Ethereal Mist",
+        "primaryColor": "#818cf8",
+        "secondaryColor": "#f472b6",
+        "accentColor": "#38bdf8",
+        "pulseRate": 0.82,
+        "lightIntensity": 0.65,
+        "nebulaInner": "rgba(48, 35, 88, 0.26)",
+        "nebulaMid": "rgba(32, 22, 58, 0.10)",
+        "haloColor": "rgba(129, 140, 248, 0.22)",
+        "coreRgb": [
+          240,
+          235,
+          255
+        ],
+        "starRgb": [
+          215,
+          225,
+          255
+        ],
+        "rotationBoost": 0.82,
+        "lightMode": "breathing_wave"
       }
     },
     {
@@ -1405,6 +3305,31 @@
         "youtubeId": "BHBLjY4KB7U",
         "title": "Sports - You Are The Right One (Official Audio)",
         "duration": 173
+      },
+      "djConfig": {
+        "bpm": 84,
+        "profile": "dream_pop_lofi",
+        "vibe": "Dream Pop / Ethereal Mist",
+        "primaryColor": "#818cf8",
+        "secondaryColor": "#f472b6",
+        "accentColor": "#38bdf8",
+        "pulseRate": 0.82,
+        "lightIntensity": 0.65,
+        "nebulaInner": "rgba(48, 35, 88, 0.26)",
+        "nebulaMid": "rgba(32, 22, 58, 0.10)",
+        "haloColor": "rgba(129, 140, 248, 0.22)",
+        "coreRgb": [
+          240,
+          235,
+          255
+        ],
+        "starRgb": [
+          215,
+          225,
+          255
+        ],
+        "rotationBoost": 0.82,
+        "lightMode": "breathing_wave"
       }
     },
     {
@@ -1423,6 +3348,31 @@
         "youtubeId": "gJ8A72vvngo",
         "title": "Baby Baby",
         "duration": 183
+      },
+      "djConfig": {
+        "bpm": 84,
+        "profile": "dream_pop_lofi",
+        "vibe": "Dream Pop / Ethereal Mist",
+        "primaryColor": "#818cf8",
+        "secondaryColor": "#f472b6",
+        "accentColor": "#38bdf8",
+        "pulseRate": 0.82,
+        "lightIntensity": 0.65,
+        "nebulaInner": "rgba(48, 35, 88, 0.26)",
+        "nebulaMid": "rgba(32, 22, 58, 0.10)",
+        "haloColor": "rgba(129, 140, 248, 0.22)",
+        "coreRgb": [
+          240,
+          235,
+          255
+        ],
+        "starRgb": [
+          215,
+          225,
+          255
+        ],
+        "rotationBoost": 0.82,
+        "lightMode": "breathing_wave"
       }
     },
     {
@@ -1441,6 +3391,31 @@
         "youtubeId": "I3Ec8y1HiYk",
         "title": "Sports - Panama",
         "duration": 199
+      },
+      "djConfig": {
+        "bpm": 84,
+        "profile": "dream_pop_lofi",
+        "vibe": "Dream Pop / Ethereal Mist",
+        "primaryColor": "#818cf8",
+        "secondaryColor": "#f472b6",
+        "accentColor": "#38bdf8",
+        "pulseRate": 0.82,
+        "lightIntensity": 0.65,
+        "nebulaInner": "rgba(48, 35, 88, 0.26)",
+        "nebulaMid": "rgba(32, 22, 58, 0.10)",
+        "haloColor": "rgba(129, 140, 248, 0.22)",
+        "coreRgb": [
+          240,
+          235,
+          255
+        ],
+        "starRgb": [
+          215,
+          225,
+          255
+        ],
+        "rotationBoost": 0.82,
+        "lightMode": "breathing_wave"
       }
     },
     {
@@ -1459,6 +3434,31 @@
         "youtubeId": "bM9OHyAmDi8",
         "title": "Sports - Strange to Hear (Official Audio)",
         "duration": 253
+      },
+      "djConfig": {
+        "bpm": 84,
+        "profile": "dream_pop_lofi",
+        "vibe": "Dream Pop / Ethereal Mist",
+        "primaryColor": "#818cf8",
+        "secondaryColor": "#f472b6",
+        "accentColor": "#38bdf8",
+        "pulseRate": 0.82,
+        "lightIntensity": 0.65,
+        "nebulaInner": "rgba(48, 35, 88, 0.26)",
+        "nebulaMid": "rgba(32, 22, 58, 0.10)",
+        "haloColor": "rgba(129, 140, 248, 0.22)",
+        "coreRgb": [
+          240,
+          235,
+          255
+        ],
+        "starRgb": [
+          215,
+          225,
+          255
+        ],
+        "rotationBoost": 0.82,
+        "lightMode": "breathing_wave"
       }
     },
     {
@@ -1477,6 +3477,31 @@
         "youtubeId": "JAl3APTekdg",
         "title": "Birch Tree",
         "duration": 281
+      },
+      "djConfig": {
+        "bpm": 84,
+        "profile": "dream_pop_lofi",
+        "vibe": "Dream Pop / Ethereal Mist",
+        "primaryColor": "#818cf8",
+        "secondaryColor": "#f472b6",
+        "accentColor": "#38bdf8",
+        "pulseRate": 0.82,
+        "lightIntensity": 0.65,
+        "nebulaInner": "rgba(48, 35, 88, 0.26)",
+        "nebulaMid": "rgba(32, 22, 58, 0.10)",
+        "haloColor": "rgba(129, 140, 248, 0.22)",
+        "coreRgb": [
+          240,
+          235,
+          255
+        ],
+        "starRgb": [
+          215,
+          225,
+          255
+        ],
+        "rotationBoost": 0.82,
+        "lightMode": "breathing_wave"
       }
     },
     {
@@ -1495,6 +3520,31 @@
         "youtubeId": "r22AG0WKV1M",
         "title": "Strawberry Guy -  Mrs Magic (Strings Version)",
         "duration": 222
+      },
+      "djConfig": {
+        "bpm": 84,
+        "profile": "dream_pop_lofi",
+        "vibe": "Dream Pop / Ethereal Mist",
+        "primaryColor": "#818cf8",
+        "secondaryColor": "#f472b6",
+        "accentColor": "#38bdf8",
+        "pulseRate": 0.82,
+        "lightIntensity": 0.65,
+        "nebulaInner": "rgba(48, 35, 88, 0.26)",
+        "nebulaMid": "rgba(32, 22, 58, 0.10)",
+        "haloColor": "rgba(129, 140, 248, 0.22)",
+        "coreRgb": [
+          240,
+          235,
+          255
+        ],
+        "starRgb": [
+          215,
+          225,
+          255
+        ],
+        "rotationBoost": 0.82,
+        "lightMode": "breathing_wave"
       }
     },
     {
@@ -1513,6 +3563,31 @@
         "youtubeId": "9wiEM0s4aCQ",
         "title": "CUCO - Lover Is a Day (Audio)",
         "duration": 456
+      },
+      "djConfig": {
+        "bpm": 84,
+        "profile": "dream_pop_lofi",
+        "vibe": "Dream Pop / Ethereal Mist",
+        "primaryColor": "#818cf8",
+        "secondaryColor": "#f472b6",
+        "accentColor": "#38bdf8",
+        "pulseRate": 0.82,
+        "lightIntensity": 0.65,
+        "nebulaInner": "rgba(48, 35, 88, 0.26)",
+        "nebulaMid": "rgba(32, 22, 58, 0.10)",
+        "haloColor": "rgba(129, 140, 248, 0.22)",
+        "coreRgb": [
+          240,
+          235,
+          255
+        ],
+        "starRgb": [
+          215,
+          225,
+          255
+        ],
+        "rotationBoost": 0.82,
+        "lightMode": "breathing_wave"
       }
     },
     {
@@ -1531,6 +3606,31 @@
         "youtubeId": "BsiqSe4LAIE",
         "title": "Dinner Date",
         "duration": 140
+      },
+      "djConfig": {
+        "bpm": 84,
+        "profile": "dream_pop_lofi",
+        "vibe": "Dream Pop / Ethereal Mist",
+        "primaryColor": "#818cf8",
+        "secondaryColor": "#f472b6",
+        "accentColor": "#38bdf8",
+        "pulseRate": 0.82,
+        "lightIntensity": 0.65,
+        "nebulaInner": "rgba(48, 35, 88, 0.26)",
+        "nebulaMid": "rgba(32, 22, 58, 0.10)",
+        "haloColor": "rgba(129, 140, 248, 0.22)",
+        "coreRgb": [
+          240,
+          235,
+          255
+        ],
+        "starRgb": [
+          215,
+          225,
+          255
+        ],
+        "rotationBoost": 0.82,
+        "lightMode": "breathing_wave"
       }
     },
     {
@@ -1549,6 +3649,31 @@
         "youtubeId": "L0BjHPapWLM",
         "title": "Radio",
         "duration": 192
+      },
+      "djConfig": {
+        "bpm": 84,
+        "profile": "dream_pop_lofi",
+        "vibe": "Dream Pop / Ethereal Mist",
+        "primaryColor": "#818cf8",
+        "secondaryColor": "#f472b6",
+        "accentColor": "#38bdf8",
+        "pulseRate": 0.82,
+        "lightIntensity": 0.65,
+        "nebulaInner": "rgba(48, 35, 88, 0.26)",
+        "nebulaMid": "rgba(32, 22, 58, 0.10)",
+        "haloColor": "rgba(129, 140, 248, 0.22)",
+        "coreRgb": [
+          240,
+          235,
+          255
+        ],
+        "starRgb": [
+          215,
+          225,
+          255
+        ],
+        "rotationBoost": 0.82,
+        "lightMode": "breathing_wave"
       }
     },
     {
@@ -1567,6 +3692,31 @@
         "youtubeId": "MJoSyNdffGo",
         "title": "Chamber Of Reflection",
         "duration": 232
+      },
+      "djConfig": {
+        "bpm": 106,
+        "profile": "bedroom_indie",
+        "vibe": "Bedroom Pop / Warm Wave",
+        "primaryColor": "#38bdf8",
+        "secondaryColor": "#a78bfa",
+        "accentColor": "#34d399",
+        "pulseRate": 1.05,
+        "lightIntensity": 0.76,
+        "nebulaInner": "rgba(22, 58, 80, 0.26)",
+        "nebulaMid": "rgba(12, 34, 48, 0.10)",
+        "haloColor": "rgba(56, 189, 248, 0.22)",
+        "coreRgb": [
+          225,
+          245,
+          255
+        ],
+        "starRgb": [
+          205,
+          235,
+          255
+        ],
+        "rotationBoost": 1.05,
+        "lightMode": "aurora_wave"
       }
     },
     {
@@ -1585,6 +3735,31 @@
         "youtubeId": "ve9Kf7uO85s",
         "title": "Still Beating",
         "duration": 182
+      },
+      "djConfig": {
+        "bpm": 106,
+        "profile": "bedroom_indie",
+        "vibe": "Bedroom Pop / Warm Wave",
+        "primaryColor": "#38bdf8",
+        "secondaryColor": "#a78bfa",
+        "accentColor": "#34d399",
+        "pulseRate": 1.05,
+        "lightIntensity": 0.76,
+        "nebulaInner": "rgba(22, 58, 80, 0.26)",
+        "nebulaMid": "rgba(12, 34, 48, 0.10)",
+        "haloColor": "rgba(56, 189, 248, 0.22)",
+        "coreRgb": [
+          225,
+          245,
+          255
+        ],
+        "starRgb": [
+          205,
+          235,
+          255
+        ],
+        "rotationBoost": 1.05,
+        "lightMode": "aurora_wave"
       }
     },
     {
@@ -1603,6 +3778,31 @@
         "youtubeId": "KtuA6Qylpyo",
         "title": "Mac DeMarco // On the Level (Official Audio)",
         "duration": 228
+      },
+      "djConfig": {
+        "bpm": 106,
+        "profile": "bedroom_indie",
+        "vibe": "Bedroom Pop / Warm Wave",
+        "primaryColor": "#38bdf8",
+        "secondaryColor": "#a78bfa",
+        "accentColor": "#34d399",
+        "pulseRate": 1.05,
+        "lightIntensity": 0.76,
+        "nebulaInner": "rgba(22, 58, 80, 0.26)",
+        "nebulaMid": "rgba(12, 34, 48, 0.10)",
+        "haloColor": "rgba(56, 189, 248, 0.22)",
+        "coreRgb": [
+          225,
+          245,
+          255
+        ],
+        "starRgb": [
+          205,
+          235,
+          255
+        ],
+        "rotationBoost": 1.05,
+        "lightMode": "aurora_wave"
       }
     },
     {
@@ -1621,6 +3821,31 @@
         "youtubeId": "AR_R1kt4V54",
         "title": "Mac DeMarco - Blue Boy",
         "duration": 127
+      },
+      "djConfig": {
+        "bpm": 106,
+        "profile": "bedroom_indie",
+        "vibe": "Bedroom Pop / Warm Wave",
+        "primaryColor": "#38bdf8",
+        "secondaryColor": "#a78bfa",
+        "accentColor": "#34d399",
+        "pulseRate": 1.05,
+        "lightIntensity": 0.76,
+        "nebulaInner": "rgba(22, 58, 80, 0.26)",
+        "nebulaMid": "rgba(12, 34, 48, 0.10)",
+        "haloColor": "rgba(56, 189, 248, 0.22)",
+        "coreRgb": [
+          225,
+          245,
+          255
+        ],
+        "starRgb": [
+          205,
+          235,
+          255
+        ],
+        "rotationBoost": 1.05,
+        "lightMode": "aurora_wave"
       }
     },
     {
@@ -1639,6 +3864,31 @@
         "youtubeId": "X_FzO4gkVZY",
         "title": "Preoccupied",
         "duration": 240
+      },
+      "djConfig": {
+        "bpm": 106,
+        "profile": "bedroom_indie",
+        "vibe": "Bedroom Pop / Warm Wave",
+        "primaryColor": "#38bdf8",
+        "secondaryColor": "#a78bfa",
+        "accentColor": "#34d399",
+        "pulseRate": 1.05,
+        "lightIntensity": 0.76,
+        "nebulaInner": "rgba(22, 58, 80, 0.26)",
+        "nebulaMid": "rgba(12, 34, 48, 0.10)",
+        "haloColor": "rgba(56, 189, 248, 0.22)",
+        "coreRgb": [
+          225,
+          245,
+          255
+        ],
+        "starRgb": [
+          205,
+          235,
+          255
+        ],
+        "rotationBoost": 1.05,
+        "lightMode": "aurora_wave"
       }
     },
     {
@@ -1657,6 +3907,31 @@
         "youtubeId": "oRGDhgITetc",
         "title": "Mild High Club - Homage",
         "duration": 178
+      },
+      "djConfig": {
+        "bpm": 84,
+        "profile": "dream_pop_lofi",
+        "vibe": "Dream Pop / Ethereal Mist",
+        "primaryColor": "#818cf8",
+        "secondaryColor": "#f472b6",
+        "accentColor": "#38bdf8",
+        "pulseRate": 0.82,
+        "lightIntensity": 0.65,
+        "nebulaInner": "rgba(48, 35, 88, 0.26)",
+        "nebulaMid": "rgba(32, 22, 58, 0.10)",
+        "haloColor": "rgba(129, 140, 248, 0.22)",
+        "coreRgb": [
+          240,
+          235,
+          255
+        ],
+        "starRgb": [
+          215,
+          225,
+          255
+        ],
+        "rotationBoost": 0.82,
+        "lightMode": "breathing_wave"
       }
     },
     {
@@ -1675,6 +3950,31 @@
         "youtubeId": "dCfCzzCyMU4",
         "title": "Djo – Roddy (Official Audio)",
         "duration": 253
+      },
+      "djConfig": {
+        "bpm": 106,
+        "profile": "bedroom_indie",
+        "vibe": "Bedroom Pop / Warm Wave",
+        "primaryColor": "#38bdf8",
+        "secondaryColor": "#a78bfa",
+        "accentColor": "#34d399",
+        "pulseRate": 1.05,
+        "lightIntensity": 0.76,
+        "nebulaInner": "rgba(22, 58, 80, 0.26)",
+        "nebulaMid": "rgba(12, 34, 48, 0.10)",
+        "haloColor": "rgba(56, 189, 248, 0.22)",
+        "coreRgb": [
+          225,
+          245,
+          255
+        ],
+        "starRgb": [
+          205,
+          235,
+          255
+        ],
+        "rotationBoost": 1.05,
+        "lightMode": "aurora_wave"
       }
     },
     {
@@ -1693,6 +3993,31 @@
         "youtubeId": "zM0goJtxxJY",
         "title": "Djo – Chateau (Feel Alright) [Official Audio]",
         "duration": 273
+      },
+      "djConfig": {
+        "bpm": 106,
+        "profile": "bedroom_indie",
+        "vibe": "Bedroom Pop / Warm Wave",
+        "primaryColor": "#38bdf8",
+        "secondaryColor": "#a78bfa",
+        "accentColor": "#34d399",
+        "pulseRate": 1.05,
+        "lightIntensity": 0.76,
+        "nebulaInner": "rgba(22, 58, 80, 0.26)",
+        "nebulaMid": "rgba(12, 34, 48, 0.10)",
+        "haloColor": "rgba(56, 189, 248, 0.22)",
+        "coreRgb": [
+          225,
+          245,
+          255
+        ],
+        "starRgb": [
+          205,
+          235,
+          255
+        ],
+        "rotationBoost": 1.05,
+        "lightMode": "aurora_wave"
       }
     },
     {
@@ -1711,6 +4036,31 @@
         "youtubeId": "gaA7RAy5rYg",
         "title": "Her's - Harvey (Official Audio)",
         "duration": 212
+      },
+      "djConfig": {
+        "bpm": 84,
+        "profile": "dream_pop_lofi",
+        "vibe": "Dream Pop / Ethereal Mist",
+        "primaryColor": "#818cf8",
+        "secondaryColor": "#f472b6",
+        "accentColor": "#38bdf8",
+        "pulseRate": 0.82,
+        "lightIntensity": 0.65,
+        "nebulaInner": "rgba(48, 35, 88, 0.26)",
+        "nebulaMid": "rgba(32, 22, 58, 0.10)",
+        "haloColor": "rgba(129, 140, 248, 0.22)",
+        "coreRgb": [
+          240,
+          235,
+          255
+        ],
+        "starRgb": [
+          215,
+          225,
+          255
+        ],
+        "rotationBoost": 0.82,
+        "lightMode": "breathing_wave"
       }
     },
     {
@@ -1729,6 +4079,31 @@
         "youtubeId": "g_jsC1YR02c",
         "title": "Undercover Martyn (Demo)",
         "duration": 175
+      },
+      "djConfig": {
+        "bpm": 124,
+        "profile": "upbeat_indie_rock",
+        "vibe": "Indie Rock / Emerald Drive",
+        "primaryColor": "#1DB954",
+        "secondaryColor": "#38bdf8",
+        "accentColor": "#fbbf24",
+        "pulseRate": 1.25,
+        "lightIntensity": 0.84,
+        "nebulaInner": "rgba(24, 75, 48, 0.28)",
+        "nebulaMid": "rgba(14, 42, 32, 0.12)",
+        "haloColor": "rgba(29, 185, 84, 0.24)",
+        "coreRgb": [
+          255,
+          248,
+          225
+        ],
+        "starRgb": [
+          220,
+          245,
+          235
+        ],
+        "rotationBoost": 1.35,
+        "lightMode": "emerald_drive"
       }
     },
     {
@@ -1747,6 +4122,31 @@
         "youtubeId": "YXwYJyrKK5A",
         "title": "TWO DOOR CINEMA CLUB  | WHAT YOU KNOW",
         "duration": 192
+      },
+      "djConfig": {
+        "bpm": 124,
+        "profile": "upbeat_indie_rock",
+        "vibe": "Indie Rock / Emerald Drive",
+        "primaryColor": "#1DB954",
+        "secondaryColor": "#38bdf8",
+        "accentColor": "#fbbf24",
+        "pulseRate": 1.25,
+        "lightIntensity": 0.84,
+        "nebulaInner": "rgba(24, 75, 48, 0.28)",
+        "nebulaMid": "rgba(14, 42, 32, 0.12)",
+        "haloColor": "rgba(29, 185, 84, 0.24)",
+        "coreRgb": [
+          255,
+          248,
+          225
+        ],
+        "starRgb": [
+          220,
+          245,
+          235
+        ],
+        "rotationBoost": 1.35,
+        "lightMode": "emerald_drive"
       }
     },
     {
@@ -1765,6 +4165,31 @@
         "youtubeId": "ttB4Yl1LXi4",
         "title": "Two Door Cinema Club - Sun HD",
         "duration": 188
+      },
+      "djConfig": {
+        "bpm": 124,
+        "profile": "upbeat_indie_rock",
+        "vibe": "Indie Rock / Emerald Drive",
+        "primaryColor": "#1DB954",
+        "secondaryColor": "#38bdf8",
+        "accentColor": "#fbbf24",
+        "pulseRate": 1.25,
+        "lightIntensity": 0.84,
+        "nebulaInner": "rgba(24, 75, 48, 0.28)",
+        "nebulaMid": "rgba(14, 42, 32, 0.12)",
+        "haloColor": "rgba(29, 185, 84, 0.24)",
+        "coreRgb": [
+          255,
+          248,
+          225
+        ],
+        "starRgb": [
+          220,
+          245,
+          235
+        ],
+        "rotationBoost": 1.35,
+        "lightMode": "emerald_drive"
       }
     },
     {
@@ -1783,6 +4208,31 @@
         "youtubeId": "wjbAsm48oTA",
         "title": "Wallows - Are You Bored Yet? (feat. Clairo)",
         "duration": 179
+      },
+      "djConfig": {
+        "bpm": 124,
+        "profile": "upbeat_indie_rock",
+        "vibe": "Indie Rock / Emerald Drive",
+        "primaryColor": "#1DB954",
+        "secondaryColor": "#38bdf8",
+        "accentColor": "#fbbf24",
+        "pulseRate": 1.25,
+        "lightIntensity": 0.84,
+        "nebulaInner": "rgba(24, 75, 48, 0.28)",
+        "nebulaMid": "rgba(14, 42, 32, 0.12)",
+        "haloColor": "rgba(29, 185, 84, 0.24)",
+        "coreRgb": [
+          255,
+          248,
+          225
+        ],
+        "starRgb": [
+          220,
+          245,
+          235
+        ],
+        "rotationBoost": 1.35,
+        "lightMode": "emerald_drive"
       }
     },
     {
@@ -1801,6 +4251,31 @@
         "youtubeId": "kMyOFiVW4ek",
         "title": "Wallows - 'Remember When'",
         "duration": 174
+      },
+      "djConfig": {
+        "bpm": 124,
+        "profile": "upbeat_indie_rock",
+        "vibe": "Indie Rock / Emerald Drive",
+        "primaryColor": "#1DB954",
+        "secondaryColor": "#38bdf8",
+        "accentColor": "#fbbf24",
+        "pulseRate": 1.25,
+        "lightIntensity": 0.84,
+        "nebulaInner": "rgba(24, 75, 48, 0.28)",
+        "nebulaMid": "rgba(14, 42, 32, 0.12)",
+        "haloColor": "rgba(29, 185, 84, 0.24)",
+        "coreRgb": [
+          255,
+          248,
+          225
+        ],
+        "starRgb": [
+          220,
+          245,
+          235
+        ],
+        "rotationBoost": 1.35,
+        "lightMode": "emerald_drive"
       }
     },
     {
@@ -1819,6 +4294,31 @@
         "youtubeId": "h05wCS4zn_w",
         "title": "Wallows - Quarterback (Official Audio)",
         "duration": 181
+      },
+      "djConfig": {
+        "bpm": 124,
+        "profile": "upbeat_indie_rock",
+        "vibe": "Indie Rock / Emerald Drive",
+        "primaryColor": "#1DB954",
+        "secondaryColor": "#38bdf8",
+        "accentColor": "#fbbf24",
+        "pulseRate": 1.25,
+        "lightIntensity": 0.84,
+        "nebulaInner": "rgba(24, 75, 48, 0.28)",
+        "nebulaMid": "rgba(14, 42, 32, 0.12)",
+        "haloColor": "rgba(29, 185, 84, 0.24)",
+        "coreRgb": [
+          255,
+          248,
+          225
+        ],
+        "starRgb": [
+          220,
+          245,
+          235
+        ],
+        "rotationBoost": 1.35,
+        "lightMode": "emerald_drive"
       }
     },
     {
@@ -1837,6 +4337,31 @@
         "youtubeId": "xUSAeqWyYoY",
         "title": "Wallows -  Scrawny (Lyrics)",
         "duration": 201
+      },
+      "djConfig": {
+        "bpm": 124,
+        "profile": "upbeat_indie_rock",
+        "vibe": "Indie Rock / Emerald Drive",
+        "primaryColor": "#1DB954",
+        "secondaryColor": "#38bdf8",
+        "accentColor": "#fbbf24",
+        "pulseRate": 1.25,
+        "lightIntensity": 0.84,
+        "nebulaInner": "rgba(24, 75, 48, 0.28)",
+        "nebulaMid": "rgba(14, 42, 32, 0.12)",
+        "haloColor": "rgba(29, 185, 84, 0.24)",
+        "coreRgb": [
+          255,
+          248,
+          225
+        ],
+        "starRgb": [
+          220,
+          245,
+          235
+        ],
+        "rotationBoost": 1.35,
+        "lightMode": "emerald_drive"
       }
     },
     {
@@ -1855,6 +4380,31 @@
         "youtubeId": "cn0Gk4kfjjQ",
         "title": "Wallows - Calling After Me (Official Audio)",
         "duration": 188
+      },
+      "djConfig": {
+        "bpm": 124,
+        "profile": "upbeat_indie_rock",
+        "vibe": "Indie Rock / Emerald Drive",
+        "primaryColor": "#1DB954",
+        "secondaryColor": "#38bdf8",
+        "accentColor": "#fbbf24",
+        "pulseRate": 1.25,
+        "lightIntensity": 0.84,
+        "nebulaInner": "rgba(24, 75, 48, 0.28)",
+        "nebulaMid": "rgba(14, 42, 32, 0.12)",
+        "haloColor": "rgba(29, 185, 84, 0.24)",
+        "coreRgb": [
+          255,
+          248,
+          225
+        ],
+        "starRgb": [
+          220,
+          245,
+          235
+        ],
+        "rotationBoost": 1.35,
+        "lightMode": "emerald_drive"
       }
     },
     {
@@ -1873,6 +4423,31 @@
         "youtubeId": "tVaWKjTpWxA",
         "title": "Royel Otis - Car (Official Music Video)",
         "duration": 206
+      },
+      "djConfig": {
+        "bpm": 106,
+        "profile": "bedroom_indie",
+        "vibe": "Bedroom Pop / Warm Wave",
+        "primaryColor": "#38bdf8",
+        "secondaryColor": "#a78bfa",
+        "accentColor": "#34d399",
+        "pulseRate": 1.05,
+        "lightIntensity": 0.76,
+        "nebulaInner": "rgba(22, 58, 80, 0.26)",
+        "nebulaMid": "rgba(12, 34, 48, 0.10)",
+        "haloColor": "rgba(56, 189, 248, 0.22)",
+        "coreRgb": [
+          225,
+          245,
+          255
+        ],
+        "starRgb": [
+          205,
+          235,
+          255
+        ],
+        "rotationBoost": 1.05,
+        "lightMode": "aurora_wave"
       }
     },
     {
@@ -1891,6 +4466,31 @@
         "youtubeId": "QtgcYmfo2iI",
         "title": "Royel Otis - Oysters in My Pocket (Official Music Video)",
         "duration": 195
+      },
+      "djConfig": {
+        "bpm": 106,
+        "profile": "bedroom_indie",
+        "vibe": "Bedroom Pop / Warm Wave",
+        "primaryColor": "#38bdf8",
+        "secondaryColor": "#a78bfa",
+        "accentColor": "#34d399",
+        "pulseRate": 1.05,
+        "lightIntensity": 0.76,
+        "nebulaInner": "rgba(22, 58, 80, 0.26)",
+        "nebulaMid": "rgba(12, 34, 48, 0.10)",
+        "haloColor": "rgba(56, 189, 248, 0.22)",
+        "coreRgb": [
+          225,
+          245,
+          255
+        ],
+        "starRgb": [
+          205,
+          235,
+          255
+        ],
+        "rotationBoost": 1.05,
+        "lightMode": "aurora_wave"
       }
     },
     {
@@ -1909,6 +4509,31 @@
         "youtubeId": "7VWduWd52yM",
         "title": "Royel Otis - Kool Aid",
         "duration": 220
+      },
+      "djConfig": {
+        "bpm": 106,
+        "profile": "bedroom_indie",
+        "vibe": "Bedroom Pop / Warm Wave",
+        "primaryColor": "#38bdf8",
+        "secondaryColor": "#a78bfa",
+        "accentColor": "#34d399",
+        "pulseRate": 1.05,
+        "lightIntensity": 0.76,
+        "nebulaInner": "rgba(22, 58, 80, 0.26)",
+        "nebulaMid": "rgba(12, 34, 48, 0.10)",
+        "haloColor": "rgba(56, 189, 248, 0.22)",
+        "coreRgb": [
+          225,
+          245,
+          255
+        ],
+        "starRgb": [
+          205,
+          235,
+          255
+        ],
+        "rotationBoost": 1.05,
+        "lightMode": "aurora_wave"
       }
     },
     {
@@ -1927,6 +4552,31 @@
         "youtubeId": "IwyPhKiSJlU",
         "title": "Royel Otis - who’s your boyfriend (Pseudo Video)",
         "duration": 174
+      },
+      "djConfig": {
+        "bpm": 106,
+        "profile": "bedroom_indie",
+        "vibe": "Bedroom Pop / Warm Wave",
+        "primaryColor": "#38bdf8",
+        "secondaryColor": "#a78bfa",
+        "accentColor": "#34d399",
+        "pulseRate": 1.05,
+        "lightIntensity": 0.76,
+        "nebulaInner": "rgba(22, 58, 80, 0.26)",
+        "nebulaMid": "rgba(12, 34, 48, 0.10)",
+        "haloColor": "rgba(56, 189, 248, 0.22)",
+        "coreRgb": [
+          225,
+          245,
+          255
+        ],
+        "starRgb": [
+          205,
+          235,
+          255
+        ],
+        "rotationBoost": 1.05,
+        "lightMode": "aurora_wave"
       }
     },
     {
@@ -1945,6 +4595,31 @@
         "youtubeId": "RUih0WRFI-g",
         "title": "Dayglow - Hot Rod",
         "duration": 204
+      },
+      "djConfig": {
+        "bpm": 106,
+        "profile": "bedroom_indie",
+        "vibe": "Bedroom Pop / Warm Wave",
+        "primaryColor": "#38bdf8",
+        "secondaryColor": "#a78bfa",
+        "accentColor": "#34d399",
+        "pulseRate": 1.05,
+        "lightIntensity": 0.76,
+        "nebulaInner": "rgba(22, 58, 80, 0.26)",
+        "nebulaMid": "rgba(12, 34, 48, 0.10)",
+        "haloColor": "rgba(56, 189, 248, 0.22)",
+        "coreRgb": [
+          225,
+          245,
+          255
+        ],
+        "starRgb": [
+          205,
+          235,
+          255
+        ],
+        "rotationBoost": 1.05,
+        "lightMode": "aurora_wave"
       }
     },
     {
@@ -1963,6 +4638,31 @@
         "youtubeId": "SWjtQVt-Gp4",
         "title": "Dayglow - Close to You",
         "duration": 195
+      },
+      "djConfig": {
+        "bpm": 106,
+        "profile": "bedroom_indie",
+        "vibe": "Bedroom Pop / Warm Wave",
+        "primaryColor": "#38bdf8",
+        "secondaryColor": "#a78bfa",
+        "accentColor": "#34d399",
+        "pulseRate": 1.05,
+        "lightIntensity": 0.76,
+        "nebulaInner": "rgba(22, 58, 80, 0.26)",
+        "nebulaMid": "rgba(12, 34, 48, 0.10)",
+        "haloColor": "rgba(56, 189, 248, 0.22)",
+        "coreRgb": [
+          225,
+          245,
+          255
+        ],
+        "starRgb": [
+          205,
+          235,
+          255
+        ],
+        "rotationBoost": 1.05,
+        "lightMode": "aurora_wave"
       }
     },
     {
@@ -1981,6 +4681,31 @@
         "youtubeId": "CGn4PwFNDjo",
         "title": "Dominic Fike - \"Westcoast Collective\" (w/ Skrillex) [Live @ BROCKHAMPTON's Friday Therapy]",
         "duration": 213
+      },
+      "djConfig": {
+        "bpm": 92,
+        "profile": "late_night_rnb",
+        "vibe": "Late Night R&B / Velvet Groove",
+        "primaryColor": "#c084fc",
+        "secondaryColor": "#f43f5e",
+        "accentColor": "#38bdf8",
+        "pulseRate": 0.95,
+        "lightIntensity": 0.74,
+        "nebulaInner": "rgba(64, 24, 76, 0.26)",
+        "nebulaMid": "rgba(40, 12, 45, 0.11)",
+        "haloColor": "rgba(192, 132, 252, 0.24)",
+        "coreRgb": [
+          250,
+          228,
+          255
+        ],
+        "starRgb": [
+          235,
+          210,
+          255
+        ],
+        "rotationBoost": 0.95,
+        "lightMode": "velvet_pulse"
       }
     },
     {
@@ -1999,6 +4724,31 @@
         "youtubeId": "-ix9HYwV1Lw",
         "title": "JAWNY - adios (official lyric video)",
         "duration": 204
+      },
+      "djConfig": {
+        "bpm": 106,
+        "profile": "bedroom_indie",
+        "vibe": "Bedroom Pop / Warm Wave",
+        "primaryColor": "#38bdf8",
+        "secondaryColor": "#a78bfa",
+        "accentColor": "#34d399",
+        "pulseRate": 1.05,
+        "lightIntensity": 0.76,
+        "nebulaInner": "rgba(22, 58, 80, 0.26)",
+        "nebulaMid": "rgba(12, 34, 48, 0.10)",
+        "haloColor": "rgba(56, 189, 248, 0.22)",
+        "coreRgb": [
+          225,
+          245,
+          255
+        ],
+        "starRgb": [
+          205,
+          235,
+          255
+        ],
+        "rotationBoost": 1.05,
+        "lightMode": "aurora_wave"
       }
     },
     {
@@ -2017,6 +4767,31 @@
         "youtubeId": "1QL1jOjUWXw",
         "title": "Johnny Utah - Honeypie",
         "duration": 137
+      },
+      "djConfig": {
+        "bpm": 106,
+        "profile": "bedroom_indie",
+        "vibe": "Bedroom Pop / Warm Wave",
+        "primaryColor": "#38bdf8",
+        "secondaryColor": "#a78bfa",
+        "accentColor": "#34d399",
+        "pulseRate": 1.05,
+        "lightIntensity": 0.76,
+        "nebulaInner": "rgba(22, 58, 80, 0.26)",
+        "nebulaMid": "rgba(12, 34, 48, 0.10)",
+        "haloColor": "rgba(56, 189, 248, 0.22)",
+        "coreRgb": [
+          225,
+          245,
+          255
+        ],
+        "starRgb": [
+          205,
+          235,
+          255
+        ],
+        "rotationBoost": 1.05,
+        "lightMode": "aurora_wave"
       }
     },
     {
@@ -2035,6 +4810,31 @@
         "youtubeId": "mE6DLY7WQkg",
         "title": "Foster The People - Waste (Official Audio)",
         "duration": 207
+      },
+      "djConfig": {
+        "bpm": 124,
+        "profile": "upbeat_indie_rock",
+        "vibe": "Indie Rock / Emerald Drive",
+        "primaryColor": "#1DB954",
+        "secondaryColor": "#38bdf8",
+        "accentColor": "#fbbf24",
+        "pulseRate": 1.25,
+        "lightIntensity": 0.84,
+        "nebulaInner": "rgba(24, 75, 48, 0.28)",
+        "nebulaMid": "rgba(14, 42, 32, 0.12)",
+        "haloColor": "rgba(29, 185, 84, 0.24)",
+        "coreRgb": [
+          255,
+          248,
+          225
+        ],
+        "starRgb": [
+          220,
+          245,
+          235
+        ],
+        "rotationBoost": 1.35,
+        "lightMode": "emerald_drive"
       }
     },
     {
@@ -2053,6 +4853,31 @@
         "youtubeId": "-wiBRhX_QTU",
         "title": "BORNS | \"Electric Love\" (Audio) | Interscope",
         "duration": 218
+      },
+      "djConfig": {
+        "bpm": 124,
+        "profile": "upbeat_indie_rock",
+        "vibe": "Indie Rock / Emerald Drive",
+        "primaryColor": "#1DB954",
+        "secondaryColor": "#38bdf8",
+        "accentColor": "#fbbf24",
+        "pulseRate": 1.25,
+        "lightIntensity": 0.84,
+        "nebulaInner": "rgba(24, 75, 48, 0.28)",
+        "nebulaMid": "rgba(14, 42, 32, 0.12)",
+        "haloColor": "rgba(29, 185, 84, 0.24)",
+        "coreRgb": [
+          255,
+          248,
+          225
+        ],
+        "starRgb": [
+          220,
+          245,
+          235
+        ],
+        "rotationBoost": 1.35,
+        "lightMode": "emerald_drive"
       }
     },
     {
@@ -2071,6 +4896,31 @@
         "youtubeId": "2h0nk5BVcxI",
         "title": "almost monday – can't slow down",
         "duration": 177
+      },
+      "djConfig": {
+        "bpm": 106,
+        "profile": "bedroom_indie",
+        "vibe": "Bedroom Pop / Warm Wave",
+        "primaryColor": "#38bdf8",
+        "secondaryColor": "#a78bfa",
+        "accentColor": "#34d399",
+        "pulseRate": 1.05,
+        "lightIntensity": 0.76,
+        "nebulaInner": "rgba(22, 58, 80, 0.26)",
+        "nebulaMid": "rgba(12, 34, 48, 0.10)",
+        "haloColor": "rgba(56, 189, 248, 0.22)",
+        "coreRgb": [
+          225,
+          245,
+          255
+        ],
+        "starRgb": [
+          205,
+          235,
+          255
+        ],
+        "rotationBoost": 1.05,
+        "lightMode": "aurora_wave"
       }
     },
     {
@@ -2089,6 +4939,31 @@
         "youtubeId": "29Wbm-UkvUE",
         "title": "Djo - Link (Official Visualizer)",
         "duration": 196
+      },
+      "djConfig": {
+        "bpm": 106,
+        "profile": "bedroom_indie",
+        "vibe": "Bedroom Pop / Warm Wave",
+        "primaryColor": "#38bdf8",
+        "secondaryColor": "#a78bfa",
+        "accentColor": "#34d399",
+        "pulseRate": 1.05,
+        "lightIntensity": 0.76,
+        "nebulaInner": "rgba(22, 58, 80, 0.26)",
+        "nebulaMid": "rgba(12, 34, 48, 0.10)",
+        "haloColor": "rgba(56, 189, 248, 0.22)",
+        "coreRgb": [
+          225,
+          245,
+          255
+        ],
+        "starRgb": [
+          205,
+          235,
+          255
+        ],
+        "rotationBoost": 1.05,
+        "lightMode": "aurora_wave"
       }
     },
     {
@@ -2107,6 +4982,31 @@
         "youtubeId": "rB6I6qWy4Rs",
         "title": "Djo - Change (Official Audio)",
         "duration": 178
+      },
+      "djConfig": {
+        "bpm": 106,
+        "profile": "bedroom_indie",
+        "vibe": "Bedroom Pop / Warm Wave",
+        "primaryColor": "#38bdf8",
+        "secondaryColor": "#a78bfa",
+        "accentColor": "#34d399",
+        "pulseRate": 1.05,
+        "lightIntensity": 0.76,
+        "nebulaInner": "rgba(22, 58, 80, 0.26)",
+        "nebulaMid": "rgba(12, 34, 48, 0.10)",
+        "haloColor": "rgba(56, 189, 248, 0.22)",
+        "coreRgb": [
+          225,
+          245,
+          255
+        ],
+        "starRgb": [
+          205,
+          235,
+          255
+        ],
+        "rotationBoost": 1.05,
+        "lightMode": "aurora_wave"
       }
     },
     {
@@ -2125,6 +5025,31 @@
         "youtubeId": "jRC4PieJ7MI",
         "title": "I Should've Known",
         "duration": 210
+      },
+      "djConfig": {
+        "bpm": 106,
+        "profile": "bedroom_indie",
+        "vibe": "Bedroom Pop / Warm Wave",
+        "primaryColor": "#38bdf8",
+        "secondaryColor": "#a78bfa",
+        "accentColor": "#34d399",
+        "pulseRate": 1.05,
+        "lightIntensity": 0.76,
+        "nebulaInner": "rgba(22, 58, 80, 0.26)",
+        "nebulaMid": "rgba(12, 34, 48, 0.10)",
+        "haloColor": "rgba(56, 189, 248, 0.22)",
+        "coreRgb": [
+          225,
+          245,
+          255
+        ],
+        "starRgb": [
+          205,
+          235,
+          255
+        ],
+        "rotationBoost": 1.05,
+        "lightMode": "aurora_wave"
       }
     },
     {
@@ -2143,6 +5068,31 @@
         "youtubeId": "CM4DiAPbXXI",
         "title": "GESHUOU",
         "duration": 200
+      },
+      "djConfig": {
+        "bpm": 106,
+        "profile": "bedroom_indie",
+        "vibe": "Bedroom Pop / Warm Wave",
+        "primaryColor": "#38bdf8",
+        "secondaryColor": "#a78bfa",
+        "accentColor": "#34d399",
+        "pulseRate": 1.05,
+        "lightIntensity": 0.76,
+        "nebulaInner": "rgba(22, 58, 80, 0.26)",
+        "nebulaMid": "rgba(12, 34, 48, 0.10)",
+        "haloColor": "rgba(56, 189, 248, 0.22)",
+        "coreRgb": [
+          225,
+          245,
+          255
+        ],
+        "starRgb": [
+          205,
+          235,
+          255
+        ],
+        "rotationBoost": 1.05,
+        "lightMode": "aurora_wave"
       }
     },
     {
@@ -2161,6 +5111,31 @@
         "youtubeId": "wXDSqwCSxr8",
         "title": "INOHA - ALUCARDA",
         "duration": 215
+      },
+      "djConfig": {
+        "bpm": 106,
+        "profile": "bedroom_indie",
+        "vibe": "Bedroom Pop / Warm Wave",
+        "primaryColor": "#38bdf8",
+        "secondaryColor": "#a78bfa",
+        "accentColor": "#34d399",
+        "pulseRate": 1.05,
+        "lightIntensity": 0.76,
+        "nebulaInner": "rgba(22, 58, 80, 0.26)",
+        "nebulaMid": "rgba(12, 34, 48, 0.10)",
+        "haloColor": "rgba(56, 189, 248, 0.22)",
+        "coreRgb": [
+          225,
+          245,
+          255
+        ],
+        "starRgb": [
+          205,
+          235,
+          255
+        ],
+        "rotationBoost": 1.05,
+        "lightMode": "aurora_wave"
       }
     },
     {
@@ -2179,6 +5154,31 @@
         "youtubeId": "aM9zaRKYppo",
         "title": "You Owe Me - Malcolm Todd (Official Audio)",
         "duration": 221
+      },
+      "djConfig": {
+        "bpm": 92,
+        "profile": "late_night_rnb",
+        "vibe": "Late Night R&B / Velvet Groove",
+        "primaryColor": "#c084fc",
+        "secondaryColor": "#f43f5e",
+        "accentColor": "#38bdf8",
+        "pulseRate": 0.95,
+        "lightIntensity": 0.74,
+        "nebulaInner": "rgba(64, 24, 76, 0.26)",
+        "nebulaMid": "rgba(40, 12, 45, 0.11)",
+        "haloColor": "rgba(192, 132, 252, 0.24)",
+        "coreRgb": [
+          250,
+          228,
+          255
+        ],
+        "starRgb": [
+          235,
+          210,
+          255
+        ],
+        "rotationBoost": 0.95,
+        "lightMode": "velvet_pulse"
       }
     },
     {
@@ -2197,6 +5197,31 @@
         "youtubeId": "zwtMZ4l9t4s",
         "title": "Mr. Incorrect - Malcolm Todd (Lyric Video)",
         "duration": 171
+      },
+      "djConfig": {
+        "bpm": 92,
+        "profile": "late_night_rnb",
+        "vibe": "Late Night R&B / Velvet Groove",
+        "primaryColor": "#c084fc",
+        "secondaryColor": "#f43f5e",
+        "accentColor": "#38bdf8",
+        "pulseRate": 0.95,
+        "lightIntensity": 0.74,
+        "nebulaInner": "rgba(64, 24, 76, 0.26)",
+        "nebulaMid": "rgba(40, 12, 45, 0.11)",
+        "haloColor": "rgba(192, 132, 252, 0.24)",
+        "coreRgb": [
+          250,
+          228,
+          255
+        ],
+        "starRgb": [
+          235,
+          210,
+          255
+        ],
+        "rotationBoost": 0.95,
+        "lightMode": "velvet_pulse"
       }
     },
     {
@@ -2215,6 +5240,31 @@
         "youtubeId": "HSutt_HEV2c",
         "title": "Malcolm Todd - I Saw Your Face (Lyrics)",
         "duration": 190
+      },
+      "djConfig": {
+        "bpm": 92,
+        "profile": "late_night_rnb",
+        "vibe": "Late Night R&B / Velvet Groove",
+        "primaryColor": "#c084fc",
+        "secondaryColor": "#f43f5e",
+        "accentColor": "#38bdf8",
+        "pulseRate": 0.95,
+        "lightIntensity": 0.74,
+        "nebulaInner": "rgba(64, 24, 76, 0.26)",
+        "nebulaMid": "rgba(40, 12, 45, 0.11)",
+        "haloColor": "rgba(192, 132, 252, 0.24)",
+        "coreRgb": [
+          250,
+          228,
+          255
+        ],
+        "starRgb": [
+          235,
+          210,
+          255
+        ],
+        "rotationBoost": 0.95,
+        "lightMode": "velvet_pulse"
       }
     },
     {
@@ -2233,6 +5283,31 @@
         "youtubeId": "y9hF_q12qMg",
         "title": "Malcolm Todd - 4me 4me (Lyrics)",
         "duration": 211
+      },
+      "djConfig": {
+        "bpm": 92,
+        "profile": "late_night_rnb",
+        "vibe": "Late Night R&B / Velvet Groove",
+        "primaryColor": "#c084fc",
+        "secondaryColor": "#f43f5e",
+        "accentColor": "#38bdf8",
+        "pulseRate": 0.95,
+        "lightIntensity": 0.74,
+        "nebulaInner": "rgba(64, 24, 76, 0.26)",
+        "nebulaMid": "rgba(40, 12, 45, 0.11)",
+        "haloColor": "rgba(192, 132, 252, 0.24)",
+        "coreRgb": [
+          250,
+          228,
+          255
+        ],
+        "starRgb": [
+          235,
+          210,
+          255
+        ],
+        "rotationBoost": 0.95,
+        "lightMode": "velvet_pulse"
       }
     },
     {
@@ -2251,6 +5326,31 @@
         "youtubeId": "aM9zaRKYppo",
         "title": "You Owe Me - Malcolm Todd (Official Audio)",
         "duration": 221
+      },
+      "djConfig": {
+        "bpm": 92,
+        "profile": "late_night_rnb",
+        "vibe": "Late Night R&B / Velvet Groove",
+        "primaryColor": "#c084fc",
+        "secondaryColor": "#f43f5e",
+        "accentColor": "#38bdf8",
+        "pulseRate": 0.95,
+        "lightIntensity": 0.74,
+        "nebulaInner": "rgba(64, 24, 76, 0.26)",
+        "nebulaMid": "rgba(40, 12, 45, 0.11)",
+        "haloColor": "rgba(192, 132, 252, 0.24)",
+        "coreRgb": [
+          250,
+          228,
+          255
+        ],
+        "starRgb": [
+          235,
+          210,
+          255
+        ],
+        "rotationBoost": 0.95,
+        "lightMode": "velvet_pulse"
       }
     },
     {
@@ -2269,6 +5369,31 @@
         "youtubeId": "j-zOKShz1vI",
         "title": "Ax and the Hatchetmen - Stay // Honestly (Official Video)",
         "duration": 201
+      },
+      "djConfig": {
+        "bpm": 106,
+        "profile": "bedroom_indie",
+        "vibe": "Bedroom Pop / Warm Wave",
+        "primaryColor": "#38bdf8",
+        "secondaryColor": "#a78bfa",
+        "accentColor": "#34d399",
+        "pulseRate": 1.05,
+        "lightIntensity": 0.76,
+        "nebulaInner": "rgba(22, 58, 80, 0.26)",
+        "nebulaMid": "rgba(12, 34, 48, 0.10)",
+        "haloColor": "rgba(56, 189, 248, 0.22)",
+        "coreRgb": [
+          225,
+          245,
+          255
+        ],
+        "starRgb": [
+          205,
+          235,
+          255
+        ],
+        "rotationBoost": 1.05,
+        "lightMode": "aurora_wave"
       }
     },
     {
@@ -2287,6 +5412,31 @@
         "youtubeId": "H3y0itQDx00",
         "title": "Ax and the Hatchetmen - Blurry Lights (with Albert Hammond Jr) (Lyric Video)",
         "duration": 187
+      },
+      "djConfig": {
+        "bpm": 106,
+        "profile": "bedroom_indie",
+        "vibe": "Bedroom Pop / Warm Wave",
+        "primaryColor": "#38bdf8",
+        "secondaryColor": "#a78bfa",
+        "accentColor": "#34d399",
+        "pulseRate": 1.05,
+        "lightIntensity": 0.76,
+        "nebulaInner": "rgba(22, 58, 80, 0.26)",
+        "nebulaMid": "rgba(12, 34, 48, 0.10)",
+        "haloColor": "rgba(56, 189, 248, 0.22)",
+        "coreRgb": [
+          225,
+          245,
+          255
+        ],
+        "starRgb": [
+          205,
+          235,
+          255
+        ],
+        "rotationBoost": 1.05,
+        "lightMode": "aurora_wave"
       }
     },
     {
@@ -2305,6 +5455,31 @@
         "youtubeId": "dW8U7wslNsg",
         "title": "Mystery Girl",
         "duration": 177
+      },
+      "djConfig": {
+        "bpm": 106,
+        "profile": "bedroom_indie",
+        "vibe": "Bedroom Pop / Warm Wave",
+        "primaryColor": "#38bdf8",
+        "secondaryColor": "#a78bfa",
+        "accentColor": "#34d399",
+        "pulseRate": 1.05,
+        "lightIntensity": 0.76,
+        "nebulaInner": "rgba(22, 58, 80, 0.26)",
+        "nebulaMid": "rgba(12, 34, 48, 0.10)",
+        "haloColor": "rgba(56, 189, 248, 0.22)",
+        "coreRgb": [
+          225,
+          245,
+          255
+        ],
+        "starRgb": [
+          205,
+          235,
+          255
+        ],
+        "rotationBoost": 1.05,
+        "lightMode": "aurora_wave"
       }
     },
     {
@@ -2323,6 +5498,31 @@
         "youtubeId": "340FUuMghIU",
         "title": "Freak Slug - FRIDAY",
         "duration": 205
+      },
+      "djConfig": {
+        "bpm": 84,
+        "profile": "dream_pop_lofi",
+        "vibe": "Dream Pop / Ethereal Mist",
+        "primaryColor": "#818cf8",
+        "secondaryColor": "#f472b6",
+        "accentColor": "#38bdf8",
+        "pulseRate": 0.82,
+        "lightIntensity": 0.65,
+        "nebulaInner": "rgba(48, 35, 88, 0.26)",
+        "nebulaMid": "rgba(32, 22, 58, 0.10)",
+        "haloColor": "rgba(129, 140, 248, 0.22)",
+        "coreRgb": [
+          240,
+          235,
+          255
+        ],
+        "starRgb": [
+          215,
+          225,
+          255
+        ],
+        "rotationBoost": 0.82,
+        "lightMode": "breathing_wave"
       }
     },
     {
@@ -2341,6 +5541,31 @@
         "youtubeId": "mFyPWT-eKxA",
         "title": "Phoneboy - Nevermind (feat. Justin Magnaye)",
         "duration": 211
+      },
+      "djConfig": {
+        "bpm": 106,
+        "profile": "bedroom_indie",
+        "vibe": "Bedroom Pop / Warm Wave",
+        "primaryColor": "#38bdf8",
+        "secondaryColor": "#a78bfa",
+        "accentColor": "#34d399",
+        "pulseRate": 1.05,
+        "lightIntensity": 0.76,
+        "nebulaInner": "rgba(22, 58, 80, 0.26)",
+        "nebulaMid": "rgba(12, 34, 48, 0.10)",
+        "haloColor": "rgba(56, 189, 248, 0.22)",
+        "coreRgb": [
+          225,
+          245,
+          255
+        ],
+        "starRgb": [
+          205,
+          235,
+          255
+        ],
+        "rotationBoost": 1.05,
+        "lightMode": "aurora_wave"
       }
     },
     {
@@ -2359,6 +5584,31 @@
         "youtubeId": "0dgqkBb5zzM",
         "title": "GARDEN STATE",
         "duration": 221
+      },
+      "djConfig": {
+        "bpm": 106,
+        "profile": "bedroom_indie",
+        "vibe": "Bedroom Pop / Warm Wave",
+        "primaryColor": "#38bdf8",
+        "secondaryColor": "#a78bfa",
+        "accentColor": "#34d399",
+        "pulseRate": 1.05,
+        "lightIntensity": 0.76,
+        "nebulaInner": "rgba(22, 58, 80, 0.26)",
+        "nebulaMid": "rgba(12, 34, 48, 0.10)",
+        "haloColor": "rgba(56, 189, 248, 0.22)",
+        "coreRgb": [
+          225,
+          245,
+          255
+        ],
+        "starRgb": [
+          205,
+          235,
+          255
+        ],
+        "rotationBoost": 1.05,
+        "lightMode": "aurora_wave"
       }
     },
     {
@@ -2377,6 +5627,31 @@
         "youtubeId": "m4vYeaKDNYM",
         "title": "downthemeadows - motion sickness (official audio)",
         "duration": 214
+      },
+      "djConfig": {
+        "bpm": 106,
+        "profile": "bedroom_indie",
+        "vibe": "Bedroom Pop / Warm Wave",
+        "primaryColor": "#38bdf8",
+        "secondaryColor": "#a78bfa",
+        "accentColor": "#34d399",
+        "pulseRate": 1.05,
+        "lightIntensity": 0.76,
+        "nebulaInner": "rgba(22, 58, 80, 0.26)",
+        "nebulaMid": "rgba(12, 34, 48, 0.10)",
+        "haloColor": "rgba(56, 189, 248, 0.22)",
+        "coreRgb": [
+          225,
+          245,
+          255
+        ],
+        "starRgb": [
+          205,
+          235,
+          255
+        ],
+        "rotationBoost": 1.05,
+        "lightMode": "aurora_wave"
       }
     },
     {
@@ -2395,6 +5670,31 @@
         "youtubeId": "dxpKi9G_kxU",
         "title": "Somebody Told Me - The Killers",
         "duration": 198
+      },
+      "djConfig": {
+        "bpm": 138,
+        "profile": "energetic_alt",
+        "vibe": "Alt-Rock / High Energy",
+        "primaryColor": "#f97316",
+        "secondaryColor": "#ef4444",
+        "accentColor": "#fbbf24",
+        "pulseRate": 1.4,
+        "lightIntensity": 0.92,
+        "nebulaInner": "rgba(78, 32, 22, 0.28)",
+        "nebulaMid": "rgba(46, 18, 14, 0.12)",
+        "haloColor": "rgba(249, 115, 22, 0.24)",
+        "coreRgb": [
+          255,
+          235,
+          210
+        ],
+        "starRgb": [
+          255,
+          220,
+          195
+        ],
+        "rotationBoost": 1.5,
+        "lightMode": "strobe_chase"
       }
     },
     {
@@ -2413,6 +5713,31 @@
         "youtubeId": "2GAJm2g_LPA",
         "title": "Kelly Clarkson & Weezer Sing 'Say It Ain't So' | Kellyoke",
         "duration": 208
+      },
+      "djConfig": {
+        "bpm": 138,
+        "profile": "energetic_alt",
+        "vibe": "Alt-Rock / High Energy",
+        "primaryColor": "#f97316",
+        "secondaryColor": "#ef4444",
+        "accentColor": "#fbbf24",
+        "pulseRate": 1.4,
+        "lightIntensity": 0.92,
+        "nebulaInner": "rgba(78, 32, 22, 0.28)",
+        "nebulaMid": "rgba(46, 18, 14, 0.12)",
+        "haloColor": "rgba(249, 115, 22, 0.24)",
+        "coreRgb": [
+          255,
+          235,
+          210
+        ],
+        "starRgb": [
+          255,
+          220,
+          195
+        ],
+        "rotationBoost": 1.5,
+        "lightMode": "strobe_chase"
       }
     },
     {
@@ -2431,6 +5756,31 @@
         "youtubeId": "t3RO0UMsBss",
         "title": "Weezer - Happy Hour",
         "duration": 178
+      },
+      "djConfig": {
+        "bpm": 138,
+        "profile": "energetic_alt",
+        "vibe": "Alt-Rock / High Energy",
+        "primaryColor": "#f97316",
+        "secondaryColor": "#ef4444",
+        "accentColor": "#fbbf24",
+        "pulseRate": 1.4,
+        "lightIntensity": 0.92,
+        "nebulaInner": "rgba(78, 32, 22, 0.28)",
+        "nebulaMid": "rgba(46, 18, 14, 0.12)",
+        "haloColor": "rgba(249, 115, 22, 0.24)",
+        "coreRgb": [
+          255,
+          235,
+          210
+        ],
+        "starRgb": [
+          255,
+          220,
+          195
+        ],
+        "rotationBoost": 1.5,
+        "lightMode": "strobe_chase"
       }
     },
     {
@@ -2449,6 +5799,31 @@
         "youtubeId": "_b55PfbuQ_Q",
         "title": "alt-J - Left Hand Free (Official Audio)",
         "duration": 174
+      },
+      "djConfig": {
+        "bpm": 124,
+        "profile": "upbeat_indie_rock",
+        "vibe": "Indie Rock / Emerald Drive",
+        "primaryColor": "#1DB954",
+        "secondaryColor": "#38bdf8",
+        "accentColor": "#fbbf24",
+        "pulseRate": 1.25,
+        "lightIntensity": 0.84,
+        "nebulaInner": "rgba(24, 75, 48, 0.28)",
+        "nebulaMid": "rgba(14, 42, 32, 0.12)",
+        "haloColor": "rgba(29, 185, 84, 0.24)",
+        "coreRgb": [
+          255,
+          248,
+          225
+        ],
+        "starRgb": [
+          220,
+          245,
+          235
+        ],
+        "rotationBoost": 1.35,
+        "lightMode": "emerald_drive"
       }
     },
     {
@@ -2467,6 +5842,31 @@
         "youtubeId": "MWbV_oNdqI8",
         "title": "Red Hot Chili Peppers - Sick Love [Lyrics]",
         "duration": 222
+      },
+      "djConfig": {
+        "bpm": 138,
+        "profile": "energetic_alt",
+        "vibe": "Alt-Rock / High Energy",
+        "primaryColor": "#f97316",
+        "secondaryColor": "#ef4444",
+        "accentColor": "#fbbf24",
+        "pulseRate": 1.4,
+        "lightIntensity": 0.92,
+        "nebulaInner": "rgba(78, 32, 22, 0.28)",
+        "nebulaMid": "rgba(46, 18, 14, 0.12)",
+        "haloColor": "rgba(249, 115, 22, 0.24)",
+        "coreRgb": [
+          255,
+          235,
+          210
+        ],
+        "starRgb": [
+          255,
+          220,
+          195
+        ],
+        "rotationBoost": 1.5,
+        "lightMode": "strobe_chase"
       }
     },
     {
@@ -2485,6 +5885,31 @@
         "youtubeId": "dJoRuBXeQqE",
         "title": "Phoenix - Fences lyrics",
         "duration": 226
+      },
+      "djConfig": {
+        "bpm": 114,
+        "profile": "golden_classic",
+        "vibe": "Vintage Psych / Golden Starlight",
+        "primaryColor": "#fbbf24",
+        "secondaryColor": "#f59e0b",
+        "accentColor": "#10b981",
+        "pulseRate": 1.12,
+        "lightIntensity": 0.8,
+        "nebulaInner": "rgba(74, 55, 22, 0.26)",
+        "nebulaMid": "rgba(42, 32, 12, 0.10)",
+        "haloColor": "rgba(251, 191, 36, 0.22)",
+        "coreRgb": [
+          255,
+          245,
+          215
+        ],
+        "starRgb": [
+          255,
+          235,
+          200
+        ],
+        "rotationBoost": 1.12,
+        "lightMode": "warm_lantern"
       }
     },
     {
@@ -2503,6 +5928,31 @@
         "youtubeId": "EaGNpnvreY0",
         "title": "The Black Keys \"Tighten Up\" Remastered 10th Anniversary Edition [Official Audio]",
         "duration": 212
+      },
+      "djConfig": {
+        "bpm": 138,
+        "profile": "energetic_alt",
+        "vibe": "Alt-Rock / High Energy",
+        "primaryColor": "#f97316",
+        "secondaryColor": "#ef4444",
+        "accentColor": "#fbbf24",
+        "pulseRate": 1.4,
+        "lightIntensity": 0.92,
+        "nebulaInner": "rgba(78, 32, 22, 0.28)",
+        "nebulaMid": "rgba(46, 18, 14, 0.12)",
+        "haloColor": "rgba(249, 115, 22, 0.24)",
+        "coreRgb": [
+          255,
+          235,
+          210
+        ],
+        "starRgb": [
+          255,
+          220,
+          195
+        ],
+        "rotationBoost": 1.5,
+        "lightMode": "strobe_chase"
       }
     },
     {
@@ -2521,6 +5971,31 @@
         "youtubeId": "JILfwu5AWIQ",
         "title": "The Black Keys - Lo/Hi [Official Audio]",
         "duration": 184
+      },
+      "djConfig": {
+        "bpm": 138,
+        "profile": "energetic_alt",
+        "vibe": "Alt-Rock / High Energy",
+        "primaryColor": "#f97316",
+        "secondaryColor": "#ef4444",
+        "accentColor": "#fbbf24",
+        "pulseRate": 1.4,
+        "lightIntensity": 0.92,
+        "nebulaInner": "rgba(78, 32, 22, 0.28)",
+        "nebulaMid": "rgba(46, 18, 14, 0.12)",
+        "haloColor": "rgba(249, 115, 22, 0.24)",
+        "coreRgb": [
+          255,
+          235,
+          210
+        ],
+        "starRgb": [
+          255,
+          220,
+          195
+        ],
+        "rotationBoost": 1.5,
+        "lightMode": "strobe_chase"
       }
     },
     {
@@ -2539,6 +6014,31 @@
         "youtubeId": "6yCIDkFI7ew",
         "title": "The Black Keys - Gold On The Ceiling [Official Music Video]",
         "duration": 226
+      },
+      "djConfig": {
+        "bpm": 138,
+        "profile": "energetic_alt",
+        "vibe": "Alt-Rock / High Energy",
+        "primaryColor": "#f97316",
+        "secondaryColor": "#ef4444",
+        "accentColor": "#fbbf24",
+        "pulseRate": 1.4,
+        "lightIntensity": 0.92,
+        "nebulaInner": "rgba(78, 32, 22, 0.28)",
+        "nebulaMid": "rgba(46, 18, 14, 0.12)",
+        "haloColor": "rgba(249, 115, 22, 0.24)",
+        "coreRgb": [
+          255,
+          235,
+          210
+        ],
+        "starRgb": [
+          255,
+          220,
+          195
+        ],
+        "rotationBoost": 1.5,
+        "lightMode": "strobe_chase"
       }
     },
     {
@@ -2557,6 +6057,31 @@
         "youtubeId": "BdiQJoRlxKU",
         "title": "Third Eye Blind - Semi-Charmed Life (Clean Radio Edit)",
         "duration": 223
+      },
+      "djConfig": {
+        "bpm": 124,
+        "profile": "upbeat_indie_rock",
+        "vibe": "Indie Rock / Emerald Drive",
+        "primaryColor": "#1DB954",
+        "secondaryColor": "#38bdf8",
+        "accentColor": "#fbbf24",
+        "pulseRate": 1.25,
+        "lightIntensity": 0.84,
+        "nebulaInner": "rgba(24, 75, 48, 0.28)",
+        "nebulaMid": "rgba(14, 42, 32, 0.12)",
+        "haloColor": "rgba(29, 185, 84, 0.24)",
+        "coreRgb": [
+          255,
+          248,
+          225
+        ],
+        "starRgb": [
+          220,
+          245,
+          235
+        ],
+        "rotationBoost": 1.35,
+        "lightMode": "emerald_drive"
       }
     },
     {
@@ -2575,6 +6100,31 @@
         "youtubeId": "oKsxPW6i3pM",
         "title": "Jimmy Eat World - The Middle (4K Official Music Video)",
         "duration": 173
+      },
+      "djConfig": {
+        "bpm": 124,
+        "profile": "upbeat_indie_rock",
+        "vibe": "Indie Rock / Emerald Drive",
+        "primaryColor": "#1DB954",
+        "secondaryColor": "#38bdf8",
+        "accentColor": "#fbbf24",
+        "pulseRate": 1.25,
+        "lightIntensity": 0.84,
+        "nebulaInner": "rgba(24, 75, 48, 0.28)",
+        "nebulaMid": "rgba(14, 42, 32, 0.12)",
+        "haloColor": "rgba(29, 185, 84, 0.24)",
+        "coreRgb": [
+          255,
+          248,
+          225
+        ],
+        "starRgb": [
+          220,
+          245,
+          235
+        ],
+        "rotationBoost": 1.35,
+        "lightMode": "emerald_drive"
       }
     },
     {
@@ -2593,6 +6143,31 @@
         "youtubeId": "HEeucik5Zr4",
         "title": "Shiny Happy People",
         "duration": 227
+      },
+      "djConfig": {
+        "bpm": 114,
+        "profile": "golden_classic",
+        "vibe": "Vintage Psych / Golden Starlight",
+        "primaryColor": "#fbbf24",
+        "secondaryColor": "#f59e0b",
+        "accentColor": "#10b981",
+        "pulseRate": 1.12,
+        "lightIntensity": 0.8,
+        "nebulaInner": "rgba(74, 55, 22, 0.26)",
+        "nebulaMid": "rgba(42, 32, 12, 0.10)",
+        "haloColor": "rgba(251, 191, 36, 0.22)",
+        "coreRgb": [
+          255,
+          245,
+          215
+        ],
+        "starRgb": [
+          255,
+          235,
+          200
+        ],
+        "rotationBoost": 1.12,
+        "lightMode": "warm_lantern"
       }
     },
     {
@@ -2611,6 +6186,31 @@
         "youtubeId": "-Fp0aTedjwI",
         "title": "Gorillaz - Feel Good Inc.",
         "duration": 223
+      },
+      "djConfig": {
+        "bpm": 124,
+        "profile": "upbeat_indie_rock",
+        "vibe": "Indie Rock / Emerald Drive",
+        "primaryColor": "#1DB954",
+        "secondaryColor": "#38bdf8",
+        "accentColor": "#fbbf24",
+        "pulseRate": 1.25,
+        "lightIntensity": 0.84,
+        "nebulaInner": "rgba(24, 75, 48, 0.28)",
+        "nebulaMid": "rgba(14, 42, 32, 0.12)",
+        "haloColor": "rgba(29, 185, 84, 0.24)",
+        "coreRgb": [
+          255,
+          248,
+          225
+        ],
+        "starRgb": [
+          220,
+          245,
+          235
+        ],
+        "rotationBoost": 1.35,
+        "lightMode": "emerald_drive"
       }
     },
     {
@@ -2629,6 +6229,31 @@
         "youtubeId": "6uVtlH20STA",
         "title": "Jack Johnson - Upside Down",
         "duration": 217
+      },
+      "djConfig": {
+        "bpm": 114,
+        "profile": "golden_classic",
+        "vibe": "Vintage Psych / Golden Starlight",
+        "primaryColor": "#fbbf24",
+        "secondaryColor": "#f59e0b",
+        "accentColor": "#10b981",
+        "pulseRate": 1.12,
+        "lightIntensity": 0.8,
+        "nebulaInner": "rgba(74, 55, 22, 0.26)",
+        "nebulaMid": "rgba(42, 32, 12, 0.10)",
+        "haloColor": "rgba(251, 191, 36, 0.22)",
+        "coreRgb": [
+          255,
+          245,
+          215
+        ],
+        "starRgb": [
+          255,
+          235,
+          200
+        ],
+        "rotationBoost": 1.12,
+        "lightMode": "warm_lantern"
       }
     },
     {
@@ -2647,6 +6272,31 @@
         "youtubeId": "EyHKuyGsu4U",
         "title": "Don't Let Me Down (Remastered 2009)",
         "duration": 216
+      },
+      "djConfig": {
+        "bpm": 114,
+        "profile": "golden_classic",
+        "vibe": "Vintage Psych / Golden Starlight",
+        "primaryColor": "#fbbf24",
+        "secondaryColor": "#f59e0b",
+        "accentColor": "#10b981",
+        "pulseRate": 1.12,
+        "lightIntensity": 0.8,
+        "nebulaInner": "rgba(74, 55, 22, 0.26)",
+        "nebulaMid": "rgba(42, 32, 12, 0.10)",
+        "haloColor": "rgba(251, 191, 36, 0.22)",
+        "coreRgb": [
+          255,
+          245,
+          215
+        ],
+        "starRgb": [
+          255,
+          235,
+          200
+        ],
+        "rotationBoost": 1.12,
+        "lightMode": "warm_lantern"
       }
     },
     {
@@ -2665,6 +6315,31 @@
         "youtubeId": "mkGT1c98soU",
         "title": "Mac Miller - The Spins",
         "duration": 197
+      },
+      "djConfig": {
+        "bpm": 94,
+        "profile": "hiphop_boom_bap",
+        "vibe": "Hip-Hop / Heavy Kick",
+        "primaryColor": "#ec4899",
+        "secondaryColor": "#8b5cf6",
+        "accentColor": "#06b6d4",
+        "pulseRate": 1.15,
+        "lightIntensity": 0.88,
+        "nebulaInner": "rgba(68, 20, 52, 0.28)",
+        "nebulaMid": "rgba(38, 12, 30, 0.12)",
+        "haloColor": "rgba(236, 72, 153, 0.24)",
+        "coreRgb": [
+          255,
+          225,
+          245
+        ],
+        "starRgb": [
+          240,
+          205,
+          255
+        ],
+        "rotationBoost": 1.25,
+        "lightMode": "bass_kick"
       }
     },
     {
@@ -2683,6 +6358,31 @@
         "youtubeId": "UzGEhIN5J-w",
         "title": "Wiz Khalifa-The Thrill (Beatmix)",
         "duration": 220
+      },
+      "djConfig": {
+        "bpm": 94,
+        "profile": "hiphop_boom_bap",
+        "vibe": "Hip-Hop / Heavy Kick",
+        "primaryColor": "#ec4899",
+        "secondaryColor": "#8b5cf6",
+        "accentColor": "#06b6d4",
+        "pulseRate": 1.15,
+        "lightIntensity": 0.88,
+        "nebulaInner": "rgba(68, 20, 52, 0.28)",
+        "nebulaMid": "rgba(38, 12, 30, 0.12)",
+        "haloColor": "rgba(236, 72, 153, 0.24)",
+        "coreRgb": [
+          255,
+          225,
+          245
+        ],
+        "starRgb": [
+          240,
+          205,
+          255
+        ],
+        "rotationBoost": 1.25,
+        "lightMode": "bass_kick"
       }
     },
     {
@@ -2701,6 +6401,31 @@
         "youtubeId": "GJDmvDSWK64",
         "title": "Tyler, The Creator - Ring Ring Ring",
         "duration": 203
+      },
+      "djConfig": {
+        "bpm": 94,
+        "profile": "hiphop_boom_bap",
+        "vibe": "Hip-Hop / Heavy Kick",
+        "primaryColor": "#ec4899",
+        "secondaryColor": "#8b5cf6",
+        "accentColor": "#06b6d4",
+        "pulseRate": 1.15,
+        "lightIntensity": 0.88,
+        "nebulaInner": "rgba(68, 20, 52, 0.28)",
+        "nebulaMid": "rgba(38, 12, 30, 0.12)",
+        "haloColor": "rgba(236, 72, 153, 0.24)",
+        "coreRgb": [
+          255,
+          225,
+          245
+        ],
+        "starRgb": [
+          240,
+          205,
+          255
+        ],
+        "rotationBoost": 1.25,
+        "lightMode": "bass_kick"
       }
     },
     {
@@ -2719,6 +6444,31 @@
         "youtubeId": "HTVBW0EIAmE",
         "title": "Tyler, The Creator - Don't You Worry Baby",
         "duration": 179
+      },
+      "djConfig": {
+        "bpm": 94,
+        "profile": "hiphop_boom_bap",
+        "vibe": "Hip-Hop / Heavy Kick",
+        "primaryColor": "#ec4899",
+        "secondaryColor": "#8b5cf6",
+        "accentColor": "#06b6d4",
+        "pulseRate": 1.15,
+        "lightIntensity": 0.88,
+        "nebulaInner": "rgba(68, 20, 52, 0.28)",
+        "nebulaMid": "rgba(38, 12, 30, 0.12)",
+        "haloColor": "rgba(236, 72, 153, 0.24)",
+        "coreRgb": [
+          255,
+          225,
+          245
+        ],
+        "starRgb": [
+          240,
+          205,
+          255
+        ],
+        "rotationBoost": 1.25,
+        "lightMode": "bass_kick"
       }
     },
     {
@@ -2737,6 +6487,31 @@
         "youtubeId": "GZMOGoPYcFY",
         "title": "Tyler The Creator - Sucka Free | (3D Audio🎧 Sound Spatial) [DON'T TAP THE GLASS]",
         "duration": 171
+      },
+      "djConfig": {
+        "bpm": 94,
+        "profile": "hiphop_boom_bap",
+        "vibe": "Hip-Hop / Heavy Kick",
+        "primaryColor": "#ec4899",
+        "secondaryColor": "#8b5cf6",
+        "accentColor": "#06b6d4",
+        "pulseRate": 1.15,
+        "lightIntensity": 0.88,
+        "nebulaInner": "rgba(68, 20, 52, 0.28)",
+        "nebulaMid": "rgba(38, 12, 30, 0.12)",
+        "haloColor": "rgba(236, 72, 153, 0.24)",
+        "coreRgb": [
+          255,
+          225,
+          245
+        ],
+        "starRgb": [
+          240,
+          205,
+          255
+        ],
+        "rotationBoost": 1.25,
+        "lightMode": "bass_kick"
       }
     },
     {
@@ -2755,6 +6530,31 @@
         "youtubeId": "LSIOcCcEVaE",
         "title": "SORRY NOT SORRY",
         "duration": 203
+      },
+      "djConfig": {
+        "bpm": 94,
+        "profile": "hiphop_boom_bap",
+        "vibe": "Hip-Hop / Heavy Kick",
+        "primaryColor": "#ec4899",
+        "secondaryColor": "#8b5cf6",
+        "accentColor": "#06b6d4",
+        "pulseRate": 1.15,
+        "lightIntensity": 0.88,
+        "nebulaInner": "rgba(68, 20, 52, 0.28)",
+        "nebulaMid": "rgba(38, 12, 30, 0.12)",
+        "haloColor": "rgba(236, 72, 153, 0.24)",
+        "coreRgb": [
+          255,
+          225,
+          245
+        ],
+        "starRgb": [
+          240,
+          205,
+          255
+        ],
+        "rotationBoost": 1.25,
+        "lightMode": "bass_kick"
       }
     },
     {
@@ -2773,6 +6573,31 @@
         "youtubeId": "XLWMXLmlFdA",
         "title": "Tyler, The Creator & Kanye West - HOT WIND BLOWS (REMIX)",
         "duration": 184
+      },
+      "djConfig": {
+        "bpm": 94,
+        "profile": "hiphop_boom_bap",
+        "vibe": "Hip-Hop / Heavy Kick",
+        "primaryColor": "#ec4899",
+        "secondaryColor": "#8b5cf6",
+        "accentColor": "#06b6d4",
+        "pulseRate": 1.15,
+        "lightIntensity": 0.88,
+        "nebulaInner": "rgba(68, 20, 52, 0.28)",
+        "nebulaMid": "rgba(38, 12, 30, 0.12)",
+        "haloColor": "rgba(236, 72, 153, 0.24)",
+        "coreRgb": [
+          255,
+          225,
+          245
+        ],
+        "starRgb": [
+          240,
+          205,
+          255
+        ],
+        "rotationBoost": 1.25,
+        "lightMode": "bass_kick"
       }
     },
     {
@@ -2791,6 +6616,31 @@
         "youtubeId": "jmXUhiyi2qM",
         "title": "Tyler, The Creator - POTHOLE (432hz)",
         "duration": 183
+      },
+      "djConfig": {
+        "bpm": 94,
+        "profile": "hiphop_boom_bap",
+        "vibe": "Hip-Hop / Heavy Kick",
+        "primaryColor": "#ec4899",
+        "secondaryColor": "#8b5cf6",
+        "accentColor": "#06b6d4",
+        "pulseRate": 1.15,
+        "lightIntensity": 0.88,
+        "nebulaInner": "rgba(68, 20, 52, 0.28)",
+        "nebulaMid": "rgba(38, 12, 30, 0.12)",
+        "haloColor": "rgba(236, 72, 153, 0.24)",
+        "coreRgb": [
+          255,
+          225,
+          245
+        ],
+        "starRgb": [
+          240,
+          205,
+          255
+        ],
+        "rotationBoost": 1.25,
+        "lightMode": "bass_kick"
       }
     },
     {
@@ -2809,6 +6659,31 @@
         "youtubeId": "qsmqtb5bqgs",
         "title": "Tyler, The Creator - Thought I Was Dead (Lyrics Video) ft. ScHoolboy Q, Santigold",
         "duration": 213
+      },
+      "djConfig": {
+        "bpm": 94,
+        "profile": "hiphop_boom_bap",
+        "vibe": "Hip-Hop / Heavy Kick",
+        "primaryColor": "#ec4899",
+        "secondaryColor": "#8b5cf6",
+        "accentColor": "#06b6d4",
+        "pulseRate": 1.15,
+        "lightIntensity": 0.88,
+        "nebulaInner": "rgba(68, 20, 52, 0.28)",
+        "nebulaMid": "rgba(38, 12, 30, 0.12)",
+        "haloColor": "rgba(236, 72, 153, 0.24)",
+        "coreRgb": [
+          255,
+          225,
+          245
+        ],
+        "starRgb": [
+          240,
+          205,
+          255
+        ],
+        "rotationBoost": 1.25,
+        "lightMode": "bass_kick"
       }
     },
     {
@@ -2827,6 +6702,31 @@
         "youtubeId": "oQIm6jq7Wfg",
         "title": "Mac Miller - Knock Knock",
         "duration": 199
+      },
+      "djConfig": {
+        "bpm": 94,
+        "profile": "hiphop_boom_bap",
+        "vibe": "Hip-Hop / Heavy Kick",
+        "primaryColor": "#ec4899",
+        "secondaryColor": "#8b5cf6",
+        "accentColor": "#06b6d4",
+        "pulseRate": 1.15,
+        "lightIntensity": 0.88,
+        "nebulaInner": "rgba(68, 20, 52, 0.28)",
+        "nebulaMid": "rgba(38, 12, 30, 0.12)",
+        "haloColor": "rgba(236, 72, 153, 0.24)",
+        "coreRgb": [
+          255,
+          225,
+          245
+        ],
+        "starRgb": [
+          240,
+          205,
+          255
+        ],
+        "rotationBoost": 1.25,
+        "lightMode": "bass_kick"
       }
     },
     {
@@ -2845,6 +6745,31 @@
         "youtubeId": "oOuSAchSjpw",
         "title": "Mac Miller - Don't Mind If I Do",
         "duration": 179
+      },
+      "djConfig": {
+        "bpm": 94,
+        "profile": "hiphop_boom_bap",
+        "vibe": "Hip-Hop / Heavy Kick",
+        "primaryColor": "#ec4899",
+        "secondaryColor": "#8b5cf6",
+        "accentColor": "#06b6d4",
+        "pulseRate": 1.15,
+        "lightIntensity": 0.88,
+        "nebulaInner": "rgba(68, 20, 52, 0.28)",
+        "nebulaMid": "rgba(38, 12, 30, 0.12)",
+        "haloColor": "rgba(236, 72, 153, 0.24)",
+        "coreRgb": [
+          255,
+          225,
+          245
+        ],
+        "starRgb": [
+          240,
+          205,
+          255
+        ],
+        "rotationBoost": 1.25,
+        "lightMode": "bass_kick"
       }
     },
     {
@@ -2863,6 +6788,31 @@
         "youtubeId": "edYDDTgrwcY",
         "title": "Mac Miller - Wake Up (Official Audio)",
         "duration": 235
+      },
+      "djConfig": {
+        "bpm": 94,
+        "profile": "hiphop_boom_bap",
+        "vibe": "Hip-Hop / Heavy Kick",
+        "primaryColor": "#ec4899",
+        "secondaryColor": "#8b5cf6",
+        "accentColor": "#06b6d4",
+        "pulseRate": 1.15,
+        "lightIntensity": 0.88,
+        "nebulaInner": "rgba(68, 20, 52, 0.28)",
+        "nebulaMid": "rgba(38, 12, 30, 0.12)",
+        "haloColor": "rgba(236, 72, 153, 0.24)",
+        "coreRgb": [
+          255,
+          225,
+          245
+        ],
+        "starRgb": [
+          240,
+          205,
+          255
+        ],
+        "rotationBoost": 1.25,
+        "lightMode": "bass_kick"
       }
     },
     {
@@ -2881,6 +6831,31 @@
         "youtubeId": "hx6FagxoqSc",
         "title": "Here We Go - Mac Miller (LYRICS)",
         "duration": 175
+      },
+      "djConfig": {
+        "bpm": 94,
+        "profile": "hiphop_boom_bap",
+        "vibe": "Hip-Hop / Heavy Kick",
+        "primaryColor": "#ec4899",
+        "secondaryColor": "#8b5cf6",
+        "accentColor": "#06b6d4",
+        "pulseRate": 1.15,
+        "lightIntensity": 0.88,
+        "nebulaInner": "rgba(68, 20, 52, 0.28)",
+        "nebulaMid": "rgba(38, 12, 30, 0.12)",
+        "haloColor": "rgba(236, 72, 153, 0.24)",
+        "coreRgb": [
+          255,
+          225,
+          245
+        ],
+        "starRgb": [
+          240,
+          205,
+          255
+        ],
+        "rotationBoost": 1.25,
+        "lightMode": "bass_kick"
       }
     },
     {
@@ -2899,6 +6874,31 @@
         "youtubeId": "QZ8-zF24yKQ",
         "title": "19. Mac Miller - Rain Feat. Vince Staples",
         "duration": 180
+      },
+      "djConfig": {
+        "bpm": 94,
+        "profile": "hiphop_boom_bap",
+        "vibe": "Hip-Hop / Heavy Kick",
+        "primaryColor": "#ec4899",
+        "secondaryColor": "#8b5cf6",
+        "accentColor": "#06b6d4",
+        "pulseRate": 1.15,
+        "lightIntensity": 0.88,
+        "nebulaInner": "rgba(68, 20, 52, 0.28)",
+        "nebulaMid": "rgba(38, 12, 30, 0.12)",
+        "haloColor": "rgba(236, 72, 153, 0.24)",
+        "coreRgb": [
+          255,
+          225,
+          245
+        ],
+        "starRgb": [
+          240,
+          205,
+          255
+        ],
+        "rotationBoost": 1.25,
+        "lightMode": "bass_kick"
       }
     },
     {
@@ -2917,6 +6917,31 @@
         "youtubeId": "Qlk6kRJ2Jd4",
         "title": "Mac Miller - Polo Jeans (feat. Earl Sweatshirt)",
         "duration": 212
+      },
+      "djConfig": {
+        "bpm": 94,
+        "profile": "hiphop_boom_bap",
+        "vibe": "Hip-Hop / Heavy Kick",
+        "primaryColor": "#ec4899",
+        "secondaryColor": "#8b5cf6",
+        "accentColor": "#06b6d4",
+        "pulseRate": 1.15,
+        "lightIntensity": 0.88,
+        "nebulaInner": "rgba(68, 20, 52, 0.28)",
+        "nebulaMid": "rgba(38, 12, 30, 0.12)",
+        "haloColor": "rgba(236, 72, 153, 0.24)",
+        "coreRgb": [
+          255,
+          225,
+          245
+        ],
+        "starRgb": [
+          240,
+          205,
+          255
+        ],
+        "rotationBoost": 1.25,
+        "lightMode": "bass_kick"
       }
     },
     {
@@ -2935,6 +6960,31 @@
         "youtubeId": "3APvI_L6yJI",
         "title": "Thundercat - 'She Knows Too Much (feat. Mac Miller)' (Official Video)",
         "duration": 215
+      },
+      "djConfig": {
+        "bpm": 94,
+        "profile": "hiphop_boom_bap",
+        "vibe": "Hip-Hop / Heavy Kick",
+        "primaryColor": "#ec4899",
+        "secondaryColor": "#8b5cf6",
+        "accentColor": "#06b6d4",
+        "pulseRate": 1.15,
+        "lightIntensity": 0.88,
+        "nebulaInner": "rgba(68, 20, 52, 0.28)",
+        "nebulaMid": "rgba(38, 12, 30, 0.12)",
+        "haloColor": "rgba(236, 72, 153, 0.24)",
+        "coreRgb": [
+          255,
+          225,
+          245
+        ],
+        "starRgb": [
+          240,
+          205,
+          255
+        ],
+        "rotationBoost": 1.25,
+        "lightMode": "bass_kick"
       }
     },
     {
@@ -2953,6 +7003,31 @@
         "youtubeId": "f3GGN51_pjE",
         "title": "Mac Miller - Party On Fifth Ave",
         "duration": 178
+      },
+      "djConfig": {
+        "bpm": 94,
+        "profile": "hiphop_boom_bap",
+        "vibe": "Hip-Hop / Heavy Kick",
+        "primaryColor": "#ec4899",
+        "secondaryColor": "#8b5cf6",
+        "accentColor": "#06b6d4",
+        "pulseRate": 1.15,
+        "lightIntensity": 0.88,
+        "nebulaInner": "rgba(68, 20, 52, 0.28)",
+        "nebulaMid": "rgba(38, 12, 30, 0.12)",
+        "haloColor": "rgba(236, 72, 153, 0.24)",
+        "coreRgb": [
+          255,
+          225,
+          245
+        ],
+        "starRgb": [
+          240,
+          205,
+          255
+        ],
+        "rotationBoost": 1.25,
+        "lightMode": "bass_kick"
       }
     },
     {
@@ -2971,6 +7046,31 @@
         "youtubeId": "qRPpLGxGNZY",
         "title": "Kid CuDi Up, Up And Away",
         "duration": 228
+      },
+      "djConfig": {
+        "bpm": 94,
+        "profile": "hiphop_boom_bap",
+        "vibe": "Hip-Hop / Heavy Kick",
+        "primaryColor": "#ec4899",
+        "secondaryColor": "#8b5cf6",
+        "accentColor": "#06b6d4",
+        "pulseRate": 1.15,
+        "lightIntensity": 0.88,
+        "nebulaInner": "rgba(68, 20, 52, 0.28)",
+        "nebulaMid": "rgba(38, 12, 30, 0.12)",
+        "haloColor": "rgba(236, 72, 153, 0.24)",
+        "coreRgb": [
+          255,
+          225,
+          245
+        ],
+        "starRgb": [
+          240,
+          205,
+          255
+        ],
+        "rotationBoost": 1.25,
+        "lightMode": "bass_kick"
       }
     },
     {
@@ -2989,6 +7089,31 @@
         "youtubeId": "T5fKwmgbaDs",
         "title": "Kid Cudi, Ty Dolla $ign - Can't Shake Her (Visualizer)",
         "duration": 177
+      },
+      "djConfig": {
+        "bpm": 94,
+        "profile": "hiphop_boom_bap",
+        "vibe": "Hip-Hop / Heavy Kick",
+        "primaryColor": "#ec4899",
+        "secondaryColor": "#8b5cf6",
+        "accentColor": "#06b6d4",
+        "pulseRate": 1.15,
+        "lightIntensity": 0.88,
+        "nebulaInner": "rgba(68, 20, 52, 0.28)",
+        "nebulaMid": "rgba(38, 12, 30, 0.12)",
+        "haloColor": "rgba(236, 72, 153, 0.24)",
+        "coreRgb": [
+          255,
+          225,
+          245
+        ],
+        "starRgb": [
+          240,
+          205,
+          255
+        ],
+        "rotationBoost": 1.25,
+        "lightMode": "bass_kick"
       }
     },
     {
@@ -3007,6 +7132,31 @@
         "youtubeId": "3mwiO5st-us",
         "title": "Stronger",
         "duration": 313
+      },
+      "djConfig": {
+        "bpm": 94,
+        "profile": "hiphop_boom_bap",
+        "vibe": "Hip-Hop / Heavy Kick",
+        "primaryColor": "#ec4899",
+        "secondaryColor": "#8b5cf6",
+        "accentColor": "#06b6d4",
+        "pulseRate": 1.15,
+        "lightIntensity": 0.88,
+        "nebulaInner": "rgba(68, 20, 52, 0.28)",
+        "nebulaMid": "rgba(38, 12, 30, 0.12)",
+        "haloColor": "rgba(236, 72, 153, 0.24)",
+        "coreRgb": [
+          255,
+          225,
+          245
+        ],
+        "starRgb": [
+          240,
+          205,
+          255
+        ],
+        "rotationBoost": 1.25,
+        "lightMode": "bass_kick"
       }
     },
     {
@@ -3025,6 +7175,31 @@
         "youtubeId": "U-N8gJ4HdYc",
         "title": "Good Life",
         "duration": 207
+      },
+      "djConfig": {
+        "bpm": 94,
+        "profile": "hiphop_boom_bap",
+        "vibe": "Hip-Hop / Heavy Kick",
+        "primaryColor": "#ec4899",
+        "secondaryColor": "#8b5cf6",
+        "accentColor": "#06b6d4",
+        "pulseRate": 1.15,
+        "lightIntensity": 0.88,
+        "nebulaInner": "rgba(68, 20, 52, 0.28)",
+        "nebulaMid": "rgba(38, 12, 30, 0.12)",
+        "haloColor": "rgba(236, 72, 153, 0.24)",
+        "coreRgb": [
+          255,
+          225,
+          245
+        ],
+        "starRgb": [
+          240,
+          205,
+          255
+        ],
+        "rotationBoost": 1.25,
+        "lightMode": "bass_kick"
       }
     },
     {
@@ -3043,6 +7218,31 @@
         "youtubeId": "CD2GhowzOIM",
         "title": "Champion (Lyrics) - Kanye West",
         "duration": 206
+      },
+      "djConfig": {
+        "bpm": 94,
+        "profile": "hiphop_boom_bap",
+        "vibe": "Hip-Hop / Heavy Kick",
+        "primaryColor": "#ec4899",
+        "secondaryColor": "#8b5cf6",
+        "accentColor": "#06b6d4",
+        "pulseRate": 1.15,
+        "lightIntensity": 0.88,
+        "nebulaInner": "rgba(68, 20, 52, 0.28)",
+        "nebulaMid": "rgba(38, 12, 30, 0.12)",
+        "haloColor": "rgba(236, 72, 153, 0.24)",
+        "coreRgb": [
+          255,
+          225,
+          245
+        ],
+        "starRgb": [
+          240,
+          205,
+          255
+        ],
+        "rotationBoost": 1.25,
+        "lightMode": "bass_kick"
       }
     },
     {
@@ -3061,6 +7261,31 @@
         "youtubeId": "EzU0ofo3jOs",
         "title": "Homecoming",
         "duration": 205
+      },
+      "djConfig": {
+        "bpm": 94,
+        "profile": "hiphop_boom_bap",
+        "vibe": "Hip-Hop / Heavy Kick",
+        "primaryColor": "#ec4899",
+        "secondaryColor": "#8b5cf6",
+        "accentColor": "#06b6d4",
+        "pulseRate": 1.15,
+        "lightIntensity": 0.88,
+        "nebulaInner": "rgba(68, 20, 52, 0.28)",
+        "nebulaMid": "rgba(38, 12, 30, 0.12)",
+        "haloColor": "rgba(236, 72, 153, 0.24)",
+        "coreRgb": [
+          255,
+          225,
+          245
+        ],
+        "starRgb": [
+          240,
+          205,
+          255
+        ],
+        "rotationBoost": 1.25,
+        "lightMode": "bass_kick"
       }
     },
     {
@@ -3079,6 +7304,31 @@
         "youtubeId": "SUtf9Ajlno4",
         "title": "Kanye West - Power (Audio)",
         "duration": 293
+      },
+      "djConfig": {
+        "bpm": 94,
+        "profile": "hiphop_boom_bap",
+        "vibe": "Hip-Hop / Heavy Kick",
+        "primaryColor": "#ec4899",
+        "secondaryColor": "#8b5cf6",
+        "accentColor": "#06b6d4",
+        "pulseRate": 1.15,
+        "lightIntensity": 0.88,
+        "nebulaInner": "rgba(68, 20, 52, 0.28)",
+        "nebulaMid": "rgba(38, 12, 30, 0.12)",
+        "haloColor": "rgba(236, 72, 153, 0.24)",
+        "coreRgb": [
+          255,
+          225,
+          245
+        ],
+        "starRgb": [
+          240,
+          205,
+          255
+        ],
+        "rotationBoost": 1.25,
+        "lightMode": "bass_kick"
       }
     },
     {
@@ -3097,6 +7347,31 @@
         "youtubeId": "irBP5FnksKc",
         "title": "Kanye West - Paranoid ft. Mr Hudson",
         "duration": 205
+      },
+      "djConfig": {
+        "bpm": 94,
+        "profile": "hiphop_boom_bap",
+        "vibe": "Hip-Hop / Heavy Kick",
+        "primaryColor": "#ec4899",
+        "secondaryColor": "#8b5cf6",
+        "accentColor": "#06b6d4",
+        "pulseRate": 1.15,
+        "lightIntensity": 0.88,
+        "nebulaInner": "rgba(68, 20, 52, 0.28)",
+        "nebulaMid": "rgba(38, 12, 30, 0.12)",
+        "haloColor": "rgba(236, 72, 153, 0.24)",
+        "coreRgb": [
+          255,
+          225,
+          245
+        ],
+        "starRgb": [
+          240,
+          205,
+          255
+        ],
+        "rotationBoost": 1.25,
+        "lightMode": "bass_kick"
       }
     },
     {
@@ -3115,6 +7390,31 @@
         "youtubeId": "rroA6EldJCw",
         "title": "Doomsday",
         "duration": 192
+      },
+      "djConfig": {
+        "bpm": 94,
+        "profile": "hiphop_boom_bap",
+        "vibe": "Hip-Hop / Heavy Kick",
+        "primaryColor": "#ec4899",
+        "secondaryColor": "#8b5cf6",
+        "accentColor": "#06b6d4",
+        "pulseRate": 1.15,
+        "lightIntensity": 0.88,
+        "nebulaInner": "rgba(68, 20, 52, 0.28)",
+        "nebulaMid": "rgba(38, 12, 30, 0.12)",
+        "haloColor": "rgba(236, 72, 153, 0.24)",
+        "coreRgb": [
+          255,
+          225,
+          245
+        ],
+        "starRgb": [
+          240,
+          205,
+          255
+        ],
+        "rotationBoost": 1.25,
+        "lightMode": "bass_kick"
       }
     },
     {
@@ -3133,6 +7433,31 @@
         "youtubeId": "gSJeHDlhYls",
         "title": "Madvillain - All Caps",
         "duration": 135
+      },
+      "djConfig": {
+        "bpm": 94,
+        "profile": "hiphop_boom_bap",
+        "vibe": "Hip-Hop / Heavy Kick",
+        "primaryColor": "#ec4899",
+        "secondaryColor": "#8b5cf6",
+        "accentColor": "#06b6d4",
+        "pulseRate": 1.15,
+        "lightIntensity": 0.88,
+        "nebulaInner": "rgba(68, 20, 52, 0.28)",
+        "nebulaMid": "rgba(38, 12, 30, 0.12)",
+        "haloColor": "rgba(236, 72, 153, 0.24)",
+        "coreRgb": [
+          255,
+          225,
+          245
+        ],
+        "starRgb": [
+          240,
+          205,
+          255
+        ],
+        "rotationBoost": 1.25,
+        "lightMode": "bass_kick"
       }
     },
     {
@@ -3151,6 +7476,31 @@
         "youtubeId": "dERcdvcXuE0",
         "title": "MF DOOM - Rapp Snitch Knishes (feat. Mr. Fantastik)",
         "duration": 173
+      },
+      "djConfig": {
+        "bpm": 94,
+        "profile": "hiphop_boom_bap",
+        "vibe": "Hip-Hop / Heavy Kick",
+        "primaryColor": "#ec4899",
+        "secondaryColor": "#8b5cf6",
+        "accentColor": "#06b6d4",
+        "pulseRate": 1.15,
+        "lightIntensity": 0.88,
+        "nebulaInner": "rgba(68, 20, 52, 0.28)",
+        "nebulaMid": "rgba(38, 12, 30, 0.12)",
+        "haloColor": "rgba(236, 72, 153, 0.24)",
+        "coreRgb": [
+          255,
+          225,
+          245
+        ],
+        "starRgb": [
+          240,
+          205,
+          255
+        ],
+        "rotationBoost": 1.25,
+        "lightMode": "bass_kick"
       }
     },
     {
@@ -3169,6 +7519,31 @@
         "youtubeId": "BgsNuFYI56s",
         "title": "MF DOOM - One Beer - Live In Chicago",
         "duration": 169
+      },
+      "djConfig": {
+        "bpm": 94,
+        "profile": "hiphop_boom_bap",
+        "vibe": "Hip-Hop / Heavy Kick",
+        "primaryColor": "#ec4899",
+        "secondaryColor": "#8b5cf6",
+        "accentColor": "#06b6d4",
+        "pulseRate": 1.15,
+        "lightIntensity": 0.88,
+        "nebulaInner": "rgba(68, 20, 52, 0.28)",
+        "nebulaMid": "rgba(38, 12, 30, 0.12)",
+        "haloColor": "rgba(236, 72, 153, 0.24)",
+        "coreRgb": [
+          255,
+          225,
+          245
+        ],
+        "starRgb": [
+          240,
+          205,
+          255
+        ],
+        "rotationBoost": 1.25,
+        "lightMode": "bass_kick"
       }
     },
     {
@@ -3187,6 +7562,31 @@
         "youtubeId": "bZFkYyiNyic",
         "title": "Break In The Action (Extended) - CZARFACE & MF DOOM",
         "duration": 203
+      },
+      "djConfig": {
+        "bpm": 94,
+        "profile": "hiphop_boom_bap",
+        "vibe": "Hip-Hop / Heavy Kick",
+        "primaryColor": "#ec4899",
+        "secondaryColor": "#8b5cf6",
+        "accentColor": "#06b6d4",
+        "pulseRate": 1.15,
+        "lightIntensity": 0.88,
+        "nebulaInner": "rgba(68, 20, 52, 0.28)",
+        "nebulaMid": "rgba(38, 12, 30, 0.12)",
+        "haloColor": "rgba(236, 72, 153, 0.24)",
+        "coreRgb": [
+          255,
+          225,
+          245
+        ],
+        "starRgb": [
+          240,
+          205,
+          255
+        ],
+        "rotationBoost": 1.25,
+        "lightMode": "bass_kick"
       }
     },
     {
@@ -3205,6 +7605,31 @@
         "youtubeId": "IkJIipFAgR0",
         "title": "Viktor Vaughn - Lickupon",
         "duration": 166
+      },
+      "djConfig": {
+        "bpm": 94,
+        "profile": "hiphop_boom_bap",
+        "vibe": "Hip-Hop / Heavy Kick",
+        "primaryColor": "#ec4899",
+        "secondaryColor": "#8b5cf6",
+        "accentColor": "#06b6d4",
+        "pulseRate": 1.15,
+        "lightIntensity": 0.88,
+        "nebulaInner": "rgba(68, 20, 52, 0.28)",
+        "nebulaMid": "rgba(38, 12, 30, 0.12)",
+        "haloColor": "rgba(236, 72, 153, 0.24)",
+        "coreRgb": [
+          255,
+          225,
+          245
+        ],
+        "starRgb": [
+          240,
+          205,
+          255
+        ],
+        "rotationBoost": 1.25,
+        "lightMode": "bass_kick"
       }
     },
     {
@@ -3223,6 +7648,31 @@
         "youtubeId": "KaFCp0huJ3w",
         "title": "Freddie Gibbs & The Alchemist - Baby $hit (Visualizer)",
         "duration": 217
+      },
+      "djConfig": {
+        "bpm": 94,
+        "profile": "hiphop_boom_bap",
+        "vibe": "Hip-Hop / Heavy Kick",
+        "primaryColor": "#ec4899",
+        "secondaryColor": "#8b5cf6",
+        "accentColor": "#06b6d4",
+        "pulseRate": 1.15,
+        "lightIntensity": 0.88,
+        "nebulaInner": "rgba(68, 20, 52, 0.28)",
+        "nebulaMid": "rgba(38, 12, 30, 0.12)",
+        "haloColor": "rgba(236, 72, 153, 0.24)",
+        "coreRgb": [
+          255,
+          225,
+          245
+        ],
+        "starRgb": [
+          240,
+          205,
+          255
+        ],
+        "rotationBoost": 1.25,
+        "lightMode": "bass_kick"
       }
     },
     {
@@ -3241,6 +7691,31 @@
         "youtubeId": "MmvzeR2AFhA",
         "title": "Freddie Gibbs, Madlib - Fake Names (Audio)",
         "duration": 226
+      },
+      "djConfig": {
+        "bpm": 94,
+        "profile": "hiphop_boom_bap",
+        "vibe": "Hip-Hop / Heavy Kick",
+        "primaryColor": "#ec4899",
+        "secondaryColor": "#8b5cf6",
+        "accentColor": "#06b6d4",
+        "pulseRate": 1.15,
+        "lightIntensity": 0.88,
+        "nebulaInner": "rgba(68, 20, 52, 0.28)",
+        "nebulaMid": "rgba(38, 12, 30, 0.12)",
+        "haloColor": "rgba(236, 72, 153, 0.24)",
+        "coreRgb": [
+          255,
+          225,
+          245
+        ],
+        "starRgb": [
+          240,
+          205,
+          255
+        ],
+        "rotationBoost": 1.25,
+        "lightMode": "bass_kick"
       }
     },
     {
@@ -3259,6 +7734,31 @@
         "youtubeId": "YsVCd5i4cuI",
         "title": "Freddie Gibbs & The Alchemist - \"Mar-a-Lago\" (Official Visualizer)",
         "duration": 180
+      },
+      "djConfig": {
+        "bpm": 94,
+        "profile": "hiphop_boom_bap",
+        "vibe": "Hip-Hop / Heavy Kick",
+        "primaryColor": "#ec4899",
+        "secondaryColor": "#8b5cf6",
+        "accentColor": "#06b6d4",
+        "pulseRate": 1.15,
+        "lightIntensity": 0.88,
+        "nebulaInner": "rgba(68, 20, 52, 0.28)",
+        "nebulaMid": "rgba(38, 12, 30, 0.12)",
+        "haloColor": "rgba(236, 72, 153, 0.24)",
+        "coreRgb": [
+          255,
+          225,
+          245
+        ],
+        "starRgb": [
+          240,
+          205,
+          255
+        ],
+        "rotationBoost": 1.25,
+        "lightMode": "bass_kick"
       }
     },
     {
@@ -3277,6 +7777,31 @@
         "youtubeId": "H8XPg7qqYIg",
         "title": "Freddie Gibbs & The Alchemist - \"Ensalada (feat. Anderson .Paak)\" (Official Visualizer)",
         "duration": 225
+      },
+      "djConfig": {
+        "bpm": 94,
+        "profile": "hiphop_boom_bap",
+        "vibe": "Hip-Hop / Heavy Kick",
+        "primaryColor": "#ec4899",
+        "secondaryColor": "#8b5cf6",
+        "accentColor": "#06b6d4",
+        "pulseRate": 1.15,
+        "lightIntensity": 0.88,
+        "nebulaInner": "rgba(68, 20, 52, 0.28)",
+        "nebulaMid": "rgba(38, 12, 30, 0.12)",
+        "haloColor": "rgba(236, 72, 153, 0.24)",
+        "coreRgb": [
+          255,
+          225,
+          245
+        ],
+        "starRgb": [
+          240,
+          205,
+          255
+        ],
+        "rotationBoost": 1.25,
+        "lightMode": "bass_kick"
       }
     },
     {
@@ -3295,6 +7820,31 @@
         "youtubeId": "Ec3LoKpGJxY",
         "title": "A$AP Rocky - Sundress (Official Video)",
         "duration": 178
+      },
+      "djConfig": {
+        "bpm": 124,
+        "profile": "upbeat_indie_rock",
+        "vibe": "Indie Rock / Emerald Drive",
+        "primaryColor": "#1DB954",
+        "secondaryColor": "#38bdf8",
+        "accentColor": "#fbbf24",
+        "pulseRate": 1.25,
+        "lightIntensity": 0.84,
+        "nebulaInner": "rgba(24, 75, 48, 0.28)",
+        "nebulaMid": "rgba(14, 42, 32, 0.12)",
+        "haloColor": "rgba(29, 185, 84, 0.24)",
+        "coreRgb": [
+          255,
+          248,
+          225
+        ],
+        "starRgb": [
+          220,
+          245,
+          235
+        ],
+        "rotationBoost": 1.35,
+        "lightMode": "emerald_drive"
       }
     },
     {
@@ -3313,6 +7863,31 @@
         "youtubeId": "iYF3dnM-B6I",
         "title": "A$AP Rocky, Gorillaz, Westside Gunn - Whiskey (Studio Recreation)",
         "duration": 193
+      },
+      "djConfig": {
+        "bpm": 124,
+        "profile": "upbeat_indie_rock",
+        "vibe": "Indie Rock / Emerald Drive",
+        "primaryColor": "#1DB954",
+        "secondaryColor": "#38bdf8",
+        "accentColor": "#fbbf24",
+        "pulseRate": 1.25,
+        "lightIntensity": 0.84,
+        "nebulaInner": "rgba(24, 75, 48, 0.28)",
+        "nebulaMid": "rgba(14, 42, 32, 0.12)",
+        "haloColor": "rgba(29, 185, 84, 0.24)",
+        "coreRgb": [
+          255,
+          248,
+          225
+        ],
+        "starRgb": [
+          220,
+          245,
+          235
+        ],
+        "rotationBoost": 1.35,
+        "lightMode": "emerald_drive"
       }
     },
     {
@@ -3331,6 +7906,31 @@
         "youtubeId": "ci8L_sKo_wc",
         "title": "Brent Faiyaz & Forgotten - full moon. (STAY HERE 4 LIFE)",
         "duration": 224
+      },
+      "djConfig": {
+        "bpm": 92,
+        "profile": "late_night_rnb",
+        "vibe": "Late Night R&B / Velvet Groove",
+        "primaryColor": "#c084fc",
+        "secondaryColor": "#f43f5e",
+        "accentColor": "#38bdf8",
+        "pulseRate": 0.95,
+        "lightIntensity": 0.74,
+        "nebulaInner": "rgba(64, 24, 76, 0.26)",
+        "nebulaMid": "rgba(40, 12, 45, 0.11)",
+        "haloColor": "rgba(192, 132, 252, 0.24)",
+        "coreRgb": [
+          250,
+          228,
+          255
+        ],
+        "starRgb": [
+          235,
+          210,
+          255
+        ],
+        "rotationBoost": 0.95,
+        "lightMode": "velvet_pulse"
       }
     },
     {
@@ -3349,6 +7949,31 @@
         "youtubeId": "schL0jZKCA8",
         "title": "The Way You Move (Radio Mix)",
         "duration": 234
+      },
+      "djConfig": {
+        "bpm": 94,
+        "profile": "hiphop_boom_bap",
+        "vibe": "Hip-Hop / Heavy Kick",
+        "primaryColor": "#ec4899",
+        "secondaryColor": "#8b5cf6",
+        "accentColor": "#06b6d4",
+        "pulseRate": 1.15,
+        "lightIntensity": 0.88,
+        "nebulaInner": "rgba(68, 20, 52, 0.28)",
+        "nebulaMid": "rgba(38, 12, 30, 0.12)",
+        "haloColor": "rgba(236, 72, 153, 0.24)",
+        "coreRgb": [
+          255,
+          225,
+          245
+        ],
+        "starRgb": [
+          240,
+          205,
+          255
+        ],
+        "rotationBoost": 1.25,
+        "lightMode": "bass_kick"
       }
     },
     {
@@ -3367,6 +7992,31 @@
         "youtubeId": "ktc9hsSfUck",
         "title": "Outkast - ATliens (Official HD Video)",
         "duration": 230
+      },
+      "djConfig": {
+        "bpm": 94,
+        "profile": "hiphop_boom_bap",
+        "vibe": "Hip-Hop / Heavy Kick",
+        "primaryColor": "#ec4899",
+        "secondaryColor": "#8b5cf6",
+        "accentColor": "#06b6d4",
+        "pulseRate": 1.15,
+        "lightIntensity": 0.88,
+        "nebulaInner": "rgba(68, 20, 52, 0.28)",
+        "nebulaMid": "rgba(38, 12, 30, 0.12)",
+        "haloColor": "rgba(236, 72, 153, 0.24)",
+        "coreRgb": [
+          255,
+          225,
+          245
+        ],
+        "starRgb": [
+          240,
+          205,
+          255
+        ],
+        "rotationBoost": 1.25,
+        "lightMode": "bass_kick"
       }
     },
     {
@@ -3385,6 +8035,31 @@
         "youtubeId": "ju4KQT0wL0I",
         "title": "All The Stars",
         "duration": 233
+      },
+      "djConfig": {
+        "bpm": 94,
+        "profile": "hiphop_boom_bap",
+        "vibe": "Hip-Hop / Heavy Kick",
+        "primaryColor": "#ec4899",
+        "secondaryColor": "#8b5cf6",
+        "accentColor": "#06b6d4",
+        "pulseRate": 1.15,
+        "lightIntensity": 0.88,
+        "nebulaInner": "rgba(68, 20, 52, 0.28)",
+        "nebulaMid": "rgba(38, 12, 30, 0.12)",
+        "haloColor": "rgba(236, 72, 153, 0.24)",
+        "coreRgb": [
+          255,
+          225,
+          245
+        ],
+        "starRgb": [
+          240,
+          205,
+          255
+        ],
+        "rotationBoost": 1.25,
+        "lightMode": "bass_kick"
       }
     },
     {
@@ -3403,6 +8078,31 @@
         "youtubeId": "ZYsA1raHnS0",
         "title": "Steve Lacy - is it cool? (Audio) ft. SZA",
         "duration": 176
+      },
+      "djConfig": {
+        "bpm": 92,
+        "profile": "late_night_rnb",
+        "vibe": "Late Night R&B / Velvet Groove",
+        "primaryColor": "#c084fc",
+        "secondaryColor": "#f43f5e",
+        "accentColor": "#38bdf8",
+        "pulseRate": 0.95,
+        "lightIntensity": 0.74,
+        "nebulaInner": "rgba(64, 24, 76, 0.26)",
+        "nebulaMid": "rgba(40, 12, 45, 0.11)",
+        "haloColor": "rgba(192, 132, 252, 0.24)",
+        "coreRgb": [
+          250,
+          228,
+          255
+        ],
+        "starRgb": [
+          235,
+          210,
+          255
+        ],
+        "rotationBoost": 0.95,
+        "lightMode": "velvet_pulse"
       }
     },
     {
@@ -3421,6 +8121,31 @@
         "youtubeId": "rZJ39GkQsZw",
         "title": "Brent Faiyaz - other side. [Official Visualizer]",
         "duration": 193
+      },
+      "djConfig": {
+        "bpm": 92,
+        "profile": "late_night_rnb",
+        "vibe": "Late Night R&B / Velvet Groove",
+        "primaryColor": "#c084fc",
+        "secondaryColor": "#f43f5e",
+        "accentColor": "#38bdf8",
+        "pulseRate": 0.95,
+        "lightIntensity": 0.74,
+        "nebulaInner": "rgba(64, 24, 76, 0.26)",
+        "nebulaMid": "rgba(40, 12, 45, 0.11)",
+        "haloColor": "rgba(192, 132, 252, 0.24)",
+        "coreRgb": [
+          250,
+          228,
+          255
+        ],
+        "starRgb": [
+          235,
+          210,
+          255
+        ],
+        "rotationBoost": 0.95,
+        "lightMode": "velvet_pulse"
       }
     },
     {
@@ -3439,6 +8164,31 @@
         "youtubeId": "Lhl5cOlOU1I",
         "title": "Brent Faiyaz - wrong faces. [Lyrics]",
         "duration": 224
+      },
+      "djConfig": {
+        "bpm": 92,
+        "profile": "late_night_rnb",
+        "vibe": "Late Night R&B / Velvet Groove",
+        "primaryColor": "#c084fc",
+        "secondaryColor": "#f43f5e",
+        "accentColor": "#38bdf8",
+        "pulseRate": 0.95,
+        "lightIntensity": 0.74,
+        "nebulaInner": "rgba(64, 24, 76, 0.26)",
+        "nebulaMid": "rgba(40, 12, 45, 0.11)",
+        "haloColor": "rgba(192, 132, 252, 0.24)",
+        "coreRgb": [
+          250,
+          228,
+          255
+        ],
+        "starRgb": [
+          235,
+          210,
+          255
+        ],
+        "rotationBoost": 0.95,
+        "lightMode": "velvet_pulse"
       }
     },
     {
@@ -3457,6 +8207,31 @@
         "youtubeId": "mbH626_Ovd0",
         "title": "Brent Faiyaz - four seasons. [Official Visualizer]",
         "duration": 186
+      },
+      "djConfig": {
+        "bpm": 92,
+        "profile": "late_night_rnb",
+        "vibe": "Late Night R&B / Velvet Groove",
+        "primaryColor": "#c084fc",
+        "secondaryColor": "#f43f5e",
+        "accentColor": "#38bdf8",
+        "pulseRate": 0.95,
+        "lightIntensity": 0.74,
+        "nebulaInner": "rgba(64, 24, 76, 0.26)",
+        "nebulaMid": "rgba(40, 12, 45, 0.11)",
+        "haloColor": "rgba(192, 132, 252, 0.24)",
+        "coreRgb": [
+          250,
+          228,
+          255
+        ],
+        "starRgb": [
+          235,
+          210,
+          255
+        ],
+        "rotationBoost": 0.95,
+        "lightMode": "velvet_pulse"
       }
     },
     {
@@ -3475,6 +8250,31 @@
         "youtubeId": "GH7l2F9ZhX4",
         "title": "brent faiyaz - vanilla sky. [𝙎𝙡𝙤𝙬𝙚𝙙 + 𝙧𝙚𝙫𝙚𝙧𝙗]",
         "duration": 166
+      },
+      "djConfig": {
+        "bpm": 92,
+        "profile": "late_night_rnb",
+        "vibe": "Late Night R&B / Velvet Groove",
+        "primaryColor": "#c084fc",
+        "secondaryColor": "#f43f5e",
+        "accentColor": "#38bdf8",
+        "pulseRate": 0.95,
+        "lightIntensity": 0.74,
+        "nebulaInner": "rgba(64, 24, 76, 0.26)",
+        "nebulaMid": "rgba(40, 12, 45, 0.11)",
+        "haloColor": "rgba(192, 132, 252, 0.24)",
+        "coreRgb": [
+          250,
+          228,
+          255
+        ],
+        "starRgb": [
+          235,
+          210,
+          255
+        ],
+        "rotationBoost": 0.95,
+        "lightMode": "velvet_pulse"
       }
     },
     {
@@ -3493,6 +8293,31 @@
         "youtubeId": "fl0B8Vevozw",
         "title": "Brent Faiyaz - have to. [Official Visualizer]",
         "duration": 208
+      },
+      "djConfig": {
+        "bpm": 92,
+        "profile": "late_night_rnb",
+        "vibe": "Late Night R&B / Velvet Groove",
+        "primaryColor": "#c084fc",
+        "secondaryColor": "#f43f5e",
+        "accentColor": "#38bdf8",
+        "pulseRate": 0.95,
+        "lightIntensity": 0.74,
+        "nebulaInner": "rgba(64, 24, 76, 0.26)",
+        "nebulaMid": "rgba(40, 12, 45, 0.11)",
+        "haloColor": "rgba(192, 132, 252, 0.24)",
+        "coreRgb": [
+          250,
+          228,
+          255
+        ],
+        "starRgb": [
+          235,
+          210,
+          255
+        ],
+        "rotationBoost": 0.95,
+        "lightMode": "velvet_pulse"
       }
     },
     {
@@ -3511,6 +8336,31 @@
         "youtubeId": "nhNqbe6QENY",
         "title": "GoldLink - Crew (Official Video) ft. Brent Faiyaz, Shy Glizzy",
         "duration": 201
+      },
+      "djConfig": {
+        "bpm": 92,
+        "profile": "late_night_rnb",
+        "vibe": "Late Night R&B / Velvet Groove",
+        "primaryColor": "#c084fc",
+        "secondaryColor": "#f43f5e",
+        "accentColor": "#38bdf8",
+        "pulseRate": 0.95,
+        "lightIntensity": 0.74,
+        "nebulaInner": "rgba(64, 24, 76, 0.26)",
+        "nebulaMid": "rgba(40, 12, 45, 0.11)",
+        "haloColor": "rgba(192, 132, 252, 0.24)",
+        "coreRgb": [
+          250,
+          228,
+          255
+        ],
+        "starRgb": [
+          235,
+          210,
+          255
+        ],
+        "rotationBoost": 0.95,
+        "lightMode": "velvet_pulse"
       }
     },
     {
@@ -3529,6 +8379,31 @@
         "youtubeId": "FFu_lJ3EvAA",
         "title": "Brent Faiyaz - CLOUDED [ Official Audio]",
         "duration": 111
+      },
+      "djConfig": {
+        "bpm": 92,
+        "profile": "late_night_rnb",
+        "vibe": "Late Night R&B / Velvet Groove",
+        "primaryColor": "#c084fc",
+        "secondaryColor": "#f43f5e",
+        "accentColor": "#38bdf8",
+        "pulseRate": 0.95,
+        "lightIntensity": 0.74,
+        "nebulaInner": "rgba(64, 24, 76, 0.26)",
+        "nebulaMid": "rgba(40, 12, 45, 0.11)",
+        "haloColor": "rgba(192, 132, 252, 0.24)",
+        "coreRgb": [
+          250,
+          228,
+          255
+        ],
+        "starRgb": [
+          235,
+          210,
+          255
+        ],
+        "rotationBoost": 0.95,
+        "lightMode": "velvet_pulse"
       }
     },
     {
@@ -3547,6 +8422,31 @@
         "youtubeId": "nZJDVJydk6k",
         "title": "Brent Faiyaz - Outside All Night feat. A$AP Rocky & N3WYRKLA [Visualizer]",
         "duration": 201
+      },
+      "djConfig": {
+        "bpm": 92,
+        "profile": "late_night_rnb",
+        "vibe": "Late Night R&B / Velvet Groove",
+        "primaryColor": "#c084fc",
+        "secondaryColor": "#f43f5e",
+        "accentColor": "#38bdf8",
+        "pulseRate": 0.95,
+        "lightIntensity": 0.74,
+        "nebulaInner": "rgba(64, 24, 76, 0.26)",
+        "nebulaMid": "rgba(40, 12, 45, 0.11)",
+        "haloColor": "rgba(192, 132, 252, 0.24)",
+        "coreRgb": [
+          250,
+          228,
+          255
+        ],
+        "starRgb": [
+          235,
+          210,
+          255
+        ],
+        "rotationBoost": 0.95,
+        "lightMode": "velvet_pulse"
       }
     },
     {
@@ -3565,6 +8465,31 @@
         "youtubeId": "_ggSM-b042c",
         "title": "Lil Nas X - Panini (Extended/Full Version)",
         "duration": 200
+      },
+      "djConfig": {
+        "bpm": 92,
+        "profile": "late_night_rnb",
+        "vibe": "Late Night R&B / Velvet Groove",
+        "primaryColor": "#c084fc",
+        "secondaryColor": "#f43f5e",
+        "accentColor": "#38bdf8",
+        "pulseRate": 0.95,
+        "lightIntensity": 0.74,
+        "nebulaInner": "rgba(64, 24, 76, 0.26)",
+        "nebulaMid": "rgba(40, 12, 45, 0.11)",
+        "haloColor": "rgba(192, 132, 252, 0.24)",
+        "coreRgb": [
+          250,
+          228,
+          255
+        ],
+        "starRgb": [
+          235,
+          210,
+          255
+        ],
+        "rotationBoost": 0.95,
+        "lightMode": "velvet_pulse"
       }
     },
     {
@@ -3583,6 +8508,31 @@
         "youtubeId": "_a0T5qwxANg",
         "title": "Post Malone - I Like You (A Happier Song) (Audio) ft. Doja Cat",
         "duration": 193
+      },
+      "djConfig": {
+        "bpm": 92,
+        "profile": "late_night_rnb",
+        "vibe": "Late Night R&B / Velvet Groove",
+        "primaryColor": "#c084fc",
+        "secondaryColor": "#f43f5e",
+        "accentColor": "#38bdf8",
+        "pulseRate": 0.95,
+        "lightIntensity": 0.74,
+        "nebulaInner": "rgba(64, 24, 76, 0.26)",
+        "nebulaMid": "rgba(40, 12, 45, 0.11)",
+        "haloColor": "rgba(192, 132, 252, 0.24)",
+        "coreRgb": [
+          250,
+          228,
+          255
+        ],
+        "starRgb": [
+          235,
+          210,
+          255
+        ],
+        "rotationBoost": 0.95,
+        "lightMode": "velvet_pulse"
       }
     },
     {
@@ -3601,6 +8551,31 @@
         "youtubeId": "67OtNOOKfc8",
         "title": "Fighters (feat. Matthew Santos)",
         "duration": 214
+      },
+      "djConfig": {
+        "bpm": 94,
+        "profile": "hiphop_boom_bap",
+        "vibe": "Hip-Hop / Heavy Kick",
+        "primaryColor": "#ec4899",
+        "secondaryColor": "#8b5cf6",
+        "accentColor": "#06b6d4",
+        "pulseRate": 1.15,
+        "lightIntensity": 0.88,
+        "nebulaInner": "rgba(68, 20, 52, 0.28)",
+        "nebulaMid": "rgba(38, 12, 30, 0.12)",
+        "haloColor": "rgba(236, 72, 153, 0.24)",
+        "coreRgb": [
+          255,
+          225,
+          245
+        ],
+        "starRgb": [
+          240,
+          205,
+          255
+        ],
+        "rotationBoost": 1.25,
+        "lightMode": "bass_kick"
       }
     },
     {
@@ -3619,6 +8594,31 @@
         "youtubeId": "33sclePNcic",
         "title": "Lupe Fiasco - Samurai (AUDIO)",
         "duration": 195
+      },
+      "djConfig": {
+        "bpm": 94,
+        "profile": "hiphop_boom_bap",
+        "vibe": "Hip-Hop / Heavy Kick",
+        "primaryColor": "#ec4899",
+        "secondaryColor": "#8b5cf6",
+        "accentColor": "#06b6d4",
+        "pulseRate": 1.15,
+        "lightIntensity": 0.88,
+        "nebulaInner": "rgba(68, 20, 52, 0.28)",
+        "nebulaMid": "rgba(38, 12, 30, 0.12)",
+        "haloColor": "rgba(236, 72, 153, 0.24)",
+        "coreRgb": [
+          255,
+          225,
+          245
+        ],
+        "starRgb": [
+          240,
+          205,
+          255
+        ],
+        "rotationBoost": 1.25,
+        "lightMode": "bass_kick"
       }
     },
     {
@@ -3637,6 +8637,31 @@
         "youtubeId": "07fhkAoCnig",
         "title": "Tory Lanez - The Color Violet [Official Audio]",
         "duration": 227
+      },
+      "djConfig": {
+        "bpm": 94,
+        "profile": "hiphop_boom_bap",
+        "vibe": "Hip-Hop / Heavy Kick",
+        "primaryColor": "#ec4899",
+        "secondaryColor": "#8b5cf6",
+        "accentColor": "#06b6d4",
+        "pulseRate": 1.15,
+        "lightIntensity": 0.88,
+        "nebulaInner": "rgba(68, 20, 52, 0.28)",
+        "nebulaMid": "rgba(38, 12, 30, 0.12)",
+        "haloColor": "rgba(236, 72, 153, 0.24)",
+        "coreRgb": [
+          255,
+          225,
+          245
+        ],
+        "starRgb": [
+          240,
+          205,
+          255
+        ],
+        "rotationBoost": 1.25,
+        "lightMode": "bass_kick"
       }
     },
     {
@@ -3655,6 +8680,31 @@
         "youtubeId": "BNuG8pJ1qyI",
         "title": "Tory Lanez - Lady Of Namek [Official Audio]",
         "duration": 195
+      },
+      "djConfig": {
+        "bpm": 94,
+        "profile": "hiphop_boom_bap",
+        "vibe": "Hip-Hop / Heavy Kick",
+        "primaryColor": "#ec4899",
+        "secondaryColor": "#8b5cf6",
+        "accentColor": "#06b6d4",
+        "pulseRate": 1.15,
+        "lightIntensity": 0.88,
+        "nebulaInner": "rgba(68, 20, 52, 0.28)",
+        "nebulaMid": "rgba(38, 12, 30, 0.12)",
+        "haloColor": "rgba(236, 72, 153, 0.24)",
+        "coreRgb": [
+          255,
+          225,
+          245
+        ],
+        "starRgb": [
+          240,
+          205,
+          255
+        ],
+        "rotationBoost": 1.25,
+        "lightMode": "bass_kick"
       }
     },
     {
@@ -3673,6 +8723,31 @@
         "youtubeId": "q9Yt4x6_wmg",
         "title": "Tory Lanez - Pink Dolphin Sunset feat. Tee [Official Audio]",
         "duration": 208
+      },
+      "djConfig": {
+        "bpm": 94,
+        "profile": "hiphop_boom_bap",
+        "vibe": "Hip-Hop / Heavy Kick",
+        "primaryColor": "#ec4899",
+        "secondaryColor": "#8b5cf6",
+        "accentColor": "#06b6d4",
+        "pulseRate": 1.15,
+        "lightIntensity": 0.88,
+        "nebulaInner": "rgba(68, 20, 52, 0.28)",
+        "nebulaMid": "rgba(38, 12, 30, 0.12)",
+        "haloColor": "rgba(236, 72, 153, 0.24)",
+        "coreRgb": [
+          255,
+          225,
+          245
+        ],
+        "starRgb": [
+          240,
+          205,
+          255
+        ],
+        "rotationBoost": 1.25,
+        "lightMode": "bass_kick"
       }
     },
     {
@@ -3691,6 +8766,31 @@
         "youtubeId": "M4DbZLJmmsE",
         "title": "Tory Lanez - Pluto's Last Comet [Official Audio]",
         "duration": 212
+      },
+      "djConfig": {
+        "bpm": 94,
+        "profile": "hiphop_boom_bap",
+        "vibe": "Hip-Hop / Heavy Kick",
+        "primaryColor": "#ec4899",
+        "secondaryColor": "#8b5cf6",
+        "accentColor": "#06b6d4",
+        "pulseRate": 1.15,
+        "lightIntensity": 0.88,
+        "nebulaInner": "rgba(68, 20, 52, 0.28)",
+        "nebulaMid": "rgba(38, 12, 30, 0.12)",
+        "haloColor": "rgba(236, 72, 153, 0.24)",
+        "coreRgb": [
+          255,
+          225,
+          245
+        ],
+        "starRgb": [
+          240,
+          205,
+          255
+        ],
+        "rotationBoost": 1.25,
+        "lightMode": "bass_kick"
       }
     },
     {
@@ -3709,6 +8809,31 @@
         "youtubeId": "Csst0G-QfkU",
         "title": "Lil Tecca - Dark Thoughts (Official Audio)",
         "duration": 137
+      },
+      "djConfig": {
+        "bpm": 94,
+        "profile": "hiphop_boom_bap",
+        "vibe": "Hip-Hop / Heavy Kick",
+        "primaryColor": "#ec4899",
+        "secondaryColor": "#8b5cf6",
+        "accentColor": "#06b6d4",
+        "pulseRate": 1.15,
+        "lightIntensity": 0.88,
+        "nebulaInner": "rgba(68, 20, 52, 0.28)",
+        "nebulaMid": "rgba(38, 12, 30, 0.12)",
+        "haloColor": "rgba(236, 72, 153, 0.24)",
+        "coreRgb": [
+          255,
+          225,
+          245
+        ],
+        "starRgb": [
+          240,
+          205,
+          255
+        ],
+        "rotationBoost": 1.25,
+        "lightMode": "bass_kick"
       }
     },
     {
@@ -3727,6 +8852,31 @@
         "youtubeId": "-2HhOtA2e5M",
         "title": "Favorite Lie",
         "duration": 170
+      },
+      "djConfig": {
+        "bpm": 94,
+        "profile": "hiphop_boom_bap",
+        "vibe": "Hip-Hop / Heavy Kick",
+        "primaryColor": "#ec4899",
+        "secondaryColor": "#8b5cf6",
+        "accentColor": "#06b6d4",
+        "pulseRate": 1.15,
+        "lightIntensity": 0.88,
+        "nebulaInner": "rgba(68, 20, 52, 0.28)",
+        "nebulaMid": "rgba(38, 12, 30, 0.12)",
+        "haloColor": "rgba(236, 72, 153, 0.24)",
+        "coreRgb": [
+          255,
+          225,
+          245
+        ],
+        "starRgb": [
+          240,
+          205,
+          255
+        ],
+        "rotationBoost": 1.25,
+        "lightMode": "bass_kick"
       }
     },
     {
@@ -3745,6 +8895,31 @@
         "youtubeId": "UPqDWj-RxV8",
         "title": "Joey Valence & Brae - HOOLIGANG (Official Video)",
         "duration": 169
+      },
+      "djConfig": {
+        "bpm": 94,
+        "profile": "hiphop_boom_bap",
+        "vibe": "Hip-Hop / Heavy Kick",
+        "primaryColor": "#ec4899",
+        "secondaryColor": "#8b5cf6",
+        "accentColor": "#06b6d4",
+        "pulseRate": 1.15,
+        "lightIntensity": 0.88,
+        "nebulaInner": "rgba(68, 20, 52, 0.28)",
+        "nebulaMid": "rgba(38, 12, 30, 0.12)",
+        "haloColor": "rgba(236, 72, 153, 0.24)",
+        "coreRgb": [
+          255,
+          225,
+          245
+        ],
+        "starRgb": [
+          240,
+          205,
+          255
+        ],
+        "rotationBoost": 1.25,
+        "lightMode": "bass_kick"
       }
     },
     {
@@ -3763,6 +8938,31 @@
         "youtubeId": "snY72CmQg5Y",
         "title": "IDK, Joey Valence & Brae - CLOVER (AUDIO)",
         "duration": 191
+      },
+      "djConfig": {
+        "bpm": 94,
+        "profile": "hiphop_boom_bap",
+        "vibe": "Hip-Hop / Heavy Kick",
+        "primaryColor": "#ec4899",
+        "secondaryColor": "#8b5cf6",
+        "accentColor": "#06b6d4",
+        "pulseRate": 1.15,
+        "lightIntensity": 0.88,
+        "nebulaInner": "rgba(68, 20, 52, 0.28)",
+        "nebulaMid": "rgba(38, 12, 30, 0.12)",
+        "haloColor": "rgba(236, 72, 153, 0.24)",
+        "coreRgb": [
+          255,
+          225,
+          245
+        ],
+        "starRgb": [
+          240,
+          205,
+          255
+        ],
+        "rotationBoost": 1.25,
+        "lightMode": "bass_kick"
       }
     },
     {
@@ -3781,6 +8981,31 @@
         "youtubeId": "Y_8mUx4VOmo",
         "title": "Michael Jackson - Chicago (Official Audio)",
         "duration": 248
+      },
+      "djConfig": {
+        "bpm": 92,
+        "profile": "late_night_rnb",
+        "vibe": "Late Night R&B / Velvet Groove",
+        "primaryColor": "#c084fc",
+        "secondaryColor": "#f43f5e",
+        "accentColor": "#38bdf8",
+        "pulseRate": 0.95,
+        "lightIntensity": 0.74,
+        "nebulaInner": "rgba(64, 24, 76, 0.26)",
+        "nebulaMid": "rgba(40, 12, 45, 0.11)",
+        "haloColor": "rgba(192, 132, 252, 0.24)",
+        "coreRgb": [
+          250,
+          228,
+          255
+        ],
+        "starRgb": [
+          235,
+          210,
+          255
+        ],
+        "rotationBoost": 0.95,
+        "lightMode": "velvet_pulse"
       }
     },
     {
@@ -3799,6 +9024,31 @@
         "youtubeId": "rjZgpoABjl8",
         "title": "Bell Biv Devoe - Poison",
         "duration": 226
+      },
+      "djConfig": {
+        "bpm": 92,
+        "profile": "late_night_rnb",
+        "vibe": "Late Night R&B / Velvet Groove",
+        "primaryColor": "#c084fc",
+        "secondaryColor": "#f43f5e",
+        "accentColor": "#38bdf8",
+        "pulseRate": 0.95,
+        "lightIntensity": 0.74,
+        "nebulaInner": "rgba(64, 24, 76, 0.26)",
+        "nebulaMid": "rgba(40, 12, 45, 0.11)",
+        "haloColor": "rgba(192, 132, 252, 0.24)",
+        "coreRgb": [
+          250,
+          228,
+          255
+        ],
+        "starRgb": [
+          235,
+          210,
+          255
+        ],
+        "rotationBoost": 0.95,
+        "lightMode": "velvet_pulse"
       }
     },
     {
@@ -3817,6 +9067,31 @@
         "youtubeId": "PnGuzrNhr10",
         "title": "Mr Telephone Man (Full Song)",
         "duration": 231
+      },
+      "djConfig": {
+        "bpm": 92,
+        "profile": "late_night_rnb",
+        "vibe": "Late Night R&B / Velvet Groove",
+        "primaryColor": "#c084fc",
+        "secondaryColor": "#f43f5e",
+        "accentColor": "#38bdf8",
+        "pulseRate": 0.95,
+        "lightIntensity": 0.74,
+        "nebulaInner": "rgba(64, 24, 76, 0.26)",
+        "nebulaMid": "rgba(40, 12, 45, 0.11)",
+        "haloColor": "rgba(192, 132, 252, 0.24)",
+        "coreRgb": [
+          250,
+          228,
+          255
+        ],
+        "starRgb": [
+          235,
+          210,
+          255
+        ],
+        "rotationBoost": 0.95,
+        "lightMode": "velvet_pulse"
       }
     }
   ]
