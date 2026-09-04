@@ -2,7 +2,7 @@ export const stationConfig = {
   stationName: "Harrison Radio Station",
   callsign: "HARRISON RADIO",
   tagline: "24/7 Live Web Radio",
-  genre: "Indie / Alternative / Lo-Fi Vibes",
+  genre: "24/7 Live Web Broadcast",
   accentColor: "#1DB954", // Spotify Green
   secondaryColor: "#1ed760",
   bgColor: "#0e0e0f",

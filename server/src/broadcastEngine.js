@@ -21,6 +21,13 @@ export class BroadcastEngine {
     this.connectedListeners = 0;
     this.preloadedNextAudio = null;
     this.upNextTrack = null;
+
+    // Admin controls
+    this.isPaused = false;
+    this.pausedAtElapsed = 0;
+    this.serverVolume = 1.0; // 0.0 to 1.0
+    this.upcomingEvent = null; // { title: string, time: string, description?: string }
+    this.activeVoiceBroadcast = null; // { active: boolean, startedAt: number }
   }
 
   async initialize(playlistUrl = stationConfig.defaultPlaylistUrl) {
@@ -72,6 +79,7 @@ export class BroadcastEngine {
     this.currentAudio = audio;
     this.currentVoiceDropUrl = this.audioDrops.getDropForTrack(nextTrack);
     this.startedAt = Date.now();
+    this.pausedAtElapsed = 0;
     this.rotation.recordPlayback(nextTrack);
 
     // Clear preloaded
@@ -99,7 +107,7 @@ export class BroadcastEngine {
   }
 
   tick() {
-    if (!this.currentTrack) return;
+    if (!this.currentTrack || this.isPaused) return;
 
     const durationMs = (this.currentTrack.duration || 180) * 1000;
     const elapsedMs = Date.now() - this.startedAt;
@@ -112,7 +120,44 @@ export class BroadcastEngine {
 
   getElapsedSeconds() {
     if (!this.startedAt) return 0;
+    if (this.isPaused) return this.pausedAtElapsed;
     return Math.floor((Date.now() - this.startedAt) / 1000);
+  }
+
+  // --- Admin Methods ---
+
+  setPause(paused) {
+    if (this.isPaused === paused) return;
+    this.isPaused = paused;
+    if (paused) {
+      this.pausedAtElapsed = Math.floor((Date.now() - this.startedAt) / 1000);
+    } else {
+      // Resume from paused offset
+      this.startedAt = Date.now() - (this.pausedAtElapsed * 1000);
+    }
+    this.broadcastState();
+  }
+
+  setVolume(vol) {
+    this.serverVolume = Math.min(1.0, Math.max(0.0, vol));
+    if (this.io) {
+      this.io.emit('volume-change', { volume: this.serverVolume });
+    }
+    this.broadcastState();
+  }
+
+  setUpcomingEvent(eventData) {
+    // eventData: { title, time, description } or null
+    if (eventData && eventData.title) {
+      this.upcomingEvent = {
+        title: eventData.title,
+        time: eventData.time || 'Soon',
+        description: eventData.description || ''
+      };
+    } else {
+      this.upcomingEvent = null;
+    }
+    this.broadcastState();
   }
 
   getState() {
@@ -155,6 +200,12 @@ export class BroadcastEngine {
             coverArt: this.currentPlaylist.coverArt,
           }
         : null,
+      admin: {
+        isPaused: this.isPaused,
+        serverVolume: this.serverVolume,
+        upcomingEvent: this.upcomingEvent,
+        activeVoiceBroadcast: this.activeVoiceBroadcast
+      },
       schedule: {
         currentShow: {
           name: 'Harrison Auto DJ',
@@ -162,11 +213,7 @@ export class BroadcastEngine {
           start: '00:00',
           end: '23:59',
         },
-        nextShow: {
-          name: 'Night Drive Wave',
-          tag: 'Automated',
-          start: 'Tomorrow',
-        },
+        upcomingEvent: this.upcomingEvent || null,
         metrics: {
           tracksInRotation: this.currentPlaylist?.totalTracks || 0,
           broadcastType: 'Weighted Popularity Shuffle',

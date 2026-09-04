@@ -5,6 +5,9 @@ import cors from 'cors';
 import dotenv from 'dotenv';
 import { BroadcastEngine } from './broadcastEngine.js';
 import { stationConfig } from './stationConfig.js';
+import fs from 'fs';
+import path from 'path';
+import { fileURLToPath } from 'url';
 
 dotenv.config();
 
@@ -15,11 +18,8 @@ const io = new Server(server, {
     origin: '*',
     methods: ['GET', 'POST'],
   },
+  maxHttpBufferSize: 1e7 // 10MB for live audio chunks
 });
-
-import fs from 'fs';
-import path from 'path';
-import { fileURLToPath } from 'url';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -38,11 +38,12 @@ app.use('/api/audio/sweepers', express.static(path.join(__dirname, '../audio/swe
 
 const broadcastEngine = new BroadcastEngine(io);
 
-// Endpoints
+// Public & Admin Endpoints
 app.get('/api/station', (req, res) => {
   res.json(broadcastEngine.getState());
 });
 
+// Admin: Skip track
 app.post('/api/station/skip', async (req, res) => {
   try {
     await broadcastEngine.startNextSong();
@@ -52,6 +53,30 @@ app.post('/api/station/skip', async (req, res) => {
   }
 });
 
+// Admin: Pause / Resume broadcast
+app.post('/api/admin/pause', (req, res) => {
+  const { paused } = req.body;
+  broadcastEngine.setPause(!!paused);
+  res.json({ success: true, isPaused: broadcastEngine.isPaused });
+});
+
+// Admin: Change broadcast volume
+app.post('/api/admin/volume', (req, res) => {
+  const { volume } = req.body;
+  if (typeof volume === 'number') {
+    broadcastEngine.setVolume(volume);
+  }
+  res.json({ success: true, volume: broadcastEngine.serverVolume });
+});
+
+// Admin: Set or clear upcoming event
+app.post('/api/admin/event', (req, res) => {
+  const { event } = req.body;
+  broadcastEngine.setUpcomingEvent(event);
+  res.json({ success: true, upcomingEvent: broadcastEngine.upcomingEvent });
+});
+
+// Admin: Ingest playlist
 app.post('/api/playlist/load', async (req, res) => {
   try {
     const { playlistUrl } = req.body;
@@ -65,12 +90,47 @@ app.post('/api/playlist/load', async (req, res) => {
   }
 });
 
-// Socket.io for live sync
+// Socket.io for live sync and live voice mic streaming
 io.on('connection', (socket) => {
   broadcastEngine.addClient();
 
   // Send immediate state to newly tuned-in listener
   socket.emit('station-state', broadcastEngine.getState());
+
+  // Handle Admin Live Voice Broadcast (Mic streaming)
+  socket.on('admin-voice-start', () => {
+    broadcastEngine.activeVoiceBroadcast = { active: true, startedAt: Date.now() };
+    socket.broadcast.emit('voice-broadcast-start');
+    broadcastEngine.broadcastState();
+  });
+
+  socket.on('admin-voice-chunk', (audioChunk) => {
+    // Relay raw audio chunk to all connected listeners
+    socket.broadcast.emit('voice-broadcast-chunk', audioChunk);
+  });
+
+  socket.on('admin-voice-end', () => {
+    broadcastEngine.activeVoiceBroadcast = null;
+    socket.broadcast.emit('voice-broadcast-end');
+    broadcastEngine.broadcastState();
+  });
+
+  // Admin remote control events over socket
+  socket.on('admin-skip', async () => {
+    await broadcastEngine.startNextSong();
+  });
+
+  socket.on('admin-set-pause', (paused) => {
+    broadcastEngine.setPause(!!paused);
+  });
+
+  socket.on('admin-set-volume', (vol) => {
+    broadcastEngine.setVolume(vol);
+  });
+
+  socket.on('admin-set-event', (eventData) => {
+    broadcastEngine.setUpcomingEvent(eventData);
+  });
 
   socket.on('disconnect', () => {
     broadcastEngine.removeClient();

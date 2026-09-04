@@ -583,3 +583,488 @@ button {
   color: var(--text-secondary);
   font-weight: 500;
 }
+
+/* =========================================================
+   Schedule Deck: Currently On Air & Upcoming Event Cards
+   ========================================================= */
+.scheduleDeck {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+@media (max-width: 800px) {
+  .scheduleDeck {
+    grid-template-columns: 1fr;
+  }
+}
+
+.scheduleCard {
+  background: var(--bg-surface);
+  border: 1px solid var(--border-subtle);
+  border-radius: 14px;
+  padding: 20px 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  transition: border-color 0.2s;
+}
+
+.scheduleCard:hover {
+  border-color: var(--border-strong);
+}
+
+.scheduleCardHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.scheduleBadge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  color: var(--text-secondary);
+}
+
+.eventBadge {
+  color: var(--spotify-green);
+}
+
+.liveDot {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: var(--studio-red);
+  box-shadow: 0 0 6px var(--studio-red);
+  animation: onAirPulse 1.6s ease-in-out infinite alternate;
+}
+
+.scheduleTag {
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid var(--border-subtle);
+  padding: 3px 8px;
+  border-radius: 4px;
+  color: var(--text-muted);
+}
+
+.eventTimeTag {
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  font-weight: 700;
+  background: rgba(29, 185, 84, 0.12);
+  border: 1px solid rgba(29, 185, 84, 0.3);
+  padding: 3px 10px;
+  border-radius: 12px;
+  color: var(--spotify-green);
+}
+
+.scheduleTitle {
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: #fff;
+  letter-spacing: -0.01em;
+  margin-bottom: 4px;
+}
+
+.eventTitle {
+  color: var(--spotify-green);
+}
+
+.scheduleDesc {
+  font-size: 0.82rem;
+  color: var(--text-secondary);
+  line-height: 1.4;
+}
+
+.noEventState {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  padding: 4px 0;
+}
+
+.noEventText {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--text-secondary);
+}
+
+.noEventSub {
+  font-size: 0.78rem;
+  color: var(--text-muted);
+  font-family: var(--font-mono);
+}
+
+/* =========================================================
+   Admin Studio Modal
+   ========================================================= */
+.adminStudioBtn {
+  background: rgba(29, 185, 84, 0.08);
+  border-color: rgba(29, 185, 84, 0.25);
+  color: var(--spotify-green);
+}
+
+.adminStudioBtn:hover {
+  background: var(--spotify-green);
+  color: #000;
+  border-color: var(--spotify-green);
+}
+
+.modalOverlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.75);
+  backdrop-filter: blur(8px);
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  animation: fadeIn 0.2s ease-out;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+.adminModal {
+  background: #111318;
+  border: 1px solid var(--border-strong);
+  border-radius: 16px;
+  width: 100%;
+  max-width: 620px;
+  max-height: 90vh;
+  overflow-y: auto;
+  box-shadow: 0 24px 60px rgba(0, 0, 0, 0.8);
+  display: flex;
+  flex-direction: column;
+}
+
+.modalHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 24px;
+  border-bottom: 1px solid var(--border-subtle);
+}
+
+.modalTitleBox {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.modalTitleBox h2 {
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: #fff;
+  letter-spacing: -0.01em;
+}
+
+.adminBadge {
+  font-family: var(--font-mono);
+  font-size: 0.65rem;
+  font-weight: 700;
+  padding: 3px 8px;
+  border-radius: 4px;
+  background: rgba(239, 68, 68, 0.15);
+  color: var(--studio-red);
+  border: 1px solid rgba(239, 68, 68, 0.3);
+}
+
+.modalCloseBtn {
+  color: var(--text-secondary);
+  padding: 4px;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.15s;
+}
+
+.modalCloseBtn:hover {
+  background: rgba(255, 255, 255, 0.08);
+  color: #fff;
+}
+
+.modalBody {
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.adminSection {
+  background: #161820;
+  border: 1px solid var(--border-subtle);
+  border-radius: 12px;
+  padding: 18px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.liveMicSection {
+  background: linear-gradient(180deg, rgba(239, 68, 68, 0.08) 0%, rgba(22, 24, 32, 0.8) 100%);
+  border-color: rgba(239, 68, 68, 0.25);
+}
+
+.sectionHead {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.sectionTitle {
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  color: var(--text-secondary);
+}
+
+.livePillPulse {
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  font-weight: 700;
+  color: var(--studio-red);
+  animation: onAirPulse 1s infinite alternate;
+}
+
+.sectionDesc {
+  font-size: 0.78rem;
+  color: var(--text-muted);
+  line-height: 1.4;
+}
+
+/* Mic Buttons */
+.micControlRow {
+  padding-top: 4px;
+}
+
+.btnMicLiveStart {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 12px 20px;
+  background: var(--studio-red);
+  color: #fff;
+  border-radius: 8px;
+  font-weight: 700;
+  font-size: 0.92rem;
+  transition: all 0.2s;
+  box-shadow: 0 4px 14px rgba(239, 68, 68, 0.35);
+}
+
+.btnMicLiveStart:hover {
+  background: #dc2626;
+  transform: translateY(-1px);
+}
+
+.btnMicLiveStop {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 12px 20px;
+  background: #27272a;
+  color: #f87171;
+  border: 1px solid #ef4444;
+  border-radius: 8px;
+  font-weight: 700;
+  font-size: 0.92rem;
+  transition: all 0.2s;
+}
+
+.btnMicLiveStop:hover {
+  background: #3f3f46;
+}
+
+.micErrorNotice {
+  font-size: 0.75rem;
+  color: #f87171;
+  font-family: var(--font-mono);
+}
+
+/* Broadcast Control Buttons */
+.broadcastControlBar {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+}
+
+.btnAdminControl {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 10px 16px;
+  background: var(--bg-card);
+  border: 1px solid var(--border-subtle);
+  border-radius: 8px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: #fff;
+  transition: all 0.2s;
+}
+
+.btnAdminControl:hover {
+  background: var(--bg-card-hover);
+  border-color: var(--border-strong);
+}
+
+.btnPaused {
+  background: rgba(239, 68, 68, 0.15);
+  border-color: rgba(239, 68, 68, 0.4);
+  color: var(--studio-red);
+}
+
+.btnSkip:hover {
+  border-color: var(--spotify-green);
+  color: var(--spotify-green);
+}
+
+/* Server Volume Slider */
+.serverVolumeBox {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding-top: 6px;
+  border-top: 1px solid var(--border-subtle);
+}
+
+.volumeLabelRow {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.78rem;
+  color: var(--text-secondary);
+}
+
+.volPercent {
+  font-family: var(--font-mono);
+  font-weight: 700;
+  color: var(--spotify-green);
+}
+
+.sliderRow {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.volIcon {
+  color: var(--text-muted);
+}
+
+.serverVolumeSlider {
+  flex: 1;
+  -webkit-appearance: none;
+  appearance: none;
+  height: 6px;
+  background: var(--border-strong);
+  border-radius: 3px;
+  outline: none;
+  cursor: pointer;
+}
+
+.serverVolumeSlider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background: #fff;
+  cursor: pointer;
+  transition: transform 0.15s, background 0.15s;
+}
+
+.serverVolumeSlider::-webkit-slider-thumb:hover {
+  background: var(--spotify-green);
+  transform: scale(1.25);
+}
+
+/* Event Form */
+.eventForm {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.formGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.formGroup label {
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: var(--text-secondary);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.formInput {
+  background: #0e1014;
+  border: 1px solid var(--border-subtle);
+  border-radius: 6px;
+  padding: 8px 12px;
+  font-size: 0.85rem;
+  color: #fff;
+  outline: none;
+  font-family: inherit;
+  transition: border-color 0.2s;
+}
+
+.formInput:focus {
+  border-color: var(--spotify-green);
+}
+
+.formActions {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding-top: 6px;
+}
+
+.btnSaveEvent {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 9px 18px;
+  background: var(--spotify-green);
+  color: #000;
+  border-radius: 6px;
+  font-size: 0.85rem;
+  font-weight: 700;
+  transition: all 0.2s;
+}
+
+.btnSaveEvent:hover {
+  background: var(--spotify-hover);
+  transform: translateY(-1px);
+}
+
+.btnClearEvent {
+  font-size: 0.78rem;
+  color: var(--text-muted);
+  padding: 8px 12px;
+  border-radius: 6px;
+  transition: color 0.2s;
+}
+
+.btnClearEvent:hover {
+  color: #f87171;
+}
+

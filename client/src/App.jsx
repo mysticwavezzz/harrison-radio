@@ -5,6 +5,7 @@ import { Header } from './components/Header';
 import { RadioStage } from './components/RadioStage';
 import { BroadcastFeed } from './components/BroadcastFeed';
 import { MiniPlayer } from './components/MiniPlayer';
+import { AdminModal } from './components/AdminModal';
 import { getSynchronizedStationState } from './staticBroadcastEngine';
 
 export default function App() {
@@ -13,8 +14,9 @@ export default function App() {
   const [volume, setVolume] = useState(0.85);
   const [isMuted, setIsMuted] = useState(false);
   const [isBuffering, setIsBuffering] = useState(false);
+  const [isAdminOpen, setIsAdminOpen] = useState(false);
 
-  // Check if opened as pop-out mini player
+  // Check if opened as pop-out mini player or admin view
   const isMini = typeof window !== 'undefined' && window.location.search.includes('mini=true');
 
   const socketRef = useRef(null);
@@ -55,6 +57,18 @@ export default function App() {
       socket.on('track-change', (data) => {
         if (isMounted) setStationState(data);
       });
+
+      socket.on('volume-change', (data) => {
+        if (isMounted && data && typeof data.volume === 'number') {
+          setStationState((prev) => ({
+            ...prev,
+            admin: {
+              ...(prev?.admin || {}),
+              serverVolume: data.volume
+            }
+          }));
+        }
+      });
     } catch (e) {
       // Socket.io disabled in static mode
     }
@@ -69,6 +83,10 @@ export default function App() {
   useEffect(() => {
     const interval = setInterval(() => {
       setStationState((prev) => {
+        if (prev?.admin?.isPaused) {
+          return prev; // Station paused by admin
+        }
+
         if (!prev?.currentTrack?.startedAt) {
           return getSynchronizedStationState();
         }
@@ -118,6 +136,96 @@ export default function App() {
     );
   };
 
+  // --- Admin Actions ---
+  const handleAdminSkip = async () => {
+    if (socketRef.current?.connected) {
+      socketRef.current.emit('admin-skip');
+    } else {
+      try {
+        await fetch('/api/station/skip', { method: 'POST' });
+      } catch (e) {
+        // In static mode, advance to next track in queue
+        const nextState = getSynchronizedStationState();
+        if (nextState) setStationState(nextState);
+      }
+    }
+  };
+
+  const handleAdminTogglePause = async (paused) => {
+    if (socketRef.current?.connected) {
+      socketRef.current.emit('admin-set-pause', paused);
+    } else {
+      try {
+        await fetch('/api/admin/pause', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ paused }),
+        });
+      } catch (e) {}
+    }
+    setStationState((prev) => ({
+      ...prev,
+      admin: {
+        ...(prev?.admin || {}),
+        isPaused: paused,
+      },
+    }));
+  };
+
+  const handleAdminSetVolume = async (vol) => {
+    if (socketRef.current?.connected) {
+      socketRef.current.emit('admin-set-volume', vol);
+    } else {
+      try {
+        await fetch('/api/admin/volume', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ volume: vol }),
+        });
+      } catch (e) {}
+    }
+    setStationState((prev) => ({
+      ...prev,
+      admin: {
+        ...(prev?.admin || {}),
+        serverVolume: vol,
+      },
+    }));
+  };
+
+  const handleAdminSetEvent = async (eventData) => {
+    if (socketRef.current?.connected) {
+      socketRef.current.emit('admin-set-event', eventData);
+    } else {
+      try {
+        await fetch('/api/admin/event', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ event: eventData }),
+        });
+      } catch (e) {}
+    }
+
+    // Save event locally as well for static mode persistence
+    if (eventData) {
+      localStorage.setItem('harrison_radio_upcoming_event', JSON.stringify(eventData));
+    } else {
+      localStorage.removeItem('harrison_radio_upcoming_event');
+    }
+
+    setStationState((prev) => ({
+      ...prev,
+      schedule: {
+        ...(prev?.schedule || {}),
+        upcomingEvent: eventData,
+      },
+      admin: {
+        ...(prev?.admin || {}),
+        upcomingEvent: eventData,
+      },
+    }));
+  };
+
   return (
     <div className="masterLayout">
       {/* Background YouTube Audio Streaming Controller */}
@@ -126,6 +234,9 @@ export default function App() {
         isPlaying={isPlaying}
         volume={volume}
         isMuted={isMuted}
+        isStationPaused={stationState?.admin?.isPaused || false}
+        serverVolume={stationState?.admin?.serverVolume ?? 1.0}
+        socket={socketRef.current}
         onBufferingChange={setIsBuffering}
       />
 
@@ -146,6 +257,7 @@ export default function App() {
           <Header
             station={stationState?.station}
             onOpenMiniPlayer={handleOpenMiniPlayer}
+            onOpenAdmin={() => setIsAdminOpen(true)}
           />
 
           <main style={{ display: 'flex', flexDirection: 'column', gap: '32px' }}>
@@ -165,8 +277,21 @@ export default function App() {
               upNext={stationState?.upNext}
               history={stationState?.history}
               playlist={stationState?.playlist}
+              schedule={stationState?.schedule}
+              currentTrack={stationState?.currentTrack}
             />
           </main>
+
+          <AdminModal
+            isOpen={isAdminOpen}
+            onClose={() => setIsAdminOpen(false)}
+            stationState={stationState}
+            socket={socketRef.current}
+            onSkip={handleAdminSkip}
+            onTogglePause={handleAdminTogglePause}
+            onSetVolume={handleAdminSetVolume}
+            onSetEvent={handleAdminSetEvent}
+          />
         </>
       )}
     </div>

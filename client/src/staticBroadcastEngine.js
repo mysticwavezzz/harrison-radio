@@ -118,6 +118,13 @@ export function getSynchronizedStationState() {
     if (combinedPast[i]) history.push(combinedPast[i]);
   }
 
+  // Check if upcoming event is stored in localStorage for static deployment
+  let upcomingEvent = null;
+  try {
+    const saved = localStorage.getItem('harrison_radio_upcoming_event');
+    if (saved) upcomingEvent = JSON.parse(saved);
+  } catch (e) {}
+
   return {
     station,
     playlist,
@@ -130,6 +137,15 @@ export function getSynchronizedStationState() {
     },
     upNext,
     history,
+    schedule: {
+      currentShow: {
+        name: 'Harrison Auto DJ',
+        tag: 'Auto DJ',
+        start: '00:00',
+        end: '23:59',
+      },
+      upcomingEvent: upcomingEvent || null,
+    },
     serverTime: now,
     listeners: Math.floor(Math.abs(Math.sin(now / 300000)) * 7) + 3 // Natural dynamic listener count (3-10)
   };

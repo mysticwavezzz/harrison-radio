@@ -1,7 +1,7 @@
 import React from 'react';
-import { ArrowUpRight } from 'lucide-react';
+import { ArrowUpRight, Calendar, Radio, Sparkles } from 'lucide-react';
 
-export function BroadcastFeed({ upNext = [], history = [], playlist }) {
+export function BroadcastFeed({ upNext = [], history = [], playlist, schedule, currentTrack }) {
   const formatTime = (secs) => {
     if (!secs || isNaN(secs)) return '0:00';
     const m = Math.floor(secs / 60);
@@ -9,8 +9,54 @@ export function BroadcastFeed({ upNext = [], history = [], playlist }) {
     return `${m}:${s < 10 ? '0' : ''}${s}`;
   };
 
+  const upcomingEvent = schedule?.upcomingEvent;
+
   return (
     <>
+      {/* Broadcast Schedule Banner (Currently On Air & Upcoming Event) */}
+      <div className="scheduleDeck">
+        <div className="scheduleCard currentShowCard">
+          <div className="scheduleCardHeader">
+            <div className="scheduleBadge">
+              <span className="liveDot" />
+              <span>CURRENTLY ON AIR</span>
+            </div>
+            <span className="scheduleTag">Auto DJ</span>
+          </div>
+          <div className="scheduleCardBody">
+            <h3 className="scheduleTitle">Harrison Auto DJ</h3>
+            <p className="scheduleDesc">
+              Continuous automated broadcast playing from 68-track curated library
+            </p>
+          </div>
+        </div>
+
+        <div className="scheduleCard upcomingEventCard">
+          <div className="scheduleCardHeader">
+            <div className="scheduleBadge eventBadge">
+              <Calendar size={13} style={{ marginRight: '4px' }} />
+              <span>UPCOMING EVENT</span>
+            </div>
+            {upcomingEvent && <span className="eventTimeTag">{upcomingEvent.time}</span>}
+          </div>
+          <div className="scheduleCardBody">
+            {upcomingEvent ? (
+              <>
+                <h3 className="scheduleTitle eventTitle">{upcomingEvent.title}</h3>
+                <p className="scheduleDesc">
+                  {upcomingEvent.description || 'Special guest session / live broadcast scheduled'}
+                </p>
+              </>
+            ) : (
+              <div className="noEventState">
+                <span className="noEventText">No upcoming events</span>
+                <span className="noEventSub">Station in 24/7 Auto DJ mode</span>
+              </div>
+            )}
+          </div>
+        </div>
+      </div>
+
       <div className="broadcastFeedGrid">
         {/* Module 1: Cued Next in Rotation */}
         <div className="feedModule">

@@ -5,6 +5,9 @@ export function AudioPlayer({
   isPlaying,
   volume,
   isMuted,
+  isStationPaused = false,
+  serverVolume = 1.0,
+  socket,
   onBufferingChange,
   onPlayerReady,
 }) {
@@ -14,12 +17,78 @@ export function AudioPlayer({
   const currentVideoIdRef = useRef(null);
   const voiceDropAudioRef = useRef(null);
   const isDuckedRef = useRef(false);
+  const isLiveMicActiveRef = useRef(false);
   const fadeIntervalRef = useRef(null);
+
+  // Web Audio Context for playing incoming live microphone stream from host
+  const audioContextRef = useRef(null);
+  const nextPlayTimeRef = useRef(0);
 
   // Initialize voice drop audio element
   useEffect(() => {
     voiceDropAudioRef.current = new Audio();
   }, []);
+
+  // Listen for Live Voice Broadcast chunks over Socket.io
+  useEffect(() => {
+    if (!socket) return;
+
+    const handleVoiceStart = () => {
+      isLiveMicActiveRef.current = true;
+      // Duck music for live host speaking
+      if (playerRef.current && typeof playerRef.current.setVolume === 'function') {
+        const effectiveVol = volume * serverVolume;
+        playerRef.current.setVolume(isMuted ? 0 : effectiveVol * 20);
+      }
+      try {
+        const AudioCtx = window.AudioContext || window.webkitAudioContext;
+        if (!audioContextRef.current && AudioCtx) {
+          audioContextRef.current = new AudioCtx();
+        }
+        if (audioContextRef.current?.state === 'suspended') {
+          audioContextRef.current.resume();
+        }
+        nextPlayTimeRef.current = audioContextRef.current ? audioContextRef.current.currentTime : 0;
+      } catch (e) {
+        console.warn('AudioContext init error:', e);
+      }
+    };
+
+    const handleVoiceChunk = async (arrayBuffer) => {
+      if (!audioContextRef.current || !isPlaying) return;
+      try {
+        const audioBuffer = await audioContextRef.current.decodeAudioData(arrayBuffer.slice(0));
+        const source = audioContextRef.current.createBufferSource();
+        source.buffer = audioBuffer;
+        const gainNode = audioContextRef.current.createGain();
+        gainNode.gain.value = isMuted ? 0 : Math.min(1.0, volume * serverVolume * 1.25);
+        source.connect(gainNode);
+        gainNode.connect(audioContextRef.current.destination);
+
+        const currentTime = audioContextRef.current.currentTime;
+        const startTime = Math.max(currentTime, nextPlayTimeRef.current);
+        source.start(startTime);
+        nextPlayTimeRef.current = startTime + audioBuffer.duration;
+      } catch (e) {
+        // Chunk decode error
+      }
+    };
+
+    const handleVoiceEnd = () => {
+      isLiveMicActiveRef.current = false;
+      restoreMusicVolume();
+    };
+
+    socket.on('voice-broadcast-start', handleVoiceStart);
+    socket.on('voice-broadcast-chunk', handleVoiceChunk);
+    socket.on('voice-broadcast-end', handleVoiceEnd);
+
+    return () => {
+      socket.off('voice-broadcast-start', handleVoiceStart);
+      socket.off('voice-broadcast-chunk', handleVoiceChunk);
+      socket.off('voice-broadcast-end', handleVoiceEnd);
+    };
+  }, [socket, volume, serverVolume, isMuted, isPlaying]);
 
   // Initialize YouTube IFrame API
   useEffect(() => {
@@ -33,13 +102,15 @@ export function AudioPlayer({
     checkYT();
   }, []);
 
-  // Smooth volume restore after voice drop completes
+  // Smooth volume restore after voice drop / mic broadcast completes
   const restoreMusicVolume = () => {
-    if (!playerRef.current || !isDuckedRef.current) return;
+    if (!playerRef.current) return;
     isDuckedRef.current = false;
+    isLiveMicActiveRef.current = false;
     if (fadeIntervalRef.current) clearInterval(fadeIntervalRef.current);
 
-    const targetVol = isMuted ? 0 : volume * 100;
+    const effectiveVol = volume * serverVolume;
+    const targetVol = isMuted ? 0 : effectiveVol * 100;
     const currentVol = playerRef.current.getVolume ? playerRef.current.getVolume() : 25;
     let step = 0;
     const steps = 8;
@@ -59,16 +130,17 @@ export function AudioPlayer({
 
   // Trigger radio voice drop with audio ducking
   const triggerVoiceDrop = (dropUrl) => {
-    if (!playerRef.current || !dropUrl || !isPlaying) return;
+    if (!playerRef.current || !dropUrl || !isPlaying || isStationPaused) return;
 
     try {
       isDuckedRef.current = true;
+      const effectiveVol = volume * serverVolume;
       // Duck music to 25% volume
-      playerRef.current.setVolume(isMuted ? 0 : volume * 25);
+      playerRef.current.setVolume(isMuted ? 0 : effectiveVol * 25);
 
       const audio = voiceDropAudioRef.current || new Audio();
       audio.src = dropUrl;
-      audio.volume = isMuted ? 0 : Math.min(1, volume * 1.15); // Clear upfront human voice
+      audio.volume = isMuted ? 0 : Math.min(1, effectiveVol * 1.15); // Clear upfront human voice
 
       audio.onended = () => {
         restoreMusicVolume();
@@ -109,9 +181,10 @@ export function AudioPlayer({
       events: {
         onReady: (event) => {
           console.log('[AudioPlayer] YouTube Player Ready');
-          event.target.setVolume(isMuted ? 0 : volume * 100);
+          const effectiveVol = volume * serverVolume;
+          event.target.setVolume(isMuted ? 0 : effectiveVol * 100);
           if (onPlayerReady) onPlayerReady(event.target);
-          if (isPlaying) {
+          if (isPlaying && !isStationPaused) {
             const startSec = currentTrack.elapsedSeconds || 0;
             event.target.seekTo(startSec, true);
             event.target.playVideo();
@@ -143,7 +216,7 @@ export function AudioPlayer({
       console.log(`[AudioPlayer] Cueing new track: ${newVideoId} at ${startSec}s`);
 
       if (typeof playerRef.current.loadVideoById === 'function') {
-        if (isPlaying) {
+        if (isPlaying && !isStationPaused) {
           playerRef.current.loadVideoById({
             videoId: newVideoId,
             startSeconds: startSec,
@@ -166,12 +239,12 @@ export function AudioPlayer({
     }
   }, [currentTrack?.audio?.youtubeId, currentTrack?.startedAt]);
 
-  // Handle Play/Pause
+  // Handle Play/Pause and Station Admin Pause
   useEffect(() => {
     if (!playerRef.current || typeof playerRef.current.playVideo !== 'function') return;
 
     try {
-      if (isPlaying) {
+      if (isPlaying && !isStationPaused) {
         const elapsed = currentTrack?.elapsedSeconds || 0;
         const currentYTTime = playerRef.current.getCurrentTime ? playerRef.current.getCurrentTime() : 0;
 
@@ -188,29 +261,30 @@ export function AudioPlayer({
     } catch (e) {
       console.warn('[AudioPlayer] Playback toggle error:', e.message);
     }
-  }, [isPlaying]);
+  }, [isPlaying, isStationPaused]);
 
-  // Handle Volume & Mute
+  // Handle Volume, Server Volume & Mute
   useEffect(() => {
     if (!playerRef.current || typeof playerRef.current.setVolume !== 'function') return;
     try {
+      const effectiveVol = volume * serverVolume;
       if (isMuted) {
         playerRef.current.setVolume(0);
         if (voiceDropAudioRef.current) voiceDropAudioRef.current.volume = 0;
       } else {
-        if (isDuckedRef.current) {
-          playerRef.current.setVolume(volume * 25);
+        if (isDuckedRef.current || isLiveMicActiveRef.current) {
+          playerRef.current.setVolume(effectiveVol * 22);
         } else {
-          playerRef.current.setVolume(volume * 100);
+          playerRef.current.setVolume(effectiveVol * 100);
         }
         if (voiceDropAudioRef.current) {
-          voiceDropAudioRef.current.volume = Math.min(1, volume * 1.15);
+          voiceDropAudioRef.current.volume = Math.min(1, effectiveVol * 1.15);
         }
       }
     } catch (e) {
       console.warn('[AudioPlayer] Volume error:', e.message);
     }
-  }, [volume, isMuted]);
+  }, [volume, serverVolume, isMuted]);
 
   return (
     <div
