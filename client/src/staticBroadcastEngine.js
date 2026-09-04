@@ -100,6 +100,8 @@ export function getSynchronizedStationState() {
   // 1. Song & Artist Specific Voice Drops
   if (titleLower.includes('kilby') && audioDrops.kilby_girl) {
     voiceDropUrl = audioDrops.kilby_girl;
+  } else if ((artistLower.includes('nirvana') || titleLower.includes('teen spirit')) && audioDrops.nirvana_turn_it_up) {
+    voiceDropUrl = audioDrops.nirvana_turn_it_up;
   } else if ((artistLower.includes('wallows') || titleLower.includes('are you bored yet')) && audioDrops.wallows_featuring_clairo) {
     voiceDropUrl = audioDrops.wallows_featuring_clairo;
   } else if ((artistLower.includes('killers') || titleLower.includes('brightside')) && audioDrops.everybody_singing_the_killers) {
@@ -123,11 +125,10 @@ export function getSynchronizedStationState() {
     } else if (isDaytime && (trackIndexInCycle % 2 === 0) && audioDrops.windows_down_volume_up) {
       voiceDropUrl = audioDrops.windows_down_volume_up;
     } else {
-      // Rotating universal station liners
+      // Rotating universal station liners (Strictly generic, never artist-specific)
       const genericPool = [
         audioDrops.youre_locked_into_harrison_radio,
         audioDrops.the_only_frequency_you_need,
-        audioDrops.turn_the_lights_down,
         audioDrops.turn_this_one_up,
       ].filter(Boolean);
 
