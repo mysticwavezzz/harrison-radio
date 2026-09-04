@@ -1,0 +1,13 @@
+{
+  "name": "harrison-radio-station",
+  "version": "1.0.0",
+  "description": "Internet radio station web application powered by Spotify playlists and YouTube streaming",
+  "scripts": {
+    "start": "node server/src/server.js",
+    "server": "node server/src/server.js",
+    "client": "npm --prefix client run dev",
+    "build": "npm --prefix client run build"
+  },
+  "author": "",
+  "license": "ISC"
+}

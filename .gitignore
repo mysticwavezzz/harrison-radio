@@ -1,0 +1,12 @@
+# Dependencies
+node_modules/
+package-lock.json
+
+# Production outputs
+dist/
+
+# Local cache & logs
+server/cache/
+*.log
+.DS_Store
+Thumbs.db
