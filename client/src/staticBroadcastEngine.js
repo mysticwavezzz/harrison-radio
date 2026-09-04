@@ -93,13 +93,49 @@ export function getSynchronizedStationState() {
   const remainingSeconds = Math.max(0, (currentTrack.duration || 180) - elapsedSeconds);
 
   // Determine Voice Drop / Sweeper
-  // 1. Song specific (e.g. Kilby Girl)
   let voiceDropUrl = null;
-  if (currentTrack.title.toLowerCase().includes('kilby')) {
+  const titleLower = (currentTrack.title || '').toLowerCase();
+  const artistLower = (currentTrack.artist || '').toLowerCase();
+
+  // 1. Song & Artist Specific Voice Drops
+  if (titleLower.includes('kilby') && audioDrops.kilby_girl) {
     voiceDropUrl = audioDrops.kilby_girl;
+  } else if ((artistLower.includes('wallows') || titleLower.includes('are you bored yet')) && audioDrops.wallows_featuring_clairo) {
+    voiceDropUrl = audioDrops.wallows_featuring_clairo;
+  } else if ((artistLower.includes('killers') || titleLower.includes('brightside')) && audioDrops.everybody_singing_the_killers) {
+    voiceDropUrl = audioDrops.everybody_singing_the_killers;
+  } else if ((artistLower.includes('royel otis') || titleLower.includes('oysters')) && audioDrops.direct_from_sydney_royel_otis) {
+    voiceDropUrl = audioDrops.direct_from_sydney_royel_otis;
+  } else if ((artistLower.includes('djo') || titleLower.includes('end of beginning')) && audioDrops.chicago_vibes_djo) {
+    voiceDropUrl = audioDrops.chicago_vibes_djo;
+  } else if (artistLower.includes('malcolm todd') && audioDrops.malcolm_todd_dont_sleep) {
+    voiceDropUrl = audioDrops.malcolm_todd_dont_sleep;
   } else if ((trackIndexInCycle + cycleIndex * tracks.length) % 3 === 0) {
-    // Universal sweeper every 3 songs
-    voiceDropUrl = audioDrops.turn_this_one_up;
+    // 2. Rotating Station IDs & Time-of-Day Drops (Triggered smoothly every 3 tracks)
+    const currentHour = new Date(now).getHours();
+    const isLateNight = currentHour >= 23 || currentHour < 5;
+    const isDaytime = currentHour >= 11 && currentHour < 18;
+
+    if (isLateNight && (trackIndexInCycle % 2 === 0) && audioDrops.cant_sleep_late_night) {
+      voiceDropUrl = (trackIndexInCycle % 4 === 0 && audioDrops.its_2am_somewhere)
+        ? audioDrops.its_2am_somewhere
+        : audioDrops.cant_sleep_late_night;
+    } else if (isDaytime && (trackIndexInCycle % 2 === 0) && audioDrops.windows_down_volume_up) {
+      voiceDropUrl = audioDrops.windows_down_volume_up;
+    } else {
+      // Rotating universal station liners
+      const genericPool = [
+        audioDrops.youre_locked_into_harrison_radio,
+        audioDrops.the_only_frequency_you_need,
+        audioDrops.turn_the_lights_down,
+        audioDrops.turn_this_one_up,
+      ].filter(Boolean);
+
+      if (genericPool.length > 0) {
+        const dropIndex = (trackIndexInCycle + cycleIndex) % genericPool.length;
+        voiceDropUrl = genericPool[dropIndex];
+      }
+    }
   }
 
   // Build Up Next queue (next 5 tracks across current & next cycle)
